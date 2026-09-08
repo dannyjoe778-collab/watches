@@ -54,7 +54,7 @@ export default function App() {
   const [brandFilter, setBrandFilter] = useState<string>('all');
   const [jewelleryCategoryFilter, setJewelleryCategoryFilter] = useState<string>('all');
 
-  const CURRENT_CATALOG_VERSION = 'tlh_v7_brand_subfolders_catalog';
+  const CURRENT_CATALOG_VERSION = 'tlh_v8_reduced_prices_catalog';
 
   // Products state (loads the full authenticated The Luxury Hut catalog)
   const [products, setProducts] = useState<Product[]>(() => {
