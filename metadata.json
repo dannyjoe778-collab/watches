@@ -1,0 +1,6 @@
+{
+  "name": "AURELIA & CROWN",
+  "description": "Exceptional Time. Timeless Luxury. European luxury dealer specializing in authenticated pre-owned collectible watches and fine jewellery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

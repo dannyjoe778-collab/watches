@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="500" height="130">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5D3B3" />
+      <stop offset="50%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#8C6D37" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <g filter="url(#subtleShadow)">
+    <!-- Crown Emblem -->
+    <g transform="translate(250, 24) scale(0.9)">
+      <!-- Base Ribbon -->
+      <path d="M -32 14 L 32 14 Q 0 17 -32 14 Z" fill="url(#goldGrad)" />
+      <rect x="-30" y="10" width="60" height="3" rx="1.5" fill="#8C6D37" />
+      <!-- Crown Points -->
+      <path d="M -28 10 L -30 -6 L -16 4 L 0 -12 L 16 4 L 30 -6 L 28 10 Z" fill="url(#goldGrad)" />
+      <!-- Central Jewel & Jewels on tips -->
+      <circle cx="0" cy="-14" r="2.5" fill="#FAF8F5" stroke="#8C6D37" stroke-width="0.8" />
+      <circle cx="-30" cy="-8" r="2" fill="#FAF8F5" stroke="#8C6D37" stroke-width="0.8" />
+      <circle cx="30" cy="-8" r="2" fill="#FAF8F5" stroke="#8C6D37" stroke-width="0.8" />
+      <!-- Inner diamond facet -->
+      <polygon points="0,-6 6,4 0,9 -6,4" fill="#FAF8F5" opacity="0.6" />
+    </g>
+
+    <!-- Brand Wordmark -->
+    <text x="250" y="76" 
+          font-family="'Playfair Display', Georgia, 'Times New Roman', serif" 
+          font-size="23" 
+          font-weight="600" 
+          letter-spacing="5" 
+          fill="#16181A" 
+          text-anchor="middle">
+      AURELIA &amp; CROWN
+    </text>
+
+    <!-- Fine Gold Horizontal Accent Lines -->
+    <line x1="85" y1="92" x2="185" y2="92" stroke="#C5A880" stroke-width="0.75" opacity="0.8" />
+    <circle cx="195" cy="92" r="1.5" fill="#8C6D37" />
+    <circle cx="305" cy="92" r="1.5" fill="#8C6D37" />
+    <line x1="315" y1="92" x2="415" y2="92" stroke="#C5A880" stroke-width="0.75" opacity="0.8" />
+
+    <!-- Subtitle / Authenticity Guarantee -->
+    <text x="250" y="96" 
+          font-family="'Cinzel', 'Montserrat', -apple-system, sans-serif" 
+          font-size="9.5" 
+          font-weight="600" 
+          letter-spacing="3.5" 
+          fill="#8C6D37" 
+          text-anchor="middle">
+      CERTIFIED LUXURY • LONDON
+    </text>
+  </g>
+</svg>
