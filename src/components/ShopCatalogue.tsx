@@ -165,7 +165,7 @@ export const ShopCatalogue: React.FC<ShopCatalogueProps> = ({
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#C5A880]">
                 <ShieldCheck className="w-4 h-4 text-[#C5A880]" />
-                <span>The Luxury Hut Curated Shop • London</span>
+                <span>Aurelia & Crown Curated Shop • London</span>
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif tracking-tight text-[#FAF8F5] font-light">
                 Shop All Authenticated Luxury
@@ -482,7 +482,7 @@ export const ShopCatalogue: React.FC<ShopCatalogueProps> = ({
               </div>
               <p className="text-neutral-400 text-xs leading-relaxed">
                 Every pre-owned timepiece and fine jewellery item includes our complimentary 
-                12-Month The Luxury Hut London mechanical and structural warranty.
+                12-Month Aurelia & Crown London mechanical and structural warranty.
               </p>
             </div>
 

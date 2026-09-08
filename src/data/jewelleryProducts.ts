@@ -2,7 +2,7 @@ import { Product, JewelleryCategory } from '../types';
 
 export const JEWELLERY_PRODUCTS: Product[] = [
   {
-    id: "tlh-cartier-cartier-18ct-rose-gold-classic-l",
+    id: "ac-cartier-cartier-18ct-rose-gold-classic-l",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct Rose Gold Classic Love Ring Size 59",
@@ -12,7 +12,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1632,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/03/Cartier_Rose_Gold_Classic_Love_Ring_LB543-a.jpg",
       "https://assets.theluxuryhut.com/2025/03/Cartier_Rose_Gold_Classic_Love_Ring_LB543-c.jpg",
@@ -24,14 +24,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct Rose Gold Classic Love Ring Size 59 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct Rose Gold Classic Love Ring Size 59 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct Rose Gold Classic Love Ring Size 59 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct Rose Gold Classic Love Ring Size 59 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-yellow-gold-juste-un-clo",
+    id: "ac-cartier-cartier-yellow-gold-juste-un-clo",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier Yellow Gold Juste Un Clou Bracelet Small 2022 Size 15",
@@ -41,7 +41,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 3115,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Cartier_Yellow_Gold_Juste_Un_Clou_Bracelet_Small_52232-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Cartier_Yellow_Gold_Juste_Un_Clou_Bracelet_Small_52232-b.jpg",
@@ -53,14 +53,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: true
     },
-    seoTitle: "Cartier Yellow Gold Juste Un Clou Bracelet Small 2022 Size 15 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Yellow Gold Juste Un Clou Bracelet Small 2022 Size 15 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier Yellow Gold Juste Un Clou Bracelet Small 2022 Size 15 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Yellow Gold Juste Un Clou Bracelet Small 2022 Size 15 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-yellow-gold-small-c",
+    id: "ac-cartier-cartier-18ct-yellow-gold-small-c",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct Yellow Gold Small Classic Love Ring Size 51",
@@ -70,7 +70,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1632,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/02/Cartier_Yellow_Gold_Small_Classic_Love_Ring_LB472-a.jpg",
       "https://assets.theluxuryhut.com/2025/02/Cartier_Yellow_Gold_Small_Classic_Love_Ring_LB472-b.jpg",
@@ -82,14 +82,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct Yellow Gold Small Classic Love Ring Size 51 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct Yellow Gold Small Classic Love Ring Size 51 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct Yellow Gold Small Classic Love Ring Size 51 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct Yellow Gold Small Classic Love Ring Size 51 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-rose-gold-classic-l-1",
+    id: "ac-cartier-cartier-18ct-rose-gold-classic-l-1",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct Rose Gold Classic Love Bracelet Size 17",
@@ -99,7 +99,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 5265,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/eecf1d4e-138d-4a03-8d1d-b3e6174dcb32Cartier_18ct_Rose_Gold_Classic_Love_Bracelet_52419-a.webp",
       "https://assets.theluxuryhut.com/4e78e939-bafd-40fa-b1fd-f4433a045076Cartier_18ct_Rose_Gold_Classic_Love_Bracelet_52419-b.webp",
@@ -111,14 +111,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct Rose Gold Classic Love Bracelet Size 17 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct Rose Gold Classic Love Bracelet Size 17 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct Rose Gold Classic Love Bracelet Size 17 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct Rose Gold Classic Love Bracelet Size 17 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-white-gold-juste-un",
+    id: "ac-cartier-cartier-18ct-white-gold-juste-un",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct White Gold Juste Un Clou Ring Size 56",
@@ -128,7 +128,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1184,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/12/Cartier_White_Gold_Juste_Un_Clou_Ring_51346-a.jpg",
       "https://assets.theluxuryhut.com/2024/12/Cartier_White_Gold_Juste_Un_Clou_Ring_51346-d.jpg",
@@ -140,14 +140,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct White Gold Juste Un Clou Ring Size 56 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Juste Un Clou Ring Size 56 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct White Gold Juste Un Clou Ring Size 56 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Juste Un Clou Ring Size 56 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-white-gold-small-ju",
+    id: "ac-cartier-cartier-18ct-white-gold-small-ju",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct White Gold Small Juste Un Clou Ring",
@@ -157,7 +157,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1184,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/12/Cartier_White_Gold_Juste_Un_Clou_Ring_51373-a.jpg",
       "https://assets.theluxuryhut.com/2024/12/Cartier_White_Gold_Juste_Un_Clou_Ring_51373-b.jpg",
@@ -169,14 +169,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct White Gold Small Juste Un Clou Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Small Juste Un Clou Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct White Gold Small Juste Un Clou Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Small Juste Un Clou Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-classic-18ct-yellow-gold",
+    id: "ac-cartier-cartier-classic-18ct-yellow-gold",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier Classic 18ct Yellow Gold Love Bangle Size 20",
@@ -186,7 +186,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 6186,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/05/386e759f-16ad-41d1-99aa-8820868b90ebCartier_LOVE_Bracelet_Classic_Yellow_Gold_52988-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/05/6ffe8ff2-5f7d-4a30-8ce6-f109acabe8d9Cartier_LOVE_Bracelet_Classic_Yellow_Gold_52988-b.jpg.webp",
@@ -198,14 +198,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier Classic 18ct Yellow Gold Love Bangle Size 20 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Classic 18ct Yellow Gold Love Bangle Size 20 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier Classic 18ct Yellow Gold Love Bangle Size 20 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Classic 18ct Yellow Gold Love Bangle Size 20 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-yellow-gold-love-bangle-",
+    id: "ac-cartier-cartier-yellow-gold-love-bangle-",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier Yellow Gold LOVE Bangle Classic Model 2021 Size 17",
@@ -215,7 +215,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 6186,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/08/Cartier_Yellow_Gold_LOVE_Bangle_Classic_Size_17_52032-a.jpg",
       "https://assets.theluxuryhut.com/2025/08/Cartier_Yellow_Gold_LOVE_Bangle_Classic_Size_17_52032-c.jpg",
@@ -227,14 +227,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier Yellow Gold LOVE Bangle Classic Model 2021 Size 17 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Yellow Gold LOVE Bangle Classic Model 2021 Size 17 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier Yellow Gold LOVE Bangle Classic Model 2021 Size 17 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Yellow Gold LOVE Bangle Classic Model 2021 Size 17 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-rose-gold-classic-l-2",
+    id: "ac-cartier-cartier-18ct-rose-gold-classic-l-2",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct Rose Gold Classic Love Bangle Size 17",
@@ -244,7 +244,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 6186,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/05/Cartier_Rose_Gold_Love_Bangle_50822-a.jpg",
       "https://assets.theluxuryhut.com/2024/05/Cartier_Rose_Gold_Love_Bangle_50822-d.jpg",
@@ -256,14 +256,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct Rose Gold Classic Love Bangle Size 17 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct Rose Gold Classic Love Bangle Size 17 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct Rose Gold Classic Love Bangle Size 17 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct Rose Gold Classic Love Bangle Size 17 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-white-gold-10-diamonds-c",
+    id: "ac-cartier-cartier-white-gold-10-diamonds-c",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier White Gold 10 Diamonds Classic Love Bracelet",
@@ -273,7 +273,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 15356,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/01/84058242-ef50-4591-b4f8-a6d6ad0894bbCartier_White_Gold_Diamonds_LOVE_Bracelet_Classic_52573-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/01/23a43b6f-ba08-48cc-94a5-b50dd0e93d6aCartier_White_Gold_Diamonds_LOVE_Bracelet_Classic_52573-d.jpg.webp",
@@ -285,14 +285,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier White Gold 10 Diamonds Classic Love Bracelet | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier White Gold 10 Diamonds Classic Love Bracelet available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier White Gold 10 Diamonds Classic Love Bracelet | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier White Gold 10 Diamonds Classic Love Bracelet available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-white-gold-love-ban",
+    id: "ac-cartier-cartier-18ct-white-gold-love-ban",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct White Gold Love Bangle Classic Model Size 17",
@@ -302,7 +302,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 6625,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/08/Cartier_Gold_LOVE_Bangle_Classic_Size_17_52079-a.jpg",
       "https://assets.theluxuryhut.com/2025/08/Cartier_Gold_LOVE_Bangle_Classic_Size_17_52079-b.jpg",
@@ -314,14 +314,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: false
     },
-    seoTitle: "Cartier 18ct White Gold Love Bangle Classic Model Size 17 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Love Bangle Classic Model Size 17 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct White Gold Love Bangle Classic Model Size 17 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Love Bangle Classic Model Size 17 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-rose-gold-paved-love-bra",
+    id: "ac-cartier-cartier-rose-gold-paved-love-bra",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier Rose Gold Paved Love Bracelet with Diamonds",
@@ -331,7 +331,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 37206,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/08/Cartier_Rose_Diamond-Paved_Bracelet_LB338-a.jpg",
       "https://assets.theluxuryhut.com/2024/08/Cartier_Rose_Diamond-Paved_Bracelet_LB338-c.jpg",
@@ -343,14 +343,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier Rose Gold Paved Love Bracelet with Diamonds | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Rose Gold Paved Love Bracelet with Diamonds available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier Rose Gold Paved Love Bracelet with Diamonds | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Rose Gold Paved Love Bracelet with Diamonds available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-yellow-gold-large-w",
+    id: "ac-cartier-cartier-18ct-yellow-gold-large-w",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct Yellow Gold Large Wide Love Ring 2021 Size 64",
@@ -360,7 +360,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 3203,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/06/Cartier_18ct_Yellow_Gold_Wide_Love_Ring_51920-a.jpg",
       "https://assets.theluxuryhut.com/2025/06/Cartier_18ct_Yellow_Gold_Wide_Love_Ring_51920-b.jpg",
@@ -372,14 +372,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct Yellow Gold Large Wide Love Ring 2021 Size 64 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct Yellow Gold Large Wide Love Ring 2021 Size 64 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct Yellow Gold Large Wide Love Ring 2021 Size 64 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct Yellow Gold Large Wide Love Ring 2021 Size 64 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-yellow-gold-classic",
+    id: "ac-cartier-cartier-18ct-yellow-gold-classic",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier 18ct Yellow Gold Classic Love Bracelet 2021 Size 17",
@@ -389,7 +389,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 6186,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/05/Cartier_Yellow_Gold_Classic_Bracelet_51781-a.jpg",
       "https://assets.theluxuryhut.com/2025/05/Cartier_Yellow_Gold_Classic_Bracelet_51781-b.jpg",
@@ -401,14 +401,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Cartier 18ct Yellow Gold Classic Love Bracelet 2021 Size 17 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct Yellow Gold Classic Love Bracelet 2021 Size 17 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier 18ct Yellow Gold Classic Love Bracelet 2021 Size 17 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct Yellow Gold Classic Love Bracelet 2021 Size 17 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-1-00ct-di",
+    id: "ac-fine-jewellery-18ct-white-gold-1-00ct-di",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18CT White Gold 1.00CT Diamond Engagement Ring Set",
@@ -418,7 +418,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2369,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/16009-c.jpg",
       "https://assets.theluxuryhut.com/2023/04/16009-a.jpg",
@@ -430,14 +430,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18CT White Gold 1.00CT Diamond Engagement Ring Set | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18CT White Gold 1.00CT Diamond Engagement Ring Set available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18CT White Gold 1.00CT Diamond Engagement Ring Set | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18CT White Gold 1.00CT Diamond Engagement Ring Set available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-gold-diamond-dress-r",
+    id: "ac-fine-jewellery-18ct-gold-diamond-dress-r",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18CT Gold Diamond Dress Ring For Women's",
@@ -447,7 +447,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1755,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/11745-b.jpg",
       "https://assets.theluxuryhut.com/2023/04/11745-a-1.jpg",
@@ -459,14 +459,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18CT Gold Diamond Dress Ring For Women's | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18CT Gold Diamond Dress Ring For Women's available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18CT Gold Diamond Dress Ring For Women's | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18CT Gold Diamond Dress Ring For Women's available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-9ct-white-gold-certified-",
+    id: "ac-fine-jewellery-9ct-white-gold-certified-",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "9ct White Gold Certified 1.09ct Diamond Ring",
@@ -476,7 +476,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 4212,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/15040-b.jpg",
       "https://assets.theluxuryhut.com/2023/04/15040-c-1.jpg",
@@ -488,14 +488,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "9ct White Gold Certified 1.09ct Diamond Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 9ct White Gold Certified 1.09ct Diamond Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "9ct White Gold Certified 1.09ct Diamond Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 9ct White Gold Certified 1.09ct Diamond Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-gold-certified-0-52c",
+    id: "ac-fine-jewellery-18ct-gold-certified-0-52c",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18CT Gold Certified 0.52ct Solitaire Diamond Ring",
@@ -505,7 +505,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2106,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/4815-b.jpg",
       "https://assets.theluxuryhut.com/2023/04/4815-c.jpg",
@@ -517,14 +517,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18CT Gold Certified 0.52ct Solitaire Diamond Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18CT Gold Certified 0.52ct Solitaire Diamond Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18CT Gold Certified 0.52ct Solitaire Diamond Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18CT Gold Certified 0.52ct Solitaire Diamond Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-yellow-gold-certifie",
+    id: "ac-fine-jewellery-18ct-yellow-gold-certifie",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct Yellow Gold Certified Old Cut Diamond Vintage Ring",
@@ -534,7 +534,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 702,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/1678-b.jpg",
       "https://assets.theluxuryhut.com/2023/04/1678-c.jpg",
@@ -546,14 +546,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct Yellow Gold Certified Old Cut Diamond Vintage Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct Yellow Gold Certified Old Cut Diamond Vintage Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct Yellow Gold Certified Old Cut Diamond Vintage Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct Yellow Gold Certified Old Cut Diamond Vintage Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-diamond-s",
+    id: "ac-fine-jewellery-18ct-white-gold-diamond-s",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold Diamond Solitaire Engagement Ring",
@@ -563,7 +563,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 790,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/2262-b.jpg",
       "https://assets.theluxuryhut.com/2023/04/2262-c.jpg",
@@ -575,14 +575,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold Diamond Solitaire Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Solitaire Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold Diamond Solitaire Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Solitaire Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-1ct-diamo",
+    id: "ac-fine-jewellery-18ct-white-gold-1ct-diamo",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold 1ct Diamond Full Eternity Ring Size R",
@@ -592,7 +592,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2633,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/03/White_Gold_1ct_Diamond_Eternity_Ring_33419-aa.jpg",
       "https://assets.theluxuryhut.com/2025/03/White_Gold_1ct_Diamond_Eternity_Ring_33419-bb.jpg",
@@ -604,14 +604,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold 1ct Diamond Full Eternity Ring Size R | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold 1ct Diamond Full Eternity Ring Size R available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold 1ct Diamond Full Eternity Ring Size R | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold 1ct Diamond Full Eternity Ring Size R available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-platinum-gia-certified-0-",
+    id: "ac-fine-jewellery-platinum-gia-certified-0-",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "Platinum GIA Certified 0.55ct Diamond Engagement Ring",
@@ -621,7 +621,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2983,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/21713-bb-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/21713-cc-1.jpg",
@@ -633,14 +633,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "Platinum GIA Certified 0.55ct Diamond Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Platinum GIA Certified 0.55ct Diamond Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Platinum GIA Certified 0.55ct Diamond Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Platinum GIA Certified 0.55ct Diamond Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-0-92ct-di",
+    id: "ac-fine-jewellery-18ct-white-gold-0-92ct-di",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold 0.92ct Diamond Engagement Ring",
@@ -650,7 +650,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 3949,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/WGI9624116103-b-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/WGI9624116103-c-1.jpg",
@@ -662,24 +662,24 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold 0.92ct Diamond Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold 0.92ct Diamond Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold 0.92ct Diamond Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold 0.92ct Diamond Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-diamond-t",
+    id: "ac-fine-jewellery-18ct-white-gold-diamond-t",
     type: "jewellery",
     brand: "Fine Jewellery",
-    name: "18ct White Gold Diamond Tennis Bracelet - Shop The Luxury Hut",
+    name: "18ct White Gold Diamond Tennis Bracelet - Shop Aurelia & Crown",
     model: "18ct White Gold Diamond Tennis Bracelet - Shop The",
     category: "Bracelets" as JewelleryCategory,
     collection: "Rare & Exceptional Collection",
     priceEUR: 12987,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Tennis_Bracelet_38872-b-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/Tennis_Bracelet_38872-f-1.jpg",
@@ -691,14 +691,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold Diamond Tennis Bracelet - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Tennis Bracelet - Shop The Luxury Hut available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold Diamond Tennis Bracelet - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Tennis Bracelet - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-rose-gold-juste-un-clou-",
+    id: "ac-cartier-cartier-rose-gold-juste-un-clou-",
     type: "jewellery",
     brand: "Cartier",
     name: "Cartier Rose Gold Juste Un Clou Diamond Ring Classic Size 52",
@@ -708,7 +708,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2633,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/09/Cartier_Gold_Juste_Un_Clou_Diamond_Ring_LB680-a.jpg",
       "https://assets.theluxuryhut.com/2025/09/Cartier_Gold_Juste_Un_Clou_Diamond_Ring_LB680-b.jpg",
@@ -720,24 +720,24 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: true
     },
-    seoTitle: "Cartier Rose Gold Juste Un Clou Diamond Ring Classic Size 52 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Rose Gold Juste Un Clou Diamond Ring Classic Size 52 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Cartier Rose Gold Juste Un Clou Diamond Ring Classic Size 52 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Rose Gold Juste Un Clou Diamond Ring Classic Size 52 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-diamond-t-1",
+    id: "ac-fine-jewellery-18ct-white-gold-diamond-t-1",
     type: "jewellery",
     brand: "Fine Jewellery",
-    name: "18ct White Gold Diamond Tennis Bracelet - Shop The Luxury Hut",
+    name: "18ct White Gold Diamond Tennis Bracelet - Shop Aurelia & Crown",
     model: "18ct White Gold Diamond Tennis Bracelet - Shop The",
     category: "Bracelets" as JewelleryCategory,
     collection: "Rare & Exceptional Collection",
     priceEUR: 13338,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/33310-h-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/33310-d-1.jpg",
@@ -749,14 +749,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold Diamond Tennis Bracelet - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Tennis Bracelet - Shop The Luxury Hut available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold Diamond Tennis Bracelet - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Tennis Bracelet - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-platinum-0-52ct-solitaire",
+    id: "ac-fine-jewellery-platinum-0-52ct-solitaire",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "Platinum 0.52ct Solitaire Engagement Ring 14722",
@@ -766,7 +766,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1229,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/14722-a-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/14722-b-1.jpg",
@@ -778,14 +778,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "Platinum 0.52ct Solitaire Engagement Ring 14722 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Platinum 0.52ct Solitaire Engagement Ring 14722 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Platinum 0.52ct Solitaire Engagement Ring 14722 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Platinum 0.52ct Solitaire Engagement Ring 14722 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-platinum-wgi-certified-1-",
+    id: "ac-fine-jewellery-platinum-wgi-certified-1-",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "Platinum WGI Certified 1.50CT Diamond Ring",
@@ -795,7 +795,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 17111,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/29818-b-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/29818-f-1.jpg",
@@ -807,24 +807,24 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "Platinum WGI Certified 1.50CT Diamond Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Platinum WGI Certified 1.50CT Diamond Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Platinum WGI Certified 1.50CT Diamond Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Platinum WGI Certified 1.50CT Diamond Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-platinum-wgi-certified-2-",
+    id: "ac-fine-jewellery-platinum-wgi-certified-2-",
     type: "jewellery",
     brand: "Fine Jewellery",
-    name: "Platinum WGI Certified 2.01CT Diamond Ring - Shop The Luxury Hut",
+    name: "Platinum WGI Certified 2.01CT Diamond Ring - Shop Aurelia & Crown",
     model: "Platinum WGI Certified 2.01CT Diamond Ring - Shop ",
     category: "Rings" as JewelleryCategory,
     collection: "Rare & Exceptional Collection",
     priceEUR: 3949,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/29801-b-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/29801-wgi-scaled-2.jpg",
@@ -836,14 +836,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "Platinum WGI Certified 2.01CT Diamond Ring - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Platinum WGI Certified 2.01CT Diamond Ring - Shop The Luxury Hut available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Platinum WGI Certified 2.01CT Diamond Ring - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Platinum WGI Certified 2.01CT Diamond Ring - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tiffany-co-tiffany-t1-small-circle-penda",
+    id: "ac-tiffany-co-tiffany-t1-small-circle-penda",
     type: "jewellery",
     brand: "Tiffany & Co.",
     name: "Tiffany T1 Small Circle Pendant Yellow Gold",
@@ -853,7 +853,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2369,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/9d9b9989-3bf3-4ae7-88d0-85ba30224159Tiffany_Co_T1_Yellow_Gold_Circle_Pendant_52703-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/bd606922-38e8-4387-ba2d-3d158b05b933Tiffany_Co_T1_Yellow_Gold_Circle_Pendant_52703-c.jpg.webp",
@@ -865,14 +865,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: false
     },
-    seoTitle: "Tiffany T1 Small Circle Pendant Yellow Gold | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tiffany T1 Small Circle Pendant Yellow Gold available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Tiffany T1 Small Circle Pendant Yellow Gold | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tiffany T1 Small Circle Pendant Yellow Gold available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-van-cleef-arpels-van-cleef-arpels-guillo",
+    id: "ac-van-cleef-arpels-van-cleef-arpels-guillo",
     type: "jewellery",
     brand: "Van Cleef & Arpels",
     name: "Van Cleef & Arpels Guilloche Pendant Necklace VCARP4KL00",
@@ -882,7 +882,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 3247,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Van_Cleef_Arpels_Gold_Guilloch_Pendant_Necklace_52003-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Van_Cleef_Arpels_Gold_Guilloch_Pendant_Necklace_52003-b.jpg",
@@ -894,14 +894,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Van Cleef & Arpels Guilloche Pendant Necklace VCARP4KL00 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Van Cleef & Arpels Guilloche Pendant Necklace VCARP4KL00 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Van Cleef & Arpels Guilloche Pendant Necklace VCARP4KL00 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Van Cleef & Arpels Guilloche Pendant Necklace VCARP4KL00 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tiffany-co-tiffany-co-platinum-0-31ct-di",
+    id: "ac-tiffany-co-tiffany-co-platinum-0-31ct-di",
     type: "jewellery",
     brand: "Tiffany & Co.",
     name: "Tiffany & Co Platinum 0.31ct Diamond Stud Earrings",
@@ -911,7 +911,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1711,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Tiffany_Platinum_0.31ct_Diamond_Earrings_LB644-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Tiffany_Platinum_0.31ct_Diamond_Earrings_LB644-b.jpg",
@@ -923,14 +923,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "Tiffany & Co Platinum 0.31ct Diamond Stud Earrings | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tiffany & Co Platinum 0.31ct Diamond Stud Earrings available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Tiffany & Co Platinum 0.31ct Diamond Stud Earrings | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tiffany & Co Platinum 0.31ct Diamond Stud Earrings available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-chopard-chopard-happy-0-3ct-diamonds-nec",
+    id: "ac-chopard-chopard-happy-0-3ct-diamonds-nec",
     type: "jewellery",
     brand: "Chopard",
     name: "Chopard Happy 0.3ct Diamonds Necklace 79/6729/0-20",
@@ -940,7 +940,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1755,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/04/ac1e8468-7222-468b-9c6a-d48134dbd56cChopard_Happy_Diamond_Pendent_52861-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/04/ec52ddf4-729d-4737-a2a0-0e6770a76d59Chopard_Happy_Diamond_Pendent_52861-b.jpg.webp",
@@ -952,14 +952,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Chopard Happy 0.3ct Diamonds Necklace 79/6729/0-20 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Chopard Happy 0.3ct Diamonds Necklace 79/6729/0-20 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Chopard Happy 0.3ct Diamonds Necklace 79/6729/0-20 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Chopard Happy 0.3ct Diamonds Necklace 79/6729/0-20 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-van-cleef-arpels-van-cleef-arpels-vintag",
+    id: "ac-van-cleef-arpels-van-cleef-arpels-vintag",
     type: "jewellery",
     brand: "Van Cleef & Arpels",
     name: "Van Cleef & Arpels Vintage Alhambra Gold MOP Bracelet",
@@ -969,7 +969,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 3949,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/8958c30d-6a0b-4fca-8f09-b3f419d57693Van_Cleef_Arpels_Vintage_Gold_MOP_Bracelet_52744-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/fbf71ece-52ba-4fb9-9f75-d856eec90e38Van_Cleef_Arpels_Vintage_Gold_MOP_Bracelet_52744-b.jpg.webp",
@@ -981,14 +981,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Van Cleef & Arpels Vintage Alhambra Gold MOP Bracelet | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Van Cleef & Arpels Vintage Alhambra Gold MOP Bracelet available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Van Cleef & Arpels Vintage Alhambra Gold MOP Bracelet | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Van Cleef & Arpels Vintage Alhambra Gold MOP Bracelet available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-van-cleef-arpels-van-cleef-arpels-yellow",
+    id: "ac-van-cleef-arpels-van-cleef-arpels-yellow",
     type: "jewellery",
     brand: "Van Cleef & Arpels",
     name: "Van Cleef & Arpels Yellow Gold 5 Hammered Motifs Bracelet",
@@ -998,7 +998,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/09/Van_Cleef_Arpels_Yellow-Gold_Motifs_Bracelet_LB685-a.jpg",
       "https://assets.theluxuryhut.com/2025/09/Van_Cleef_Arpels_Yellow-Gold_Motifs_Bracelet_LB685-b.jpg",
@@ -1010,14 +1010,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Van Cleef & Arpels Yellow Gold 5 Hammered Motifs Bracelet | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Van Cleef & Arpels Yellow Gold 5 Hammered Motifs Bracelet available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Van Cleef & Arpels Yellow Gold 5 Hammered Motifs Bracelet | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Van Cleef & Arpels Yellow Gold 5 Hammered Motifs Bracelet available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tiffany-co-tiffany-co-yellow-gold-somers",
+    id: "ac-tiffany-co-tiffany-co-yellow-gold-somers",
     type: "jewellery",
     brand: "Tiffany & Co.",
     name: "Tiffany & Co Yellow Gold Somerset Mesh Bangle",
@@ -1027,7 +1027,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/01/2e2462bf-32fc-4937-af94-f735bb5dd64eTiffany_&_Co_Somerset_Mesh_Bangle_LB827-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/01/39731c50-232e-4821-87c9-9f3eef668438Tiffany_&_Co_Somerset_Mesh_Bangle_LB827-c.jpg.webp",
@@ -1039,14 +1039,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "Tiffany & Co Yellow Gold Somerset Mesh Bangle | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tiffany & Co Yellow Gold Somerset Mesh Bangle available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Tiffany & Co Yellow Gold Somerset Mesh Bangle | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tiffany & Co Yellow Gold Somerset Mesh Bangle available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-bulgari-bvlgari-18ct-rose-gold-serpenti-",
+    id: "ac-bulgari-bvlgari-18ct-rose-gold-serpenti-",
     type: "jewellery",
     brand: "Bulgari",
     name: "Bvlgari 18ct Rose Gold Serpenti Viper Bracelet BR860039",
@@ -1056,7 +1056,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 5528,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/02/b5f71b44-d028-4bfb-a6b0-b2333543d03dBvlgari_18ct_Rose_Gold_Serpenti_Viper_Bracelet_52618-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/02/3f699904-52ad-430a-83f9-70c892374aa6Bvlgari_18ct_Rose_Gold_Serpenti_Viper_Bracelet_52618-c.jpg.webp",
@@ -1068,14 +1068,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Bvlgari 18ct Rose Gold Serpenti Viper Bracelet BR860039 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Bvlgari 18ct Rose Gold Serpenti Viper Bracelet BR860039 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Bvlgari 18ct Rose Gold Serpenti Viper Bracelet BR860039 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Bvlgari 18ct Rose Gold Serpenti Viper Bracelet BR860039 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-van-cleef-arpels-van-cleef-arpels-gold-m",
+    id: "ac-van-cleef-arpels-van-cleef-arpels-gold-m",
     type: "jewellery",
     brand: "Van Cleef & Arpels",
     name: "Van Cleef & Arpels Gold MOP Small Pendant VCARA45900",
@@ -1085,7 +1085,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2387,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/b6fad1f2-dea8-46b3-98dc-34dcc2ccc1bbVan_Cleef_Yellow_MOP_Pendant_Necklace_52736-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/ffd7737c-9f15-460c-bd1d-4e5feb5013daVan_Cleef_Yellow_MOP_Pendant_Necklace_52736-c.jpg.webp",
@@ -1097,14 +1097,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: false
     },
-    seoTitle: "Van Cleef & Arpels Gold MOP Small Pendant VCARA45900 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Van Cleef & Arpels Gold MOP Small Pendant VCARA45900 available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Van Cleef & Arpels Gold MOP Small Pendant VCARA45900 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Van Cleef & Arpels Gold MOP Small Pendant VCARA45900 available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-van-cleef-arpels-van-cleef-arpels-vintag-1",
+    id: "ac-van-cleef-arpels-van-cleef-arpels-vintag-1",
     type: "jewellery",
     brand: "Van Cleef & Arpels",
     name: "Van Cleef Arpels Vintage Alhambra Yellow Gold MOP Bracelet",
@@ -1114,7 +1114,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 3949,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Van-Cleef_Yellow_Gold_MOP_Motifs_Bracelet_51992-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Van-Cleef_Yellow_Gold_MOP_Motifs_Bracelet_51992-b.jpg",
@@ -1126,14 +1126,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: true,
       papers: true
     },
-    seoTitle: "Van Cleef Arpels Vintage Alhambra Yellow Gold MOP Bracelet | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Van Cleef Arpels Vintage Alhambra Yellow Gold MOP Bracelet available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "Van Cleef Arpels Vintage Alhambra Yellow Gold MOP Bracelet | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Van Cleef Arpels Vintage Alhambra Yellow Gold MOP Bracelet available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-1-00ct-di-1",
+    id: "ac-fine-jewellery-18ct-white-gold-1-00ct-di-1",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18CT White Gold 1.00CT Diamond Engagement Ring Set",
@@ -1143,7 +1143,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2369,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/16009-a.jpg",
       "https://assets.theluxuryhut.com/2023/04/16009-c.jpg",
@@ -1155,14 +1155,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18CT White Gold 1.00CT Diamond Engagement Ring Set | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18CT White Gold 1.00CT Diamond Engagement Ring Set available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18CT White Gold 1.00CT Diamond Engagement Ring Set | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18CT White Gold 1.00CT Diamond Engagement Ring Set available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-gold-diamond-dress-r-1",
+    id: "ac-fine-jewellery-18ct-gold-diamond-dress-r-1",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18CT Gold Diamond Dress Ring For Women's",
@@ -1172,7 +1172,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1755,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/11745-a-1.jpg",
       "https://assets.theluxuryhut.com/2023/04/11745-b.jpg",
@@ -1184,14 +1184,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18CT Gold Diamond Dress Ring For Women's | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18CT Gold Diamond Dress Ring For Women's available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18CT Gold Diamond Dress Ring For Women's | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18CT Gold Diamond Dress Ring For Women's available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-gold-certified-0-52c-1",
+    id: "ac-fine-jewellery-18ct-gold-certified-0-52c-1",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18CT Gold Certified 0.52ct Solitaire Diamond Ring",
@@ -1201,7 +1201,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2106,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/4815-c.jpg",
       "https://assets.theluxuryhut.com/2023/04/4815-b.jpg",
@@ -1213,14 +1213,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18CT Gold Certified 0.52ct Solitaire Diamond Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18CT Gold Certified 0.52ct Solitaire Diamond Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18CT Gold Certified 0.52ct Solitaire Diamond Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18CT Gold Certified 0.52ct Solitaire Diamond Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-yellow-gold-certifie-1",
+    id: "ac-fine-jewellery-18ct-yellow-gold-certifie-1",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct Yellow Gold Certified Old Cut Diamond Vintage Ring",
@@ -1230,7 +1230,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 702,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/1678-c.jpg",
       "https://assets.theluxuryhut.com/2023/04/1678-b.jpg",
@@ -1242,14 +1242,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct Yellow Gold Certified Old Cut Diamond Vintage Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct Yellow Gold Certified Old Cut Diamond Vintage Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct Yellow Gold Certified Old Cut Diamond Vintage Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct Yellow Gold Certified Old Cut Diamond Vintage Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-diamond-s-1",
+    id: "ac-fine-jewellery-18ct-white-gold-diamond-s-1",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold Diamond Solitaire Engagement Ring",
@@ -1259,7 +1259,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 790,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/04/2262-c.jpg",
       "https://assets.theluxuryhut.com/2023/04/2262-b.jpg",
@@ -1271,14 +1271,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold Diamond Solitaire Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Solitaire Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold Diamond Solitaire Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold Diamond Solitaire Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-0-25ct-di",
+    id: "ac-fine-jewellery-18ct-white-gold-0-25ct-di",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold 0.25ct Diamond Engagement Ring",
@@ -1288,7 +1288,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1053,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/21058-b.jpg",
       "https://assets.theluxuryhut.com/2023/06/21058-c.jpg",
@@ -1300,14 +1300,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold 0.25ct Diamond Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold 0.25ct Diamond Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold 0.25ct Diamond Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold 0.25ct Diamond Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-1ct-diamo-1",
+    id: "ac-fine-jewellery-18ct-white-gold-1ct-diamo-1",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold 1ct Diamond Full Eternity Ring Size R",
@@ -1317,7 +1317,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 2633,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/03/White_Gold_1ct_Diamond_Eternity_Ring_33419-bb.jpg",
       "https://assets.theluxuryhut.com/2025/03/White_Gold_1ct_Diamond_Eternity_Ring_33419-aa.jpg",
@@ -1329,14 +1329,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold 1ct Diamond Full Eternity Ring Size R | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold 1ct Diamond Full Eternity Ring Size R available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold 1ct Diamond Full Eternity Ring Size R | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold 1ct Diamond Full Eternity Ring Size R available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-heart-0-3",
+    id: "ac-fine-jewellery-18ct-white-gold-heart-0-3",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold Heart 0.39ct Diamond Engagement Ring",
@@ -1346,7 +1346,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 1755,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/22536-b-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/22536-e-1.jpg",
@@ -1358,14 +1358,14 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold Heart 0.39ct Diamond Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold Heart 0.39ct Diamond Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold Heart 0.39ct Diamond Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold Heart 0.39ct Diamond Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-fine-jewellery-18ct-white-gold-radiant-c",
+    id: "ac-fine-jewellery-18ct-white-gold-radiant-c",
     type: "jewellery",
     brand: "Fine Jewellery",
     name: "18ct White Gold Radiant Cut Diamond Engagement Ring",
@@ -1375,7 +1375,7 @@ export const JEWELLERY_PRODUCTS: Product[] = [
     priceEUR: 13163,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/22826-d-1-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/22826-b-1-1.jpg",
@@ -1387,8 +1387,8 @@ export const JEWELLERY_PRODUCTS: Product[] = [
       box: false,
       papers: false
     },
-    seoTitle: "18ct White Gold Radiant Cut Diamond Engagement Ring | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned 18ct White Gold Radiant Cut Diamond Engagement Ring available at The Luxury Hut. Inspected and certified in London showroom.",
+    seoTitle: "18ct White Gold Radiant Cut Diamond Engagement Ring | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned 18ct White Gold Radiant Cut Diamond Engagement Ring available at Aurelia & Crown. Inspected and certified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"

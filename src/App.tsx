@@ -54,9 +54,9 @@ export default function App() {
   const [brandFilter, setBrandFilter] = useState<string>('all');
   const [jewelleryCategoryFilter, setJewelleryCategoryFilter] = useState<string>('all');
 
-  const CURRENT_CATALOG_VERSION = 'tlh_v8_reduced_prices_catalog';
+  const CURRENT_CATALOG_VERSION = 'ac_v9_rebrand_catalog';
 
-  // Products state (loads the full authenticated The Luxury Hut catalog)
+  // Products state (loads the full authenticated Aurelia & Crown catalog)
   const [products, setProducts] = useState<Product[]>(() => {
     try {
       const storedVersion = localStorage.getItem('ac_catalog_version');
@@ -106,7 +106,7 @@ export default function App() {
         // fallback
       }
     }
-    return [PRODUCTS[0]?.id || 'tlh-w-01', PRODUCTS[1]?.id || 'tlh-w-02'];
+    return [PRODUCTS[0]?.id || 'ac-w-01', PRODUCTS[1]?.id || 'ac-w-02'];
   });
 
   // Orders State
@@ -191,7 +191,7 @@ export default function App() {
     }, 3500);
   };
 
-  // Ensure returning users get latest imported The Luxury Hut catalog automatically
+  // Ensure returning users get latest imported Aurelia & Crown catalog automatically
   useEffect(() => {
     try {
       const storedVersion = localStorage.getItem('ac_catalog_version');
@@ -461,7 +461,7 @@ export default function App() {
             <PrivateListNewsletter />
           </div>
         ) : activeTab === 'shop' ? (
-          /* The Luxury Hut Complete Shop Catalogue (Watches & Fine Jewellery) */
+          /* Aurelia & Crown Complete Shop Catalogue (Watches & Fine Jewellery) */
           <ShopCatalogue
             products={products}
             currency={currency}

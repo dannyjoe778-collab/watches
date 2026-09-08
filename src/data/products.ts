@@ -3,7 +3,7 @@ import { JEWELLERY_PRODUCTS } from './jewelleryProducts';
 
 export const INITIAL_PRODUCTS: Product[] = [
   {
-    id: "tlh-rolex-rolex-datejust-31mm-factory-rose-d",
+    id: "ac-rolex-rolex-datejust-31mm-factory-rose-d",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 31mm Factory Rose Diamond Dial Ref: 278271",
@@ -13,7 +13,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 11188,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 278271. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 278271. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/04/Rolex_Datejust_31_Rose_Diamond_51642-aa.jpg",
       "https://assets.theluxuryhut.com/2025/04/Rolex_Datejust_31_Rose_Diamond_51642-b.jpg",
@@ -32,14 +32,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 31mm Factory Rose Diamond Dial Ref: 278271 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 31mm Factory Rose Diamond Dial Ref: 278271 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 31mm Factory Rose Diamond Dial Ref: 278271 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 31mm Factory Rose Diamond Dial Ref: 278271 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-cosmograph-daytona-bi-metal-",
+    id: "ac-rolex-rolex-cosmograph-daytona-bi-metal-",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Cosmograph Daytona Bi-Metal Black Dial 126503",
@@ -49,7 +49,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 17506,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/f73a8f91-48d1-474a-a026-4ff299d326d6Rolex_Cosmograph_Daytona_40mm_Bi-Metal_Black_Dial_52656-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/22e56c51-a0f6-44d9-bdcf-5d51b737e327Rolex_Cosmograph_Daytona_40mm_Bi-Metal_Black_Dial_52656-b.jpg.webp",
@@ -68,14 +68,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Cosmograph Daytona Bi-Metal Black Dial 126503 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Cosmograph Daytona Bi-Metal Black Dial 126503 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Cosmograph Daytona Bi-Metal Black Dial 126503 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Cosmograph Daytona Bi-Metal Black Dial 126503 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-day-date-40mm-yellow-gold-bl",
+    id: "ac-rolex-rolex-day-date-40mm-yellow-gold-bl",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Day-Date 40mm Yellow Gold Black Motif Dial 228238",
@@ -85,7 +85,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 228238. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 228238. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Rolex_Day-Date_40_Yellow_Gold_Black_Motif_52036-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Rolex_Day-Date_40_Yellow_Gold_Black_Motif_52036-b.jpg",
@@ -104,14 +104,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Day-Date 40mm Yellow Gold Black Motif Dial 228238 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Day-Date 40mm Yellow Gold Black Motif Dial 228238 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Day-Date 40mm Yellow Gold Black Motif Dial 228238 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Day-Date 40mm Yellow Gold Black Motif Dial 228238 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-36-stainless-steel-",
+    id: "ac-rolex-rolex-datejust-36-stainless-steel-",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 36 Stainless Steel White Roman Dial 16200",
@@ -121,7 +121,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/0a26a538-9f62-4025-bdba-3d913a2ced37Rolex_Datejust_36_Steel_White_Roman_52363-a.webp",
       "https://assets.theluxuryhut.com/e87a78d8-86f9-45ee-b1f1-e491189ca86eRolex_Datejust_36_Steel_White_Roman_52363-b.webp",
@@ -140,14 +140,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 36 Stainless Steel White Roman Dial 16200 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 36 Stainless Steel White Roman Dial 16200 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 36 Stainless Steel White Roman Dial 16200 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 36 Stainless Steel White Roman Dial 16200 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-36-silver-champagne",
+    id: "ac-rolex-rolex-datejust-36-silver-champagne",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 36 Silver & Champagne Houndstooth Diamond Dial",
@@ -157,7 +157,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/8df8c2de-c944-4c9b-b94e-b32b84884026Rolex_Datejust_36_Houndstooth_Diamond_52426-a.webp",
       "https://assets.theluxuryhut.com/4aad10c9-17c6-4b04-97b1-5e02d1ad72bbRolex_Datejust_36_Houndstooth_Diamond_52426-b.webp",
@@ -176,14 +176,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 36 Silver & Champagne Houndstooth Diamond Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 36 Silver & Champagne Houndstooth Diamond Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 36 Silver & Champagne Houndstooth Diamond Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 36 Silver & Champagne Houndstooth Diamond Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-41mm-wimbledon-dial",
+    id: "ac-rolex-rolex-datejust-41mm-wimbledon-dial",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 41mm Wimbledon Dial Ref: 126331",
@@ -193,7 +193,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 126331. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 126331. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/06/Rolex_Datejust_Bi-Metal_Wimbledon_LB256-a.jpg",
       "https://assets.theluxuryhut.com/2024/06/Rolex_Datejust_Bi-Metal_Wimbledon_LB256-e.jpg",
@@ -212,14 +212,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 41mm Wimbledon Dial Ref: 126331 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Wimbledon Dial Ref: 126331 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 41mm Wimbledon Dial Ref: 126331 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Wimbledon Dial Ref: 126331 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-day-date-ii-president-yellow",
+    id: "ac-rolex-rolex-day-date-ii-president-yellow",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Day-Date II President Yellow Gold 218238",
@@ -229,7 +229,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/01/558225f4-7d57-49c2-89c2-969022bdcbd9Rolex_Day-Date_II_41mm_Champagne_Dial_52613-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/01/ec1b78c5-ea8d-4f96-b2d6-bd1e3931f7bdRolex_Day-Date_II_41mm_Champagne_Dial_52613-b.jpg.webp",
@@ -248,14 +248,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Day-Date II President Yellow Gold 218238 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Day-Date II President Yellow Gold 218238 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Day-Date II President Yellow Gold 218238 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Day-Date II President Yellow Gold 218238 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-sea-dweller-deepsea-james-ca",
+    id: "ac-rolex-rolex-sea-dweller-deepsea-james-ca",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Sea-Dweller Deepsea James Cameron D-Blue 126660",
@@ -265,7 +265,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 9214,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/07/e21b4a07-b4b4-444f-889c-ad7334bd811cRolex_Sea-Dweller_Deepsea_Steel_44mm_D-Blue_Dial_53130-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/07/0e9587a2-0da2-4769-94e3-e853278d05fcRolex_Sea-Dweller_Deepsea_Steel_44mm_D-Blue_Dial_53130-b.jpg.webp",
@@ -284,24 +284,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Sea-Dweller Deepsea James Cameron D-Blue 126660 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Sea-Dweller Deepsea James Cameron D-Blue 126660 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Sea-Dweller Deepsea James Cameron D-Blue 126660 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Sea-Dweller Deepsea James Cameron D-Blue 126660 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: true,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-diamond-dial-ref-11",
+    id: "ac-rolex-rolex-datejust-diamond-dial-ref-11",
     type: "watch",
     brand: "Rolex",
-    name: "Rolex Datejust Diamond Dial Ref: 116234 - Shop The Luxury Hut",
+    name: "Rolex Datejust Diamond Dial Ref: 116234 - Shop Aurelia & Crown",
     model: "Datejust Diamond Dial Ref: 116234 - Shop The Luxur",
     category: "Classic Luxury Watch" as WatchCategory,
     collection: "Rolex Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 116234. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 116234. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Rolex_Datejust_Black_Diamond_42633-a.jpg",
       "https://assets.theluxuryhut.com/2023/06/Rolex_Datejust_Black_Diamond_42633-e.jpg",
@@ -320,14 +320,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust Diamond Dial Ref: 116234 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust Diamond Dial Ref: 116234 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust Diamond Dial Ref: 116234 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust Diamond Dial Ref: 116234 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-31mm-pink-roman-dia",
+    id: "ac-rolex-rolex-datejust-31mm-pink-roman-dia",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 31mm Pink Roman Diamond Dial Ref: 278274",
@@ -337,7 +337,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 278274. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 278274. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/79ce6296-7414-4e84-8f8b-189f036bbd3aRolex_Datejust_31mm_Pink_Roman_Diamond_Dial_52279-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/02534716-679e-4444-b8af-5cdd4b9ad835Rolex_Datejust_31mm_Pink_Roman_Diamond_Dial_52279-b.jpg",
@@ -356,14 +356,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 31mm Pink Roman Diamond Dial Ref: 278274 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 31mm Pink Roman Diamond Dial Ref: 278274 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 31mm Pink Roman Diamond Dial Ref: 278274 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 31mm Pink Roman Diamond Dial Ref: 278274 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-41mm-steel-blue-dia",
+    id: "ac-rolex-rolex-datejust-41mm-steel-blue-dia",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 41mm Steel Blue Dial Ref: 126300 Full Set",
@@ -373,7 +373,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 126300. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 126300. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Rolex_Datejust_41mm_Steel_Blue_Dial_52200-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Rolex_Datejust_41mm_Steel_Blue_Dial_52200-b.jpg",
@@ -392,14 +392,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 41mm Steel Blue Dial Ref: 126300 Full Set | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Steel Blue Dial Ref: 126300 Full Set available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 41mm Steel Blue Dial Ref: 126300 Full Set | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Steel Blue Dial Ref: 126300 Full Set available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-31mm-mint-green-dia",
+    id: "ac-rolex-rolex-datejust-31mm-mint-green-dia",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 31mm Mint Green Dial 278274",
@@ -409,7 +409,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 8555,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/04/050b9f10-ee16-428c-b1a1-1bf18acba331Rolex_Datejust_Steel_31_Mint_Green_Dial_52862-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/04/d68d8e97-503a-41dd-9faf-7541556f9722Rolex_Datejust_Steel_31_Mint_Green_Dial_52862-b.jpg.webp",
@@ -428,14 +428,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 31mm Mint Green Dial 278274 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 31mm Mint Green Dial 278274 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 31mm Mint Green Dial 278274 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 31mm Mint Green Dial 278274 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-41mm-mint-green-dia",
+    id: "ac-rolex-rolex-datejust-41mm-mint-green-dia",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 41mm Mint Green Dial Ref: 126334",
@@ -464,14 +464,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 41mm Mint Green Dial Ref: 126334 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Mint Green Dial Ref: 126334 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 41mm Mint Green Dial Ref: 126334 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Mint Green Dial Ref: 126334 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-31-yellow-gold-cham",
+    id: "ac-rolex-rolex-datejust-31-yellow-gold-cham",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 31 Yellow Gold Champagne Baton Dial 6827",
@@ -481,7 +481,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 10091,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/12/209759b1-57ca-40ba-a96a-2f1fcf853b8dRolex_Datejust_31mm_Yellow_Gold_Champagne_Baton_52503-a.jpg.webp",
       "https://assets.theluxuryhut.com/2025/12/14abbebb-d6b3-4340-959f-aa183e48a9c7Rolex_Datejust_31mm_Yellow_Gold_Champagne_Baton_52503-b.jpg.webp",
@@ -500,24 +500,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 31 Yellow Gold Champagne Baton Dial 6827 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 31 Yellow Gold Champagne Baton Dial 6827 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 31 Yellow Gold Champagne Baton Dial 6827 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 31 Yellow Gold Champagne Baton Dial 6827 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-ii-silver-dial-ref-",
+    id: "ac-rolex-rolex-datejust-ii-silver-dial-ref-",
     type: "watch",
     brand: "Rolex",
-    name: "Rolex Datejust II Silver Dial Ref: 116334 - Shop The Luxury Hut",
+    name: "Rolex Datejust II Silver Dial Ref: 116334 - Shop Aurelia & Crown",
     model: "Datejust II Silver Dial Ref: 116334 - Shop The Lux",
     category: "Classic Luxury Watch" as WatchCategory,
     collection: "Rolex Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 116334. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 116334. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Rolex_Datejust-II_Silver_Dial_42718-a.jpg",
       "https://assets.theluxuryhut.com/2023/06/Rolex_Datejust-II_Silver_Dial_42718-e.jpg",
@@ -536,14 +536,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust II Silver Dial Ref: 116334 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust II Silver Dial Ref: 116334 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust II Silver Dial Ref: 116334 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust II Silver Dial Ref: 116334 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-submariner-date-bi-metal-40m",
+    id: "ac-rolex-rolex-submariner-date-bi-metal-40m",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Submariner Date Bi-Metal 40mm Blue Dial Ref: 16803",
@@ -553,7 +553,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 16803. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 16803. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/2aedf79d-ff9b-49ad-a6c3-336bcb8c5910Rolex_Submariner_Date_Bi-Metal_Blue_Update_51419-aa1.jpg",
       "https://assets.theluxuryhut.com/2025/11/7eaba3ff-7ccd-476e-bd15-fc61cb295061Rolex_Submariner_Date_Bi-Metal_Blue_Update_51419-bb.jpg",
@@ -572,14 +572,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Submariner Date Bi-Metal 40mm Blue Dial Ref: 16803 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Submariner Date Bi-Metal 40mm Blue Dial Ref: 16803 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Submariner Date Bi-Metal 40mm Blue Dial Ref: 16803 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Submariner Date Bi-Metal 40mm Blue Dial Ref: 16803 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: true,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-oyster-perpetual-date-steel-",
+    id: "ac-rolex-rolex-oyster-perpetual-date-steel-",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Oyster Perpetual Date Steel 34mm Black Dial Ref: 15200",
@@ -589,7 +589,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 15200. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 15200. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/b7df1a31-b48f-46a1-b882-2fdfbd0a3880Rolex_Oyster_Perpetual_Date_Steel_34mm_Black_LB729-aa.webp",
       "https://assets.theluxuryhut.com/2025/11/24266344-6c28-4f01-8e5f-f3c4d5d4721cRolex_Oyster_Perpetual_Date_Steel_34mm_Black_LB729-b.jpg",
@@ -608,14 +608,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Oyster Perpetual Date Steel 34mm Black Dial Ref: 15200 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Oyster Perpetual Date Steel 34mm Black Dial Ref: 15200 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Oyster Perpetual Date Steel 34mm Black Dial Ref: 15200 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Oyster Perpetual Date Steel 34mm Black Dial Ref: 15200 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-submariner-date-steel-40mm-b",
+    id: "ac-rolex-rolex-submariner-date-steel-40mm-b",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Submariner Date Steel 40mm Black Dial Ref: 16610",
@@ -625,7 +625,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 16610. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 16610. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/01/d0ebbeab-d37b-4d1c-a90d-04df00064830Rolex_Submariner_Date_Steel_40mm_Black_Update_52134-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/01/625548ba-6c2d-490d-9776-da6774fbc7b8Rolex_Submariner_Date_Steel_40mm_Black_Update_52134-b.jpg.webp",
@@ -644,14 +644,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Submariner Date Steel 40mm Black Dial Ref: 16610 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Submariner Date Steel 40mm Black Dial Ref: 16610 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Submariner Date Steel 40mm Black Dial Ref: 16610 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Submariner Date Steel 40mm Black Dial Ref: 16610 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-lady-datejust-28mm-pink-bato",
+    id: "ac-rolex-rolex-lady-datejust-28mm-pink-bato",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Lady-Datejust 28mm Pink Baton Dial 279174",
@@ -661,7 +661,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 6845,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/02/84880072-6487-4af0-ac27-96380bcb0e99Rolex_Lady-Datejust_28mm_Pink_Baton_Dial_52643-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/02/a8a9a57c-7f27-4bfd-af35-c8eb39320d18Rolex_Lady-Datejust_28mm_Pink_Baton_Dial_52643-b.jpg.webp",
@@ -680,14 +680,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Lady-Datejust 28mm Pink Baton Dial 279174 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Lady-Datejust 28mm Pink Baton Dial 279174 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Lady-Datejust 28mm Pink Baton Dial 279174 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Lady-Datejust 28mm Pink Baton Dial 279174 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-daytona-rose-gold-chocolate-",
+    id: "ac-rolex-rolex-daytona-rose-gold-chocolate-",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Daytona Rose Gold Chocolate Dial 116515LN",
@@ -697,7 +697,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 22814,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/08/b759e377-5748-42db-b3e2-bd81ee7b53ddRolex_Cosmograph_Daytona_Everose_Gold_Chocolate_LB1011-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/08/ddcfef33-8314-4703-9b7f-7cf42129e7aaRolex_Cosmograph_Daytona_Everose_Gold_Chocolate_LB1011-b.jpg.webp",
@@ -716,24 +716,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Daytona Rose Gold Chocolate Dial 116515LN | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Daytona Rose Gold Chocolate Dial 116515LN available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Daytona Rose Gold Chocolate Dial 116515LN | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Daytona Rose Gold Chocolate Dial 116515LN available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-air-king-34mm-silver-dial-re",
+    id: "ac-rolex-rolex-air-king-34mm-silver-dial-re",
     type: "watch",
     brand: "Rolex",
-    name: "Rolex Air-King 34mm Silver Dial Ref: 114200 - Shop The Luxury Hut",
+    name: "Rolex Air-King 34mm Silver Dial Ref: 114200 - Shop Aurelia & Crown",
     model: "Air-King 34mm Silver Dial Ref: 114200 - Shop The L",
     category: "Classic Luxury Watch" as WatchCategory,
     collection: "Rolex Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 114200. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 114200. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Rolex_AirKing-34_Silver_Dial_42090-a.jpg",
       "https://assets.theluxuryhut.com/2023/06/Rolex_AirKing-34_Silver_Dial_42090-e.jpg",
@@ -752,14 +752,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Air-King 34mm Silver Dial Ref: 114200 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Air-King 34mm Silver Dial Ref: 114200 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Air-King 34mm Silver Dial Ref: 114200 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Air-King 34mm Silver Dial Ref: 114200 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-41mm-stainless-stee",
+    id: "ac-rolex-rolex-datejust-41mm-stainless-stee",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust 41mm Stainless Steel White Dial Ref: 126300",
@@ -769,7 +769,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 6318,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 126300. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 126300. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Rolex_Datejust_41mm_Steel_White_Dial_52233-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Rolex_Datejust_41mm_Steel_White_Dial_52233-b.jpg",
@@ -788,14 +788,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust 41mm Stainless Steel White Dial Ref: 126300 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Stainless Steel White Dial Ref: 126300 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust 41mm Stainless Steel White Dial Ref: 126300 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust 41mm Stainless Steel White Dial Ref: 126300 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-submariner-no-date-steel-41m",
+    id: "ac-rolex-rolex-submariner-no-date-steel-41m",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Submariner No Date Steel 41mm Black Dial Ref: 124060",
@@ -805,7 +805,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 124060. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 124060. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Rolex_Submariner_No_Date_Steel_41mm_Black_52196-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Rolex_Submariner_No_Date_Steel_41mm_Black_52196-b.jpg",
@@ -824,14 +824,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Submariner No Date Steel 41mm Black Dial Ref: 124060 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Submariner No Date Steel 41mm Black Dial Ref: 124060 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Submariner No Date Steel 41mm Black Dial Ref: 124060 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Submariner No Date Steel 41mm Black Dial Ref: 124060 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-explorer-ii-42mm-stainless-s",
+    id: "ac-rolex-rolex-explorer-ii-42mm-stainless-s",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Explorer II 42mm Stainless Steel White Dial 216570",
@@ -841,7 +841,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 7020,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/07/b10d9e8c-fe2d-4af2-8de0-80a5ebf99411Rolex_Explorer_II_Steel_42mm_White_Dial_53245-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/07/888a8dcd-b874-4519-8e22-d3e5aeb5ce0cRolex_Explorer_II_Steel_42mm_White_Dial_53245-b.jpg.webp",
@@ -860,14 +860,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Explorer II 42mm Stainless Steel White Dial 216570 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Explorer II 42mm Stainless Steel White Dial 216570 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Explorer II 42mm Stainless Steel White Dial 216570 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Explorer II 42mm Stainless Steel White Dial 216570 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-explorer-36mm-steel-black-di",
+    id: "ac-rolex-rolex-explorer-36mm-steel-black-di",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Explorer 36mm Steel Black Dial Ref: 124270",
@@ -896,14 +896,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Explorer 36mm Steel Black Dial Ref: 124270 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Explorer 36mm Steel Black Dial Ref: 124270 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Explorer 36mm Steel Black Dial Ref: 124270 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Explorer 36mm Steel Black Dial Ref: 124270 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-datejust-ii-116334-silver-di",
+    id: "ac-rolex-rolex-datejust-ii-116334-silver-di",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Datejust II 116334 Silver Dial Watch",
@@ -913,7 +913,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Rolex-Datejust_silver_39732-a-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/Rolex-Datejust_silver_39732-b-1.jpg",
@@ -932,14 +932,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Datejust II 116334 Silver Dial Watch | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Datejust II 116334 Silver Dial Watch available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Datejust II 116334 Silver Dial Watch | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Datejust II 116334 Silver Dial Watch available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-sea-dweller-deepsea-steel-44",
+    id: "ac-rolex-rolex-sea-dweller-deepsea-steel-44",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Sea-Dweller Deepsea Steel 44 Black Dial Ref: 136660",
@@ -949,7 +949,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 11363,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 136660. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 136660. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Rolex_Sea-Dweller_Deepsea_Steel_Black_51977-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Rolex_Sea-Dweller_Deepsea_Steel_Black_51977-b.jpg",
@@ -968,14 +968,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Sea-Dweller Deepsea Steel 44 Black Dial Ref: 136660 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Sea-Dweller Deepsea Steel 44 Black Dial Ref: 136660 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Sea-Dweller Deepsea Steel 44 Black Dial Ref: 136660 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Sea-Dweller Deepsea Steel 44 Black Dial Ref: 136660 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-rolex-rolex-lady-datejust-31-bi-metal-bl",
+    id: "ac-rolex-rolex-lady-datejust-31-bi-metal-bl",
     type: "watch",
     brand: "Rolex",
     name: "Rolex Lady Datejust 31 Bi-Metal Blue Diamond Dial 68273",
@@ -985,7 +985,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4388,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/8409c257-1916-4afd-918c-19c263527a3eRolex_Lady-Datejust_31mm_Blue_Diamond_Dial_52707-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/f7780de8-7500-4bba-821e-ab18b6173ba8Rolex_Lady-Datejust_31mm_Blue_Diamond_Dial_52707-b.jpg.webp",
@@ -1004,24 +1004,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Rolex Lady Datejust 31 Bi-Metal Blue Diamond Dial 68273 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Rolex Lady Datejust 31 Bi-Metal Blue Diamond Dial 68273 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Rolex Lady Datejust 31 Bi-Metal Blue Diamond Dial 68273 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Rolex Lady Datejust 31 Bi-Metal Blue Diamond Dial 68273 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-de-cartier-silver",
+    id: "ac-cartier-cartier-santos-de-cartier-silver",
     type: "watch",
     brand: "Cartier",
-    name: "Cartier Santos De Cartier Silver Ref: 4075 - Shop The Luxury Hut",
-    model: "Santos De  Silver Ref: 4075 - Shop The Luxury Hut",
+    name: "Cartier Santos De Cartier Silver Ref: 4075 - Shop Aurelia & Crown",
+    model: "Santos De  Silver Ref: 4075 - Shop Aurelia & Crown",
     category: "Classic Luxury Watch" as WatchCategory,
     collection: "Cartier Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 4075. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 4075. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Cartier_Santos_Bi-Metal_42855-a-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/Cartier_Santos_Bi-Metal_42855-e-1.jpg",
@@ -1040,14 +1040,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos De Cartier Silver Ref: 4075 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos De Cartier Silver Ref: 4075 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos De Cartier Silver Ref: 4075 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos De Cartier Silver Ref: 4075 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-dumont-large-stee",
+    id: "ac-cartier-cartier-santos-dumont-large-stee",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Santos-Dumont ‘Large’ Steel Silver Roman WSSA0022",
@@ -1057,7 +1057,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 3773,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Cartier_Santos-Dumont_Steel_Silver_Dial_52308-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Cartier_Santos-Dumont_Steel_Silver_Dial_52308-b.jpg",
@@ -1076,14 +1076,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos-Dumont ‘Large’ Steel Silver Roman WSSA0022 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos-Dumont ‘Large’ Steel Silver Roman WSSA0022 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos-Dumont ‘Large’ Steel Silver Roman WSSA0022 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos-Dumont ‘Large’ Steel Silver Roman WSSA0022 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-demoiselle-steel-",
+    id: "ac-cartier-cartier-santos-demoiselle-steel-",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Santos Demoiselle Steel 20mm MOP Dial Ref: 2698",
@@ -1093,7 +1093,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 2698. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 2698. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/09/Cartier_Santos_Demoiselle_Steel_MOP_51019-a.jpg",
       "https://assets.theluxuryhut.com/2024/09/Cartier_Santos_Demoiselle_Steel_MOP_51019-b.jpg",
@@ -1112,14 +1112,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos Demoiselle Steel 20mm MOP Dial Ref: 2698 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos Demoiselle Steel 20mm MOP Dial Ref: 2698 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos Demoiselle Steel 20mm MOP Dial Ref: 2698 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos Demoiselle Steel 20mm MOP Dial Ref: 2698 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-tank-basculante-reverso-",
+    id: "ac-cartier-cartier-tank-basculante-reverso-",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Tank Basculante Reverso 2386 White Dial",
@@ -1129,7 +1129,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/597e7e6a-7e23-4e52-b000-f1c8ca3523feCartier_Tank_Basculante_Reverso_White_52668-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/76f9705f-cbbc-4e77-aac8-5eb66c02a5e0Cartier_Tank_Basculante_Reverso_White_52668-b.jpg.webp",
@@ -1148,14 +1148,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Tank Basculante Reverso 2386 White Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Tank Basculante Reverso 2386 White Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Tank Basculante Reverso 2386 White Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Tank Basculante Reverso 2386 White Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-panthere-ladies-gold-17m",
+    id: "ac-cartier-cartier-panthere-ladies-gold-17m",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Panthere Ladies Gold 17mm Silver Roman Dial W25034B9",
@@ -1165,7 +1165,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/67c32159-ad34-42d2-8dd1-04a91a56e1e7Cartier_Panthere_Ladies_Gold_Silver_Roman_Dial_52276-a.jpg",
       "https://assets.theluxuryhut.com/2025/11/b3165306-ff1a-4e1d-93b6-86c231902eb8Cartier_Panthere_Ladies_Gold_Silver_Roman_Dial_52276-b.jpg",
@@ -1184,14 +1184,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Panthere Ladies Gold 17mm Silver Roman Dial W25034B9 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Panthere Ladies Gold 17mm Silver Roman Dial W25034B9 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Panthere Ladies Gold 17mm Silver Roman Dial W25034B9 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Panthere Ladies Gold 17mm Silver Roman Dial W25034B9 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-galbee-steel-29-w",
+    id: "ac-cartier-cartier-santos-galbee-steel-29-w",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Santos Galbee Steel 29 White Roman Dial Ref: 2319",
@@ -1201,7 +1201,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 2319. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 2319. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/09/Cartier_Santos_Galbee_Steel_29mm_White_Roman_New_52068-aa.jpg",
       "https://assets.theluxuryhut.com/2025/09/Cartier_Santos_Galbee_Steel_29mm_White_Roman_52068-b.jpg",
@@ -1220,14 +1220,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos Galbee Steel 29 White Roman Dial Ref: 2319 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos Galbee Steel 29 White Roman Dial Ref: 2319 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos Galbee Steel 29 White Roman Dial Ref: 2319 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos Galbee Steel 29 White Roman Dial Ref: 2319 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-de-cartier-xl-43-",
+    id: "ac-cartier-cartier-santos-de-cartier-xl-43-",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Santos De Cartier XL 43.3mm Silver Dial WSSA0017",
@@ -1237,7 +1237,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 8380,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference WSSA0017. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference WSSA0017. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/06/Cartier_Santos_De_Cartier_XL_Chronograph_Silver_51881-a.jpg",
       "https://assets.theluxuryhut.com/2025/06/Cartier_Santos_De_Cartier_XL_Chronograph_Silver_51881-b.jpg",
@@ -1256,14 +1256,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos De Cartier XL 43.3mm Silver Dial WSSA0017 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos De Cartier XL 43.3mm Silver Dial WSSA0017 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos De Cartier XL 43.3mm Silver Dial WSSA0017 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos De Cartier XL 43.3mm Silver Dial WSSA0017 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-tank-francaise-ladies-st",
+    id: "ac-cartier-cartier-tank-francaise-ladies-st",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Tank Francaise Ladies Steel White Roman Dial 2384",
@@ -1273,7 +1273,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/a1ce1d6d-7ec7-48b1-bf0e-9def0bdfc7f9Cartier_Tank_Francaise_Ladies_White_Roman_Dial_52286-a.jpg",
       "https://assets.theluxuryhut.com/2025/11/8fba5b97-349a-41cf-ab47-4dfb45ccdf27Cartier_Tank_Francaise_Ladies_White_Roman_Dial_52286-b.jpg",
@@ -1292,14 +1292,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Tank Francaise Ladies Steel White Roman Dial 2384 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Tank Francaise Ladies Steel White Roman Dial 2384 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Tank Francaise Ladies Steel White Roman Dial 2384 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Tank Francaise Ladies Steel White Roman Dial 2384 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-galbee-bi-metal-2",
+    id: "ac-cartier-cartier-santos-galbee-bi-metal-2",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Santos Galbee Bi-Metal 24mm White Dial Ref: 1567",
@@ -1309,7 +1309,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 1567. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 1567. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/06/Cartier_Santos_Galbee_Bi-Metal_White_51869-a.jpg",
       "https://assets.theluxuryhut.com/2025/06/Cartier_Santos_Galbee_Bi-Metal_White_51869-b.jpg",
@@ -1328,14 +1328,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos Galbee Bi-Metal 24mm White Dial Ref: 1567 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos Galbee Bi-Metal 24mm White Dial Ref: 1567 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos Galbee Bi-Metal 24mm White Dial Ref: 1567 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos Galbee Bi-Metal 24mm White Dial Ref: 1567 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-panthere-de-cartier-bi-m",
+    id: "ac-cartier-cartier-panthere-de-cartier-bi-m",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Panthere De Cartier Bi-Metal Silver Ref: W2PN0007",
@@ -1345,7 +1345,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference W2PN0007. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference W2PN0007. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/10/Cartier_Panthere_De_Bi-Metal_Silver_Dial_51171a.jpg",
       "https://assets.theluxuryhut.com/2024/10/Cartier_Panthere_De_Bi-Metal_Silver_Dial_51171b.jpg",
@@ -1364,14 +1364,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Panthere De Cartier Bi-Metal Silver Ref: W2PN0007 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Panthere De Cartier Bi-Metal Silver Ref: W2PN0007 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Panthere De Cartier Bi-Metal Silver Ref: W2PN0007 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Panthere De Cartier Bi-Metal Silver Ref: W2PN0007 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-tank-francaise-steel-gol",
+    id: "ac-cartier-cartier-tank-francaise-steel-gol",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Tank Francaise Steel & Gold Silver Dial W51007Q4",
@@ -1381,7 +1381,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/c665c9fd-df1e-4a49-9e4c-18bea2a5d5c3Cartier_Tank_Fran\u00c3\u00a7aise_Steel_Yellow_Gold_Silver_52704-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/cece478a-6f32-4bf3-ad9f-f2b44d1981daCartier_Tank_Fran\u00c3\u00a7aise_Steel_Yellow_Gold_Silver_52704-b.jpg.webp",
@@ -1400,14 +1400,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Tank Francaise Steel & Gold Silver Dial W51007Q4 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Tank Francaise Steel & Gold Silver Dial W51007Q4 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Tank Francaise Steel & Gold Silver Dial W51007Q4 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Tank Francaise Steel & Gold Silver Dial W51007Q4 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-santos-galbee-24mm-steel",
+    id: "ac-cartier-cartier-santos-galbee-24mm-steel",
     type: "watch",
     brand: "Cartier",
     name: "Cartier Santos Galbee 24mm Steel Ivory Dial 1565",
@@ -1417,7 +1417,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/08/a3fc9851-cbe7-4e8b-a0dd-9e901c0c970cCartier_Santos_Galbee_Steel_24mm_Ivory_Roman_LB967-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/08/19d18d37-978e-46fb-8f76-82e38e67345bCartier_Santos_Galbee_Steel_24mm_Ivory_Roman_LB967-b.jpg.webp",
@@ -1436,14 +1436,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier Santos Galbee 24mm Steel Ivory Dial 1565 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier Santos Galbee 24mm Steel Ivory Dial 1565 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier Santos Galbee 24mm Steel Ivory Dial 1565 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier Santos Galbee 24mm Steel Ivory Dial 1565 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-golden-ell",
+    id: "ac-patek-philippe-patek-philippe-golden-ell",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Golden Ellipse Gold Gold Sunburst Dial 3548/1",
@@ -1453,7 +1453,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 3548/1. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 3548/1. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Patek_Philippe_Golden_Ellipse_Gold_Sunburst_51959-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Patek_Philippe_Golden_Ellipse_Gold_Sunburst_51959-b.jpg",
@@ -1472,14 +1472,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Golden Ellipse Gold Gold Sunburst Dial 3548/1 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Golden Ellipse Gold Gold Sunburst Dial 3548/1 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Golden Ellipse Gold Gold Sunburst Dial 3548/1 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Golden Ellipse Gold Gold Sunburst Dial 3548/1 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-calatrava-",
+    id: "ac-patek-philippe-patek-philippe-calatrava-",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Calatrava Gold 37mm Silver Dial 5196G-001",
@@ -1489,7 +1489,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 5196G-001. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 5196G-001. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/5dcacf98-c49a-4209-845a-e45cf6f79401Patek_Philippe_Calatrava_White_Gold_Silver-Dial_Update_51914-a.webp",
       "https://assets.theluxuryhut.com/2025/10/17c43427-16e6-4b5e-b812-2764545fc02aPatek_Philippe_Calatrava_White_Gold_Silver-Dial_Update_51914-b.webp",
@@ -1508,14 +1508,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Calatrava Gold 37mm Silver Dial 5196G-001 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Calatrava Gold 37mm Silver Dial 5196G-001 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Calatrava Gold 37mm Silver Dial 5196G-001 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Calatrava Gold 37mm Silver Dial 5196G-001 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-twenty-4-s",
+    id: "ac-patek-philippe-patek-philippe-twenty-4-s",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Twenty~4 Steel Grey Sunburst 7300/1200A-010",
@@ -1525,7 +1525,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 22411,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Patek_Philippe_Twenty4_Steel_36_Grey_Sunburst_Update_52183-aa1.jpg",
       "https://assets.theluxuryhut.com/2025/10/Patek_Philippe_Twenty4_Steel_36_Grey_Sunburst_52183-b.jpg",
@@ -1544,14 +1544,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Twenty~4 Steel Grey Sunburst 7300/1200A-010 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Twenty~4 Steel Grey Sunburst 7300/1200A-010 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Twenty~4 Steel Grey Sunburst 7300/1200A-010 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Twenty~4 Steel Grey Sunburst 7300/1200A-010 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-calatrava--1",
+    id: "ac-patek-philippe-patek-philippe-calatrava--1",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Calatrava Gold Cream Enamel Ref: 5115J-001",
@@ -1561,7 +1561,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 5115J-001. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 5115J-001. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/03/Patek_Philippe_Calatrava_Yellow_Gold_LB504-a.jpg",
       "https://assets.theluxuryhut.com/2025/03/Patek_Philippe_Calatrava_Yellow_Gold_LB504-b.jpg",
@@ -1580,14 +1580,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Calatrava Gold Cream Enamel Ref: 5115J-001 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Calatrava Gold Cream Enamel Ref: 5115J-001 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Calatrava Gold Cream Enamel Ref: 5115J-001 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Calatrava Gold Cream Enamel Ref: 5115J-001 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-pre-owned-patek-philippe-",
+    id: "ac-patek-philippe-pre-owned-patek-philippe-",
     type: "watch",
     brand: "Patek Philippe",
     name: "Pre Owned Patek Philippe Nautilus 5811/1G",
@@ -1616,14 +1616,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Pre Owned Patek Philippe Nautilus 5811/1G | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Pre Owned Patek Philippe Nautilus 5811/1G available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Pre Owned Patek Philippe Nautilus 5811/1G | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Pre Owned Patek Philippe Nautilus 5811/1G available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-calatrava--2",
+    id: "ac-patek-philippe-patek-philippe-calatrava--2",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Calatrava Yellow Gold White Dial 3919J",
@@ -1633,7 +1633,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/65b25cb6-7e5a-4cfe-8da5-2883bb33c228Patek_Philippe_Calatrava_33mm_Yellow_Gold_White_52659-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/494639fe-3eef-46d0-aaec-0ceddb8dd3b6Patek_Philippe_Calatrava_33mm_Yellow_Gold_White_52659-b.jpg.webp",
@@ -1652,24 +1652,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Calatrava Yellow Gold White Dial 3919J | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Calatrava Yellow Gold White Dial 3919J available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Calatrava Yellow Gold White Dial 3919J | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Calatrava Yellow Gold White Dial 3919J available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-complicati",
+    id: "ac-patek-philippe-patek-philippe-complicati",
     type: "watch",
     brand: "Patek Philippe",
-    name: "Patek Philippe Complications Gold Ref: 5205G-013 - Shop The Luxury Hut",
+    name: "Patek Philippe Complications Gold Ref: 5205G-013 - Shop Aurelia & Crown",
     model: "Complications Gold Ref: 5205G-013 - Shop The Luxur",
     category: "Classic Luxury Watch" as WatchCategory,
     collection: "Patek Philippe Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 5205G-013. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 5205G-013. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/12/Patek_Philippe_Complications_Blue_50498-a.jpg",
       "https://assets.theluxuryhut.com/2023/12/Patek_Philippe_Complications_Blue_50498-e.jpg",
@@ -1688,14 +1688,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Complications Gold Ref: 5205G-013 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Complications Gold Ref: 5205G-013 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Complications Gold Ref: 5205G-013 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Complications Gold Ref: 5205G-013 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-twenty-4-s-1",
+    id: "ac-patek-philippe-patek-philippe-twenty-4-s-1",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Twenty~4 Steel Grey Diamond Dial 4910/10A-010",
@@ -1705,7 +1705,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/f0f95e2d-5cd2-4c85-823e-eece97b54c12Patek_Philippe_Twenty~4_Steel_Grey_Diamond_Dial_52310-a.jpg",
       "https://assets.theluxuryhut.com/2025/11/e2706aca-ce82-453d-aea7-01fca106e97dPatek_Philippe_Twenty~4_Steel_Grey_Diamond_Dial_52310-b.jpg",
@@ -1724,14 +1724,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Twenty~4 Steel Grey Diamond Dial 4910/10A-010 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Twenty~4 Steel Grey Diamond Dial 4910/10A-010 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Twenty~4 Steel Grey Diamond Dial 4910/10A-010 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Twenty~4 Steel Grey Diamond Dial 4910/10A-010 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-pre-owned-patek-philippe--1",
+    id: "ac-patek-philippe-pre-owned-patek-philippe--1",
     type: "watch",
     brand: "Patek Philippe",
     name: "Pre Owned Patek Philippe Nautilus 5980/1R",
@@ -1760,14 +1760,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Pre Owned Patek Philippe Nautilus 5980/1R | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Pre Owned Patek Philippe Nautilus 5980/1R available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Pre Owned Patek Philippe Nautilus 5980/1R | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Pre Owned Patek Philippe Nautilus 5980/1R available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-patek-philippe-patek-philippe-calatrava--3",
+    id: "ac-patek-philippe-patek-philippe-calatrava--3",
     type: "watch",
     brand: "Patek Philippe",
     name: "Patek Philippe Calatrava White Gold Black Dial 5227G-010",
@@ -1777,7 +1777,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 32151,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 5227G-010. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 5227G-010. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/04/Patek_Philippe_Calatrava_39mm_Black_LB569-a.jpg",
       "https://assets.theluxuryhut.com/2025/04/Patek_Philippe_Calatrava_39mm_Black_LB569-b.jpg",
@@ -1796,14 +1796,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Patek Philippe Calatrava White Gold Black Dial 5227G-010 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Patek Philippe Calatrava White Gold Black Dial 5227G-010 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Patek Philippe Calatrava White Gold Black Dial 5227G-010 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Patek Philippe Calatrava White Gold Black Dial 5227G-010 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Royal Oak Offshore Chronograph Black Dial",
@@ -1813,7 +1813,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 32643,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/02/Audemars_Piguet_Royal_Oak_Offshore_Black_LB492-a.jpg",
       "https://assets.theluxuryhut.com/2025/02/Audemars_Piguet_Royal_Oak_Offshore_Black_LB492-b.jpg",
@@ -1832,14 +1832,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak Offshore Chronograph Black Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Offshore Chronograph Black Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak Offshore Chronograph Black Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Offshore Chronograph Black Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-jules-au",
+    id: "ac-audemars-piguet-audemars-piguet-jules-au",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Jules Audemars Gold 39mm Black Spiral Dial",
@@ -1849,7 +1849,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/02/f5f06575-fa2a-428d-9989-edd225cdc825Audemars_Piguet_Jules_Audemars_Gold_Black_LB782-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/02/1e3aeaf7-a8dd-41eb-9902-bbfebfe73478Audemars_Piguet_Jules_Audemars_Gold_Black_LB782-b.jpg.webp",
@@ -1868,14 +1868,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Jules Audemars Gold 39mm Black Spiral Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Jules Audemars Gold 39mm Black Spiral Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Jules Audemars Gold 39mm Black Spiral Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Jules Audemars Gold 39mm Black Spiral Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa-1",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa-1",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Royal Oak Steel 37 Ice Blue Dial Ref: 15550ST",
@@ -1885,7 +1885,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 15550ST. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 15550ST. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/493543e4-7d49-4420-91a1-b1d4b2bd17f5Audemars_Piguet_Royal_Oak_37mm_Ice_Blue_Dial_NewUpdate_LB702-aa.jpg",
       "https://assets.theluxuryhut.com/2025/11/e3603317-f520-4552-82c6-2d729c81dd07Audemars_Piguet_Royal_Oak_37mm_Ice_Blue_Dial_NewUpdate_LB702-bb.jpg",
@@ -1904,14 +1904,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak Steel 37 Ice Blue Dial Ref: 15550ST | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Steel 37 Ice Blue Dial Ref: 15550ST available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak Steel 37 Ice Blue Dial Ref: 15550ST | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Steel 37 Ice Blue Dial Ref: 15550ST available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa-2",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa-2",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Royal Oak Offshore Diver Mega Tapisserie",
@@ -1921,7 +1921,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/05/AP_Royal_Oak_Diver_Black_Dial_LB236-a.jpg",
       "https://assets.theluxuryhut.com/2024/05/AP_Royal_Oak_Diver_Black_Dial_LB236-e.jpg",
@@ -1940,14 +1940,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak Offshore Diver Mega Tapisserie | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Offshore Diver Mega Tapisserie available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak Offshore Diver Mega Tapisserie | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Offshore Diver Mega Tapisserie available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa-3",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa-3",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Royal Oak Offshore Elephant 26470ST.OO.A104CR.01",
@@ -1957,7 +1957,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 13601,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/05/0c12b7ef-c886-4c59-a798-f67ed9b39fdeAudemars_Piguet_Royal_Oak_Elephant_Steel_Grey_Dial_52933-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/05/c88accc4-630f-4cd1-bb2a-062340174831Audemars_Piguet_Royal_Oak_Elephant_Steel_Grey_Dial_52933-b.jpg.webp",
@@ -1976,24 +1976,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak Offshore Elephant 26470ST.OO.A104CR.01 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Offshore Elephant 26470ST.OO.A104CR.01 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak Offshore Elephant 26470ST.OO.A104CR.01 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Offshore Elephant 26470ST.OO.A104CR.01 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa-4",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa-4",
     type: "watch",
     brand: "Audemars Piguet",
-    name: "Audemars Piguet Royal Oak Grey Ref: 14790ST - Shop The Luxury Hut",
-    model: "Royal Oak Grey Ref: 14790ST - Shop The Luxury Hut",
+    name: "Audemars Piguet Royal Oak Grey Ref: 14790ST - Shop Aurelia & Crown",
+    model: "Royal Oak Grey Ref: 14790ST - Shop Aurelia & Crown",
     category: "High Horology Sports Watch" as WatchCategory,
     collection: "Audemars Piguet Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 14790ST. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 14790ST. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/12/AP_Royal_Oak_Steel_36mm_Mk2_44095-a.jpg",
       "https://assets.theluxuryhut.com/2023/12/AP_Royal_Oak_Steel_36mm_Mk2_44095-e.jpg",
@@ -2012,14 +2012,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak Grey Ref: 14790ST - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Grey Ref: 14790ST - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak Grey Ref: 14790ST - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Grey Ref: 14790ST - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa-5",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa-5",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Royal Oak 41mm Black Grande Tapisserie Dial",
@@ -2029,7 +2029,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 30713,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/02/c35bd360-f999-479b-89a4-87fba0f284ecAP_Royal_Oak_Steel_41mm_Black_Tapisserie_Dial_52675-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/02/49ed3402-76c3-4cd3-a3b2-6e6b0d27a936AP_Royal_Oak_Steel_41mm_Black_Tapisserie_Dial_52675-b.jpg.webp",
@@ -2048,14 +2048,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak 41mm Black Grande Tapisserie Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak 41mm Black Grande Tapisserie Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak 41mm Black Grande Tapisserie Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak 41mm Black Grande Tapisserie Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-audemars-piguet-audemars-piguet-royal-oa-6",
+    id: "ac-audemars-piguet-audemars-piguet-royal-oa-6",
     type: "watch",
     brand: "Audemars Piguet",
     name: "Audemars Piguet Royal Oak Stainless Steel 36mm Blue Dial",
@@ -2065,7 +2065,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Audemars_Piguet_Royal_Oak_Steel_36mm_Blue_51210-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Audemars_Piguet_Royal_Oak_Steel_36mm_Blue_51210-b.jpg",
@@ -2084,14 +2084,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Audemars Piguet Royal Oak Stainless Steel 36mm Blue Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Stainless Steel 36mm Blue Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Audemars Piguet Royal Oak Stainless Steel 36mm Blue Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Audemars Piguet Royal Oak Stainless Steel 36mm Blue Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-seamaster-diver-300m-black-d",
+    id: "ac-omega-omega-seamaster-diver-300m-black-d",
     type: "watch",
     brand: "Omega",
     name: "Omega Seamaster Diver 300M Black Dial 210.22.42.20.01.001",
@@ -2101,7 +2101,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 6932,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 210.22.42.20.01.001. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 210.22.42.20.01.001. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/02/Omega_Seamaster_Chronometer_42mm_Black_51503-a.jpg",
       "https://assets.theluxuryhut.com/2025/02/Omega_Seamaster_Chronometer_42mm_Black_51503-b.jpg",
@@ -2120,14 +2120,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Seamaster Diver 300M Black Dial 210.22.42.20.01.001 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Seamaster Diver 300M Black Dial 210.22.42.20.01.001 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Seamaster Diver 300M Black Dial 210.22.42.20.01.001 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Seamaster Diver 300M Black Dial 210.22.42.20.01.001 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-seamaster-planet-ocean-steel",
+    id: "ac-omega-omega-seamaster-planet-ocean-steel",
     type: "watch",
     brand: "Omega",
     name: "Omega Seamaster Planet Ocean Steel 45.5mm Black Dial",
@@ -2137,7 +2137,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Omega_Seamaster_Planet_Ocean_Steel_45.5_Black_52228-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Omega_Seamaster_Planet_Ocean_Steel_45.5_Black_52228-b.jpg",
@@ -2156,14 +2156,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Seamaster Planet Ocean Steel 45.5mm Black Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Seamaster Planet Ocean Steel 45.5mm Black Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Seamaster Planet Ocean Steel 45.5mm Black Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Seamaster Planet Ocean Steel 45.5mm Black Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-seamaster-america-s-cup-tita",
+    id: "ac-omega-omega-seamaster-america-s-cup-tita",
     type: "watch",
     brand: "Omega",
     name: "Omega Seamaster America’s Cup Titanium & Red Gold Black Dial",
@@ -2173,7 +2173,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/b235f005-12c5-4582-81ec-3ccd4d2d456aa.jpg",
       "https://assets.theluxuryhut.com/2025/11/22842753-4af3-43e3-99de-24f4595bb4f4b.jpg",
@@ -2192,14 +2192,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Seamaster America’s Cup Titanium & Red Gold Black Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Seamaster America’s Cup Titanium & Red Gold Black Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Seamaster America’s Cup Titanium & Red Gold Black Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Seamaster America’s Cup Titanium & Red Gold Black Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-speedmaster-57-chronograph-3",
+    id: "ac-omega-omega-speedmaster-57-chronograph-3",
     type: "watch",
     brand: "Omega",
     name: "Omega Speedmaster '57 Chronograph 332.10.41.51.01.001",
@@ -2209,7 +2209,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 7810,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 332.10.41.51.01.001. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 332.10.41.51.01.001. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/2293d4a5-7634-4492-a2b4-d0121b126a9aOmega_Speedmaster_57_Steel_40.5mm_BlackUpdate_51838-aa1.jpg",
       "https://assets.theluxuryhut.com/2025/07/Omega_Speedmaster_57_Chronograph_51838-b.jpg",
@@ -2228,14 +2228,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Speedmaster '57 Chronograph 332.10.41.51.01.001 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Speedmaster '57 Chronograph 332.10.41.51.01.001 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Speedmaster '57 Chronograph 332.10.41.51.01.001 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Speedmaster '57 Chronograph 332.10.41.51.01.001 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-seamaster-diver-300m-steel-2",
+    id: "ac-omega-omega-seamaster-diver-300m-steel-2",
     type: "watch",
     brand: "Omega",
     name: "Omega Seamaster Diver 300M Steel 28mm Blue Wave Dial",
@@ -2245,7 +2245,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/62b8ba85-f3a8-4b4b-a5f4-c3153997f7dfOmega_Seamaster_Diver_300M_Steel_Blue_Wave_52345-a.jpg",
       "https://assets.theluxuryhut.com/2025/11/4c7e902a-b035-4859-9cdd-ebadace8d977Omega_Seamaster_Diver_300M_Steel_Blue_Wave_52345-b.jpg",
@@ -2264,14 +2264,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Seamaster Diver 300M Steel 28mm Blue Wave Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Seamaster Diver 300M Steel 28mm Blue Wave Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Seamaster Diver 300M Steel 28mm Blue Wave Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Seamaster Diver 300M Steel 28mm Blue Wave Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-speedmaster-chronograph-redu",
+    id: "ac-omega-omega-speedmaster-chronograph-redu",
     type: "watch",
     brand: "Omega",
     name: "Omega Speedmaster Chronograph Reduced Ref: 3510.50.00",
@@ -2281,7 +2281,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 3510.50.00. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 3510.50.00. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/06/Omega_Speedmaster_Chronograph_Reduced_51816-a.jpg",
       "https://assets.theluxuryhut.com/2025/06/Omega_Speedmaster_Chronograph_Reduced_51816-b.jpg",
@@ -2300,24 +2300,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Speedmaster Chronograph Reduced Ref: 3510.50.00 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Speedmaster Chronograph Reduced Ref: 3510.50.00 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Speedmaster Chronograph Reduced Ref: 3510.50.00 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Speedmaster Chronograph Reduced Ref: 3510.50.00 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-seamaster-planet-ocean-600m-",
+    id: "ac-omega-omega-seamaster-planet-ocean-600m-",
     type: "watch",
     brand: "Omega",
-    name: "Omega Seamaster Planet Ocean 600M Bezel - Shop The Luxury Hut",
+    name: "Omega Seamaster Planet Ocean 600M Bezel - Shop Aurelia & Crown",
     model: "Seamaster Planet Ocean 600M Bezel - Shop The Luxur",
     category: "Professional Diving Watch" as WatchCategory,
     collection: "Omega Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/10/Omega_Bezel_50312-a.jpg",
       "https://assets.theluxuryhut.com/2023/10/Omega_Bezel_50312-b.jpg",
@@ -2336,14 +2336,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Seamaster Planet Ocean 600M Bezel - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Seamaster Planet Ocean 600M Bezel - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Seamaster Planet Ocean 600M Bezel - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Seamaster Planet Ocean 600M Bezel - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-speedmaster-moonwatch-42mm-b",
+    id: "ac-omega-omega-speedmaster-moonwatch-42mm-b",
     type: "watch",
     brand: "Omega",
     name: "Omega Speedmaster Moonwatch 42mm Black Dial",
@@ -2353,7 +2353,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 6581,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/03/18a2baeb-0d6b-4733-b755-23bb195acd77Omega_Speedmaster_Moonwatch_Steel_42mm_Black_52734-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/03/4738c898-a222-433b-bb3f-7efb8f585e7cOmega_Speedmaster_Moonwatch_Steel_42mm_Black_52734-b.jpg.webp",
@@ -2372,14 +2372,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Speedmaster Moonwatch 42mm Black Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Speedmaster Moonwatch 42mm Black Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Speedmaster Moonwatch 42mm Black Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Speedmaster Moonwatch 42mm Black Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-speedmaster-moonwatch-profes",
+    id: "ac-omega-omega-speedmaster-moonwatch-profes",
     type: "watch",
     brand: "Omega",
     name: "Omega Speedmaster Moonwatch Professional White Dial",
@@ -2389,7 +2389,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/06/Omega_Speedmaster_Moonwatch_White_50806-a.jpg",
       "https://assets.theluxuryhut.com/2024/06/Omega_Speedmaster_Moonwatch_White_50806-e.jpg",
@@ -2408,14 +2408,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Speedmaster Moonwatch Professional White Dial | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Speedmaster Moonwatch Professional White Dial available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Speedmaster Moonwatch Professional White Dial | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Speedmaster Moonwatch Professional White Dial available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-omega-omega-seamaster-diver-300m-steel-b",
+    id: "ac-omega-omega-seamaster-diver-300m-steel-b",
     type: "watch",
     brand: "Omega",
     name: "Omega Seamaster Diver 300M Steel Blue 212.30.41.20.03.001",
@@ -2425,7 +2425,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/09/Omega_Seamaster_Diver_300M_41mm_Blue_52129-a.jpg",
       "https://assets.theluxuryhut.com/2025/09/Omega_Seamaster_Diver_300M_41mm_Blue_52129-b.jpg",
@@ -2444,14 +2444,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Omega Seamaster Diver 300M Steel Blue 212.30.41.20.03.001 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Omega Seamaster Diver 300M Steel Blue 212.30.41.20.03.001 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Omega Seamaster Diver 300M Steel Blue 212.30.41.20.03.001 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Omega Seamaster Diver 300M Steel Blue 212.30.41.20.03.001 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-breitling-breitling-superocean-heritage-",
+    id: "ac-breitling-breitling-superocean-heritage-",
     type: "watch",
     brand: "Breitling",
     name: "Breitling Superocean Heritage B20 Steel Green AB2010121L1S1",
@@ -2461,7 +2461,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4037,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Breitling_Superocean_Heritage_B20_Green_52214-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Breitling_Superocean_Heritage_B20_Green_52214-b.jpg",
@@ -2480,14 +2480,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Breitling Superocean Heritage B20 Steel Green AB2010121L1S1 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Breitling Superocean Heritage B20 Steel Green AB2010121L1S1 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Breitling Superocean Heritage B20 Steel Green AB2010121L1S1 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Breitling Superocean Heritage B20 Steel Green AB2010121L1S1 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-breitling-breitling-avenger-gmt-night-mi",
+    id: "ac-breitling-breitling-avenger-gmt-night-mi",
     type: "watch",
     brand: "Breitling",
     name: "Breitling Avenger GMT Night Mission Titanium Black V32395",
@@ -2497,7 +2497,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Breitling_Avenger_GMT_45_Night_Titanium_Black_52227-aa.jpg",
       "https://assets.theluxuryhut.com/2025/10/Breitling_Avenger_GMT_45_Night_Titanium_Black_52227-b.jpg",
@@ -2516,14 +2516,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Breitling Avenger GMT Night Mission Titanium Black V32395 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Breitling Avenger GMT Night Mission Titanium Black V32395 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Breitling Avenger GMT Night Mission Titanium Black V32395 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Breitling Avenger GMT Night Mission Titanium Black V32395 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-breitling-breitling-endurance-pro-breitl",
+    id: "ac-breitling-breitling-endurance-pro-breitl",
     type: "watch",
     brand: "Breitling",
     name: "Breitling Endurance Pro Breitlight 44 Black Dial Ref: X82310",
@@ -2533,7 +2533,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference X82310. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference X82310. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/09/Breitling_Endurance_Pro_Breitlight_Black_51133-a.jpg",
       "https://assets.theluxuryhut.com/2024/09/Breitling_Endurance_Pro_Breitlight_Black_51133-b.jpg",
@@ -2552,14 +2552,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Breitling Endurance Pro Breitlight 44 Black Dial Ref: X82310 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Breitling Endurance Pro Breitlight 44 Black Dial Ref: X82310 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Breitling Endurance Pro Breitlight 44 Black Dial Ref: X82310 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Breitling Endurance Pro Breitlight 44 Black Dial Ref: X82310 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-breitling-breitling-cockpit-bi-metal-bla",
+    id: "ac-breitling-breitling-cockpit-bi-metal-bla",
     type: "watch",
     brand: "Breitling",
     name: "Breitling Cockpit Bi-Metal Black Dial B49350",
@@ -2569,7 +2569,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/02/ba4a9dbe-cb4e-4bcc-9052-112919ff7f51Breitling_Cockpit_Steel_Yellow_Gold_Black_Dial_52666-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/02/6233d993-4576-40f6-80bf-2f9656df85ceBreitling_Cockpit_Steel_Yellow_Gold_Black_Dial_52666-b.jpg.webp",
@@ -2588,24 +2588,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Breitling Cockpit Bi-Metal Black Dial B49350 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Breitling Cockpit Bi-Metal Black Dial B49350 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Breitling Cockpit Bi-Metal Black Dial B49350 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Breitling Cockpit Bi-Metal Black Dial B49350 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-breitling-breitling-navitimer-silver-dia",
+    id: "ac-breitling-breitling-navitimer-silver-dia",
     type: "watch",
     brand: "Breitling",
-    name: "Breitling Navitimer Silver Dial Ref: D23322 - Shop The Luxury Hut",
+    name: "Breitling Navitimer Silver Dial Ref: D23322 - Shop Aurelia & Crown",
     model: "Navitimer Silver Dial Ref: D23322 - Shop The Luxur",
     category: "Luxury Chronograph" as WatchCategory,
     collection: "Breitling Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference D23322. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference D23322. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/07/Breitling_Navitimer_Silver_43722-a.jpg",
       "https://assets.theluxuryhut.com/2023/07/Breitling_Navitimer_Silver_43722-b.jpg",
@@ -2624,14 +2624,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Breitling Navitimer Silver Dial Ref: D23322 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Breitling Navitimer Silver Dial Ref: D23322 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Breitling Navitimer Silver Dial Ref: D23322 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Breitling Navitimer Silver Dial Ref: D23322 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-breitling-breitling-navitimer-01-stainle",
+    id: "ac-breitling-breitling-navitimer-01-stainle",
     type: "watch",
     brand: "Breitling",
     name: "Breitling Navitimer 01 Stainless Steel 46mm Blue Dial AB012721",
@@ -2641,7 +2641,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/11/096a50d6-cdac-4d6f-9e90-43af072e5a35Breitling_Navitimer_01_Stainless_Steel_46mm_Blue_52267-a.jpg",
       "https://assets.theluxuryhut.com/2025/11/6719fc58-eca0-47d6-8afc-afebb3ddb388Breitling_Navitimer_01_Stainless_Steel_46mm_Blue_52267-b.jpg",
@@ -2660,14 +2660,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Breitling Navitimer 01 Stainless Steel 46mm Blue Dial AB012721 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Breitling Navitimer 01 Stainless Steel 46mm Blue Dial AB012721 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Breitling Navitimer 01 Stainless Steel 46mm Blue Dial AB012721 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Breitling Navitimer 01 Stainless Steel 46mm Blue Dial AB012721 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tudor-tudor-black-bay-fifty-eight-silver",
+    id: "ac-tudor-tudor-black-bay-fifty-eight-silver",
     type: "watch",
     brand: "Tudor",
     name: "Tudor Black Bay Fifty-Eight Silver 39mm Taupe Dial 79010SG",
@@ -2677,7 +2677,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 3589,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 79010SG. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 79010SG. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/07/Tudor_Black_Bay_Fifty-Eight_39mm_Taupe_Dial_51947-a.jpg",
       "https://assets.theluxuryhut.com/2025/07/Tudor_Black_Bay_Fifty-Eight_39mm_Taupe_Dial_51947-b.jpg",
@@ -2696,14 +2696,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tudor Black Bay Fifty-Eight Silver 39mm Taupe Dial 79010SG | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tudor Black Bay Fifty-Eight Silver 39mm Taupe Dial 79010SG available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tudor Black Bay Fifty-Eight Silver 39mm Taupe Dial 79010SG | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tudor Black Bay Fifty-Eight Silver 39mm Taupe Dial 79010SG available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tudor-tudor-black-bay-gmt-steel-41-white",
+    id: "ac-tudor-tudor-black-bay-gmt-steel-41-white",
     type: "watch",
     brand: "Tudor",
     name: "Tudor Black Bay GMT Steel 41 White Opaline Dial 79830RB",
@@ -2713,7 +2713,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 3395,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 79830RB. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 79830RB. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Tudor_Black_Bay_GMT_Steel_41_White_Opaline_LB697-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Tudor_Black_Bay_GMT_Steel_41_White_Opaline_LB697-b.jpg",
@@ -2732,14 +2732,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tudor Black Bay GMT Steel 41 White Opaline Dial 79830RB | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tudor Black Bay GMT Steel 41 White Opaline Dial 79830RB available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tudor Black Bay GMT Steel 41 White Opaline Dial 79830RB | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tudor Black Bay GMT Steel 41 White Opaline Dial 79830RB available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tudor-tudor-submariner-lollipop-black-di",
+    id: "ac-tudor-tudor-submariner-lollipop-black-di",
     type: "watch",
     brand: "Tudor",
     name: "Tudor Submariner Lollipop Black Dial Ref: 76100",
@@ -2749,7 +2749,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 6581,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 76100. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 76100. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/03/Tudor_Submariner_Prince_Vintage_50686-a.jpg",
       "https://assets.theluxuryhut.com/2024/03/Tudor_Submariner_Prince_Vintage_50686-b.jpg",
@@ -2768,14 +2768,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tudor Submariner Lollipop Black Dial Ref: 76100 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tudor Submariner Lollipop Black Dial Ref: 76100 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tudor Submariner Lollipop Black Dial Ref: 76100 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tudor Submariner Lollipop Black Dial Ref: 76100 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tudor-tudor-pelagos-titanium-steel-autom",
+    id: "ac-tudor-tudor-pelagos-titanium-steel-autom",
     type: "watch",
     brand: "Tudor",
     name: "Tudor Pelagos Titanium & Steel Automatic Blue Dial 25600TB",
@@ -2785,7 +2785,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/12/51ce3026-dae4-4b91-98fd-f166ae70f72bTudor_Pelagos_Automatic_Titanium_Steel_Blue_52496-a.jpg.webp",
       "https://assets.theluxuryhut.com/2025/12/405b8f18-e9ca-4097-85cf-afbdf7169460Tudor_Pelagos_Automatic_Titanium_Steel_Blue_52496-b.jpg.webp",
@@ -2804,14 +2804,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tudor Pelagos Titanium & Steel Automatic Blue Dial 25600TB | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tudor Pelagos Titanium & Steel Automatic Blue Dial 25600TB available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tudor Pelagos Titanium & Steel Automatic Blue Dial 25600TB | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tudor Pelagos Titanium & Steel Automatic Blue Dial 25600TB available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tudor-tudor-black-bay-58-gmt-steel-39mm-",
+    id: "ac-tudor-tudor-black-bay-58-gmt-steel-39mm-",
     type: "watch",
     brand: "Tudor",
     name: "Tudor Black Bay 58 GMT Steel 39mm Black Dial 7939G1A0NRU",
@@ -2821,7 +2821,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 3387,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/0fbbc332-26c3-484c-b830-f901d07e7ce9Tudor_Black_Bay_58_GMT_Steel_39mm_Black_Dial_52417-a.webp",
       "https://assets.theluxuryhut.com/e6983886-a7e5-405d-aea5-e00f0198b343Tudor_Black_Bay_58_GMT_Steel_39mm_Black_Dial_52417-b.webp",
@@ -2840,24 +2840,24 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tudor Black Bay 58 GMT Steel 39mm Black Dial 7939G1A0NRU | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tudor Black Bay 58 GMT Steel 39mm Black Dial 7939G1A0NRU available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tudor Black Bay 58 GMT Steel 39mm Black Dial 7939G1A0NRU | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tudor Black Bay 58 GMT Steel 39mm Black Dial 7939G1A0NRU available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-tudor-tudor-prince-date-watch-ref-74034-",
+    id: "ac-tudor-tudor-prince-date-watch-ref-74034-",
     type: "watch",
     brand: "Tudor",
-    name: "Tudor Prince Date Watch Ref: 74034 - Shop The Luxury Hut",
-    model: "Prince Date Watch Ref: 74034 - Shop The Luxury Hut",
+    name: "Tudor Prince Date Watch Ref: 74034 - Shop Aurelia & Crown",
+    model: "Prince Date Watch Ref: 74034 - Shop Aurelia & Crown",
     category: "Classic Luxury Watch" as WatchCategory,
     collection: "Tudor Collection",
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference 74034. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference 74034. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/Tudor_Prince_Silver_Linen_40998-a-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/Tudor_Prince_Silver_Linen_40998-e-1.jpg",
@@ -2876,14 +2876,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tudor Prince Date Watch Ref: 74034 - Shop The Luxury Hut | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tudor Prince Date Watch Ref: 74034 - Shop The Luxury Hut available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tudor Prince Date Watch Ref: 74034 - Shop Aurelia & Crown | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tudor Prince Date Watch Ref: 74034 - Shop Aurelia & Crown available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-iwc-schaffhausen-iwc-aquatimer-steel-42m",
+    id: "ac-iwc-schaffhausen-iwc-aquatimer-steel-42m",
     type: "watch",
     brand: "IWC Schaffhausen",
     name: "IWC Aquatimer Steel 42mm Silver Dial Ref: IW329003",
@@ -2893,7 +2893,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference IW329003. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference IW329003. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/06/IWC_Aquatimer_Steel-42_Silver_50788-a.jpg",
       "https://assets.theluxuryhut.com/2024/06/IWC_Aquatimer_Steel-42_Silver_50788-e.jpg",
@@ -2912,14 +2912,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "IWC Aquatimer Steel 42mm Silver Dial Ref: IW329003 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned IWC Aquatimer Steel 42mm Silver Dial Ref: IW329003 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "IWC Aquatimer Steel 42mm Silver Dial Ref: IW329003 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned IWC Aquatimer Steel 42mm Silver Dial Ref: IW329003 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-panerai-panerai-luminor-marina-1950-3-da",
+    id: "ac-panerai-panerai-luminor-marina-1950-3-da",
     type: "watch",
     brand: "Panerai",
     name: "Panerai Luminor Marina 1950 3 Days 44 Black Dial PAM00312",
@@ -2929,7 +2929,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Panerai_Luminor_Marina_1950_3_Days_Black_52254-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Panerai_Luminor_Marina_1950_3_Days_Black_52254-b.jpg",
@@ -2948,14 +2948,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Panerai Luminor Marina 1950 3 Days 44 Black Dial PAM00312 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Panerai Luminor Marina 1950 3 Days 44 Black Dial PAM00312 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Panerai Luminor Marina 1950 3 Days 44 Black Dial PAM00312 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Panerai Luminor Marina 1950 3 Days 44 Black Dial PAM00312 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-hublot-hublot-classic-fusion-titanium-45",
+    id: "ac-hublot-hublot-classic-fusion-titanium-45",
     type: "watch",
     brand: "Hublot",
     name: "Hublot Classic Fusion Titanium 45mm Black 511.NX.1171.RX",
@@ -2965,7 +2965,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 5966,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Hublot_Classic_Fusion_Titanium_45mm_Black_52199-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Hublot_Classic_Fusion_Titanium_45mm_Black_52199-b.jpg",
@@ -2984,14 +2984,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Hublot Classic Fusion Titanium 45mm Black 511.NX.1171.RX | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Hublot Classic Fusion Titanium 45mm Black 511.NX.1171.RX available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Hublot Classic Fusion Titanium 45mm Black 511.NX.1171.RX | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Hublot Classic Fusion Titanium 45mm Black 511.NX.1171.RX available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-luxury-maison-tag-heuer-aquaracer-steel-",
+    id: "ac-luxury-maison-tag-heuer-aquaracer-steel-",
     type: "watch",
     brand: "Luxury Maison",
     name: "Tag Heuer Aquaracer Steel Striped Black WAY211A.BA0928",
@@ -3001,7 +3001,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 2150,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2025/10/Tag_Heuer_Aquaracer_Steel_Striped_Black_52145-a.jpg",
       "https://assets.theluxuryhut.com/2025/10/Tag_Heuer_Aquaracer_Steel_Striped_Black_52145-b.jpg",
@@ -3020,14 +3020,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Tag Heuer Aquaracer Steel Striped Black WAY211A.BA0928 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Tag Heuer Aquaracer Steel Striped Black WAY211A.BA0928 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Tag Heuer Aquaracer Steel Striped Black WAY211A.BA0928 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Tag Heuer Aquaracer Steel Striped Black WAY211A.BA0928 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-iwc-schaffhausen-iwc-rare-platinum-autom",
+    id: "ac-iwc-schaffhausen-iwc-rare-platinum-autom",
     type: "watch",
     brand: "IWC Schaffhausen",
     name: "IWC Rare Platinum Automatic Date Watch IW3209",
@@ -3037,7 +3037,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 4343,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference IW3209. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference IW3209. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2023/06/26626-a-1.jpg",
       "https://assets.theluxuryhut.com/2023/06/26626-b-1.jpg",
@@ -3056,14 +3056,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: false,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "IWC Rare Platinum Automatic Date Watch IW3209 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned IWC Rare Platinum Automatic Date Watch IW3209 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "IWC Rare Platinum Automatic Date Watch IW3209 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned IWC Rare Platinum Automatic Date Watch IW3209 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-panerai-panerai-luminor-chrono-steel-bla",
+    id: "ac-panerai-panerai-luminor-chrono-steel-bla",
     type: "watch",
     brand: "Panerai",
     name: "Panerai Luminor Chrono Steel Black PAM01109",
@@ -3073,7 +3073,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 7985,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2026/04/1715b182-8da3-418f-a322-59b413be8fa7Panerai_Luminor_Chrono_Steel_44mm_Black_52872-a.jpg.webp",
       "https://assets.theluxuryhut.com/2026/04/cce3d554-0628-4fe9-bf25-9318ee980369Panerai_Luminor_Chrono_Steel_44mm_Black_52872-b.jpg.webp",
@@ -3092,14 +3092,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Panerai Luminor Chrono Steel Black PAM01109 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Panerai Luminor Chrono Steel Black PAM01109 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Panerai Luminor Chrono Steel Black PAM01109 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Panerai Luminor Chrono Steel Black PAM01109 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-white-gold-love-wed",
+    id: "ac-cartier-cartier-18ct-white-gold-love-wed",
     type: "watch",
     brand: "Cartier",
     name: "Cartier 18ct White Gold Love Wedding Band Size 57",
@@ -3109,7 +3109,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 1123,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/08/Cartier_Love_Wedding_Band_White_Gold_51036-a.jpg",
       "https://assets.theluxuryhut.com/2024/08/Cartier_Love_Wedding_Band_White_Gold_51036-f.jpg",
@@ -3128,14 +3128,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier 18ct White Gold Love Wedding Band Size 57 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Love Wedding Band Size 57 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier 18ct White Gold Love Wedding Band Size 57 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Love Wedding Band Size 57 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
   {
-    id: "tlh-cartier-cartier-18ct-white-gold-love-wed-1",
+    id: "ac-cartier-cartier-18ct-white-gold-love-wed-1",
     type: "watch",
     brand: "Cartier",
     name: "Cartier 18ct White Gold Love Wedding Band Size 57",
@@ -3145,7 +3145,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceEUR: 1123,
     status: "Available",
     badge: "AUTHENTICATED",
-    description: "Pre-owned authentic luxury piece certified by The Luxury Hut, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes The Luxury Hut 12-Month Comprehensive Guarantee.",
+    description: "Pre-owned authentic luxury piece certified by Aurelia & Crown, London. Reference Certified. Fully inspected for authenticity, accuracy, and structural integrity. Includes Aurelia & Crown 12-Month Comprehensive Guarantee.",
     images: [
       "https://assets.theluxuryhut.com/2024/08/Cartier_Love_Wedding_Band_White_Gold_51036-f.jpg",
       "https://assets.theluxuryhut.com/2024/08/Cartier_Love_Wedding_Band_White_Gold_51036-a.jpg",
@@ -3164,14 +3164,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       papers: true,
       serialNumberStatus: "Verified against registry"
     },
-    seoTitle: "Cartier 18ct White Gold Love Wedding Band Size 57 | The Luxury Hut London",
-    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Love Wedding Band Size 57 available at The Luxury Hut. Inspected and verified in London showroom.",
+    seoTitle: "Cartier 18ct White Gold Love Wedding Band Size 57 | Aurelia & Crown London",
+    seoDescription: "Authentic pre-owned Cartier 18ct White Gold Love Wedding Band Size 57 available at Aurelia & Crown. Inspected and verified in London showroom.",
     isFeaturedHomepage: false,
     isNewArrival: false,
     createdAt: "2025-01-15T00:00:00Z"
   },
 
-  // The Luxury Hut Certified Fine Jewellery
+  // Aurelia & Crown Certified Fine Jewellery
   ...JEWELLERY_PRODUCTS
 ];
 
