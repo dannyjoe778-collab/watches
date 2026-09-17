@@ -65,6 +65,7 @@ export interface JewellerySpecifications {
 
 export interface Product {
   id: string;
+  slug?: string;
   type: ProductType;
   brand: string;
   name: string;

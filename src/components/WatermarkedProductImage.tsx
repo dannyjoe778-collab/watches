@@ -46,19 +46,37 @@ export const WatermarkedProductImage: React.FC<WatermarkedProductImageProps> = (
       onClick={onClick}
     >
       {/* Primary Image */}
-      <img
-        src={src}
-        alt={alt}
-        className={`${className} transition-all duration-700 ${
-          isHovered && secondarySrc ? 'opacity-0 scale-105' : 'opacity-100 scale-100'
-        }`}
-        loading={priority ? 'eager' : 'lazy'}
-        onLoad={() => setImageLoaded(true)}
-        onError={() => setHasError(true)}
-      />
+      {!hasError ? (
+        <img
+          src={src}
+          alt={alt}
+          className={`${className} transition-all duration-700 ${
+            isHovered && secondarySrc ? 'opacity-0 scale-105' : 'opacity-100 scale-100'
+          }`}
+          loading={priority ? 'eager' : 'lazy'}
+          decoding="async"
+          onLoad={() => setImageLoaded(true)}
+          onError={() => setHasError(true)}
+        />
+      ) : (
+        /* Graceful Luxury Fallback for unresolvable images */
+        <div className="w-full h-full flex flex-col items-center justify-center bg-[#F7F4EE] border border-[#EBE7DE] p-4 text-center select-none">
+          <div className="w-12 h-12 rounded-full bg-[#16181A] flex items-center justify-center mb-2 shadow-sm">
+            <svg className="w-6 h-5 text-[#C5A880]" viewBox="0 0 24 16" fill="currentColor">
+              <path d="M2 14h20v2H2zM3 12l-1-8 5 4 5-8 5 8 5-4-1 8z" />
+            </svg>
+          </div>
+          <span className="text-[10px] font-serif font-medium uppercase tracking-[0.2em] text-[#16181A]">
+            AURELIA &amp; CROWN
+          </span>
+          <span className="text-[8px] uppercase tracking-widest text-[#8C6D37] mt-1 font-semibold">
+            Certified Luxury Reference
+          </span>
+        </div>
+      )}
 
       {/* Optional Secondary Image (e.g. for dual hover flip) */}
-      {secondarySrc && (
+      {secondarySrc && !hasError && (
         <img
           src={secondarySrc}
           alt={`${alt} alternate view`}
@@ -66,6 +84,7 @@ export const WatermarkedProductImage: React.FC<WatermarkedProductImageProps> = (
             isHovered ? 'opacity-100 scale-105' : 'opacity-0 scale-100'
           }`}
           loading="lazy"
+          decoding="async"
         />
       )}
 

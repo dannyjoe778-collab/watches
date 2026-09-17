@@ -59,6 +59,88 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   const isSoldOrReserved = product.status === 'Sold' || product.status === 'Reserved';
   const isHighValue = product.isHighValuePrivateConsultationOnly || product.priceEUR >= 40000;
 
+  // Dynamic SEO & Structured Data Injection
+  React.useEffect(() => {
+    const originalTitle = document.title;
+    const pageTitle = product.seoTitle || `${product.brand} ${product.name} | Aurelia & Crown`;
+    const metaDescContent = product.seoDescription || product.description || `Authenticated pre-owned ${product.brand} ${product.name}. Inspected and certified by Aurelia & Crown.`;
+    
+    document.title = pageTitle;
+
+    // Meta Description
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+      metaDesc = document.createElement('meta');
+      metaDesc.setAttribute('name', 'description');
+      document.head.appendChild(metaDesc);
+    }
+    const originalDesc = metaDesc.getAttribute('content') || '';
+    metaDesc.setAttribute('content', metaDescContent.substring(0, 160));
+
+    // OpenGraph
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', pageTitle);
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', metaDescContent.substring(0, 160));
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage && images[0]) ogImage.setAttribute('content', images[0]);
+
+    // Product Schema.org JSON-LD
+    const scriptId = 'product-ld-json';
+    let scriptEl = document.getElementById(scriptId) as HTMLScriptElement | null;
+    if (!scriptEl) {
+      scriptEl = document.createElement('script');
+      scriptEl.id = scriptId;
+      scriptEl.type = 'application/ld+json';
+      document.head.appendChild(scriptEl);
+    }
+
+    const productSchema = {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": `${product.brand} ${product.name}`,
+      "image": images,
+      "description": product.description,
+      "sku": product.id,
+      "mpn": product.watchSpecs?.reference || product.id,
+      "brand": {
+        "@type": "Brand",
+        "name": product.brand
+      },
+      "itemCondition": "https://schema.org/UsedCondition",
+      "offers": {
+        "@type": "Offer",
+        "url": typeof window !== 'undefined' ? window.location.href : `https://aureliaandcrown.com/product/${product.id}`,
+        "priceCurrency": "EUR",
+        "price": product.priceEUR,
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/UsedCondition",
+        "availability": product.status === 'Sold' ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
+        "seller": {
+          "@type": "JewelryStore",
+          "name": "Aurelia & Crown",
+          "email": "sales@aureliaandcrown.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Marktstraat 53",
+            "addressLocality": "Uden",
+            "postalCode": "5401 GG",
+            "addressCountry": "NL"
+          }
+        }
+      }
+    };
+
+    scriptEl.textContent = JSON.stringify(productSchema);
+
+    return () => {
+      document.title = originalTitle;
+      if (metaDesc && originalDesc) metaDesc.setAttribute('content', originalDesc);
+      const existingScript = document.getElementById(scriptId);
+      if (existingScript) existingScript.remove();
+    };
+  }, [product, images]);
+
   const handleShare = () => {
     navigator.clipboard?.writeText(window.location.href);
     setCopiedLink(true);

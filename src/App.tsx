@@ -234,7 +234,131 @@ export default function App() {
     localStorage.setItem('ac_consultations', JSON.stringify(consultations));
   }, [consultations]);
 
-  // Scroll to top on view change
+  // Initial route resolution from window.location
+  useEffect(() => {
+    const handleLocationChange = () => {
+      const path = window.location.pathname.replace(/^\/+|\/+$/g, '');
+      if (!path || path === 'home') {
+        setActiveTab('home');
+        setSelectedProduct(null);
+        return;
+      }
+
+      if (path.startsWith('product/')) {
+        const prodId = path.replace('product/', '');
+        const found = products.find(p => p.id === prodId || p.slug === prodId);
+        if (found) {
+          setSelectedProduct(found);
+          return;
+        }
+      }
+
+      const validTabs: ActiveTab[] = [
+        'home', 'shop', 'watches', 'jewellery', 'collections', 
+        'new-arrivals', 'authentication', 'private-clients', 'about', 
+        'shipping', 'contact', 'terms', 'privacy', 'cart', 'checkout', 'admin'
+      ];
+
+      if (validTabs.includes(path as ActiveTab)) {
+        setActiveTab(path as ActiveTab);
+        setSelectedProduct(null);
+      }
+    };
+
+    handleLocationChange();
+    window.addEventListener('popstate', handleLocationChange);
+    return () => window.removeEventListener('popstate', handleLocationChange);
+  }, [products]);
+
+  // Dynamic Page Title & Meta Description for static pages
+  useEffect(() => {
+    if (selectedProduct) return; // Handled by ProductDetailView
+
+    const titles: Record<ActiveTab, { title: string; desc: string }> = {
+      'home': {
+        title: 'AURELIA & CROWN | Exceptional Time. Timeless Luxury.',
+        desc: 'European luxury dealer specializing in authenticated pre-owned collectible watches and fine jewellery. Rare Rolex, Patek Philippe, Cartier, and Van Cleef & Arpels.'
+      },
+      'shop': {
+        title: 'The Complete Luxury Collection | Aurelia & Crown',
+        desc: 'Explore authenticated collectible timepieces and certified high jewellery curated by Aurelia & Crown.'
+      },
+      'watches': {
+        title: 'Haute Horlogerie Watches | Aurelia & Crown',
+        desc: 'Authenticated pre-owned luxury watches from Rolex, Patek Philippe, Audemars Piguet, Cartier, and Vacheron Constantin.'
+      },
+      'jewellery': {
+        title: 'Certified Fine Jewellery | Aurelia & Crown',
+        desc: 'Certified high jewellery, vintage diamond solitaires, Cartier Love bracelets, and Van Cleef & Arpels Alhambra creations.'
+      },
+      'collections': {
+        title: 'Curated Heritage Collections | Aurelia & Crown',
+        desc: 'Discover thematic collector vaults and curated brand portfolios.'
+      },
+      'new-arrivals': {
+        title: 'New Arrivals & Fresh Acquisitions | Aurelia & Crown',
+        desc: 'The latest pre-owned luxury timepieces and rare fine jewellery acquisitions certified in our European workshop.'
+      },
+      'authentication': {
+        title: '8-Point Authentication Standard | Aurelia & Crown',
+        desc: 'Learn about our horological laboratory inspection, serial registry verification, and master watchmaker certification.'
+      },
+      'private-clients': {
+        title: 'Private Client Concierge & Advisory | Aurelia & Crown',
+        desc: 'Bespoke rare timepiece sourcing, private salon viewings, and confidential family office acquisitions.'
+      },
+      'about': {
+        title: 'The Maison Heritage & Values | Aurelia & Crown',
+        desc: 'Discover the heritage of Aurelia & Crown, our European specialist ateliers, and our commitment to authenticity.'
+      },
+      'shipping': {
+        title: 'Insured Armoured Transit & Delivery Guide | Aurelia & Crown',
+        desc: 'Worldwide fully insured courier delivery with armed transit security and discretion.'
+      },
+      'contact': {
+        title: 'Contact & Private Salons | Aurelia & Crown',
+        desc: 'Book a confidential private viewing appointment at our registered headquarters in the Netherlands or partner salons across Europe.'
+      },
+      'terms': {
+        title: 'Terms & Conditions | Aurelia & Crown',
+        desc: 'Official terms of sale, 14-day inspection privilege, and client escrow protection policies.'
+      },
+      'privacy': {
+        title: 'Privacy Policy & GDPR Compliance | Aurelia & Crown',
+        desc: 'Data protection and strict confidentiality protocols for private client collectors.'
+      },
+      'cart': {
+        title: 'Your Shopping Bag | Aurelia & Crown',
+        desc: 'Review selected authenticated luxury timepieces and fine jewellery pieces.'
+      },
+      'checkout': {
+        title: 'Secure Luxury Checkout | Aurelia & Crown',
+        desc: 'Complete your order with SEPA escrow wire transfer, 0% Maison installment plans, or encrypted card payment.'
+      },
+      'admin': {
+        title: 'Inventory & Operations Desk | Aurelia & Crown',
+        desc: 'Administrative catalog and client consultation management.'
+      },
+      'order-tracking': {
+        title: 'Order Status & Tracking | Aurelia & Crown',
+        desc: 'Track your insured European shipment and authentication progress.'
+      },
+      'product-detail': {
+        title: 'Certified Luxury Creation | Aurelia & Crown',
+        desc: 'Authenticated luxury timepiece or fine jewellery creation.'
+      }
+    };
+
+    const currentMeta = titles[activeTab] || titles['home'];
+    document.title = currentMeta.title;
+
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', currentMeta.desc);
+    }
+  }, [activeTab, selectedProduct]);
+
+  // Scroll to top on view change & Push History State
   const handleTabChange = (tab: ActiveTab, opt?: { collectionId?: string; brand?: string; category?: string }) => {
     setSelectedProduct(null);
     if (opt?.collectionId) setSelectedCollectionId(opt.collectionId);
@@ -245,12 +369,22 @@ export default function App() {
     }
     if (opt?.category) setJewelleryCategoryFilter(opt.category);
     setActiveTab(tab);
+
+    const path = tab === 'home' ? '/' : `/${tab}`;
+    if (window.location.pathname !== path) {
+      window.history.pushState({ tab }, '', path);
+    }
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Select Product for Detail View
+  // Select Product for Detail View & Push History State
   const handleSelectProduct = (product: Product) => {
     setSelectedProduct(product);
+    const prodUrl = `/product/${product.slug || product.id}`;
+    if (window.location.pathname !== prodUrl) {
+      window.history.pushState({ productId: product.id }, '', prodUrl);
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -419,7 +553,13 @@ export default function App() {
           <ProductDetailView
             product={selectedProduct}
             currency={currency}
-            onBack={() => setSelectedProduct(null)}
+            onBack={() => {
+              setSelectedProduct(null);
+              const path = activeTab === 'home' ? '/' : `/${activeTab}`;
+              if (window.location.pathname !== path) {
+                window.history.pushState({ tab: activeTab }, '', path);
+              }
+            }}
             onAddToBag={handleAddToBag}
             onBuyNow={handleBuyNow}
             onRequestConsultation={(prod) => handleOpenConsultationModal(prod)}

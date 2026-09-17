@@ -89,7 +89,7 @@ export function generateSitemaps() {
   prodXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   
   for (const product of INITIAL_PRODUCTS) {
-    const slug = product.id.replace(/^ac-/, '');
+    const slug = product.slug || product.id;
     const productUrl = `${DOMAIN}/product/${slug}`;
     prodXml += `  <url>\n`;
     prodXml += `    <loc>${productUrl}</loc>\n`;
