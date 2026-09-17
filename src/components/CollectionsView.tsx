@@ -67,12 +67,12 @@ export const CollectionsView: React.FC<CollectionsViewProps> = ({
                 <span>All Curated Collections</span>
               </button>
 
-              <div className="relative bg-[#16181A] text-[#FAF8F5] p-8 sm:p-12 border border-[#2A2D32] overflow-hidden">
-                <div className="absolute inset-0 opacity-20 mix-blend-luminosity">
+              <div className="relative bg-[#16181A] text-[#FAF8F5] p-8 sm:p-12 border border-[#2A2D32] overflow-hidden min-h-[220px] sm:min-h-[260px] flex items-center">
+                <div className="absolute inset-0 opacity-20 mix-blend-luminosity pointer-events-none">
                   <img
                     src={activeCollection.heroImage}
                     alt={activeCollection.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { CartItem, CurrencyCode, Order } from '../types';
 import { formatPrice, getCurrencyDisclaimer } from '../utils/currency';
+import { calculatePaymentPlan, PAYMENT_PLAN_TENURES, PaymentPlanTenure } from '../utils/paymentPlan';
 import { WatermarkedProductImage } from './WatermarkedProductImage';
 import { PaymentMethodBadges } from './PaymentMethodBadges';
 import { 
@@ -14,7 +15,10 @@ import {
   FileText,
   Building2,
   Sparkles,
-  Smartphone
+  Smartphone,
+  Zap,
+  Calendar,
+  Clock
 } from 'lucide-react';
 
 interface CheckoutPageProps {
@@ -38,12 +42,25 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
   const [postalCode, setPostalCode] = useState('');
   const [country, setCountry] = useState('France');
   const [shippingMethod, setShippingMethod] = useState<'armoured' | 'paris-salon' | 'geneva-salon'>('armoured');
-  const [paymentMethod, setPaymentMethod] = useState<'sepa_wire' | 'credit_card' | 'apple_google_pay' | 'private_invoice'>('sepa_wire');
+  const [paymentMethod, setPaymentMethod] = useState<'sepa_wire' | 'credit_card' | 'apple_google_pay' | 'private_invoice' | 'payment_plan'>('sepa_wire');
+  const [planTenure, setPlanTenure] = useState<PaymentPlanTenure>(12);
   const [notes, setNotes] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [completedOrder, setCompletedOrder] = useState<Order | null>(null);
 
   const totalEUR = items.reduce((acc, i) => acc + i.product.priceEUR * i.quantity, 0);
+  const plan = calculatePaymentPlan(totalEUR, currency, planTenure);
+
+  // Fast 1-click demo autofill for testing and express checkout
+  const handleExpressFill = () => {
+    setFullName('Baron Jean-Philippe de Montmirail');
+    setEmail('jp.montmirail@haute-horlogerie.fr');
+    setPhone('+33 6 12 34 56 78');
+    setAddress('14 Place Vendôme');
+    setCity('Paris');
+    setPostalCode('75001');
+    setCountry('France');
+  };
 
   const handlePlaceOrder = (e: React.FormEvent) => {
     e.preventDefault();
@@ -53,6 +70,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
       const orderId = `AC-${Math.floor(100000 + Math.random() * 900000)}`;
       const getPaymentLabel = () => {
         switch (paymentMethod) {
+          case 'payment_plan': return `Maison 0% Flexible Payment Plan (${planTenure} Months)`;
           case 'sepa_wire': return 'SEPA Instant Escrow Wire Transfer';
           case 'credit_card': return '3D-Secure Card (Visa / Mastercard / Amex / UnionPay)';
           case 'apple_google_pay': return 'Apple Pay / Google Pay Instant Settlement';
@@ -77,13 +95,19 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
           postalCode: shippingMethod === 'armoured' ? postalCode : '00000',
         },
         paymentMethod: getPaymentLabel(),
+        paymentPlan: paymentMethod === 'payment_plan' ? {
+          tenureMonths: planTenure,
+          monthlyAmountEUR: plan.monthlyEUR,
+          dueTodayEUR: plan.dueTodayEUR,
+          interestRate: 0,
+        } : undefined,
         notes
       };
 
       setCompletedOrder(newOrder);
       setIsProcessing(false);
       onOrderComplete(newOrder);
-    }, 1200);
+    }, 1000);
   };
 
   if (completedOrder) {
@@ -163,6 +187,44 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                 ))}
               </div>
 
+              {/* Payment Plan Details if chosen */}
+              {paymentMethod === 'payment_plan' && completedOrder.paymentPlan && (
+                <div className="bg-[#16181A] text-[#FAF8F5] p-5 border border-[#8C6D37]/40 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] uppercase tracking-[0.2em] text-[#C5A880] font-semibold flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5" />
+                      Maison 0% Flexible Installment Protocol Confirmed
+                    </span>
+                    <span className="text-[9px] bg-emerald-900/80 text-emerald-200 border border-emerald-500/50 px-2 py-0.5 font-mono uppercase">
+                      0% APR Guaranteed
+                    </span>
+                  </div>
+
+                  <p className="text-[11px] text-neutral-300 font-light leading-relaxed">
+                    Your allocation deposit of <strong>{formatPrice(completedOrder.paymentPlan.dueTodayEUR, completedOrder.currency)}</strong> is confirmed. The remaining {completedOrder.paymentPlan.tenureMonths - 1} installments of <strong>{formatPrice(completedOrder.paymentPlan.monthlyAmountEUR, completedOrder.currency)}</strong> will be automatically handled with zero finance charges.
+                  </p>
+
+                  <div className="pt-2 border-t border-[#2A2D32]">
+                    <span className="text-[10px] uppercase tracking-wider text-neutral-400 block mb-2 font-medium">
+                      Vault Allocation Schedule
+                    </span>
+                    <div className="space-y-1 text-xs">
+                      {plan.schedule.slice(0, 4).map((s) => (
+                        <div key={s.installmentNumber} className="flex justify-between py-0.5 text-[11px] text-neutral-300">
+                          <span>Installment #{s.installmentNumber} ({s.dueDateLabel}):</span>
+                          <span className="font-mono text-[#C5A880]">{s.formattedAmount}</span>
+                        </div>
+                      ))}
+                      {plan.schedule.length > 4 && (
+                        <div className="text-[10px] text-neutral-400 italic pt-1">
+                          + {plan.schedule.length - 4} additional monthly installments (Full dossier dispatched via email).
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              )}
+
               {/* Bank Wire Details if SEPA */}
               {paymentMethod === 'sepa_wire' && (
                 <div className="bg-[#16181A] text-[#FAF8F5] p-5 border border-[#2A2D32] space-y-2">
@@ -226,6 +288,52 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                 <h2 className="text-2xl sm:text-3xl font-serif text-[#16181A]">
                   Client Details & Custody Options
                 </h2>
+              </div>
+
+              {/* Express 1-Click Checkout & Fast Autofill Banner */}
+              <div className="p-4 bg-[#16181A] text-[#FAF8F5] border border-[#2A2D32] space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-[#C5A880] flex items-center gap-1.5">
+                    <Zap className="w-3.5 h-3.5" />
+                    Express Fast Checkout
+                  </span>
+                  <span className="text-[9px] text-neutral-400">Zero-Friction Ordering</span>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      handleExpressFill();
+                      setPaymentMethod('apple_google_pay');
+                    }}
+                    className="flex-1 min-h-[40px] py-2 px-3 bg-[#FAF8F5] hover:bg-white text-[#16181A] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                  >
+                    <Smartphone className="w-3.5 h-3.5" />
+                    <span>Apple / Google Pay</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      handleExpressFill();
+                      setPaymentMethod('payment_plan');
+                    }}
+                    className="flex-1 min-h-[40px] py-2 px-3 bg-[#8C6D37] hover:bg-[#A38042] text-[#FAF8F5] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                  >
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>0% Payment Plan</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={handleExpressFill}
+                    className="w-full sm:w-auto min-h-[40px] py-2 px-3 bg-neutral-800 hover:bg-neutral-700 text-neutral-200 text-[10px] uppercase tracking-wider font-mono transition-colors text-center"
+                    title="Populates sample collector information in 1 click"
+                  >
+                    1-Click Auto-fill
+                  </button>
+                </div>
               </div>
 
               <form onSubmit={handlePlaceOrder} className="space-y-6 text-xs">
@@ -443,6 +551,91 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                   </h4>
 
                   <div className="space-y-3">
+                    {/* Maison 0% Payment Plan (Featured) */}
+                    <div 
+                      onClick={() => setPaymentMethod('payment_plan')}
+                      className={`p-4 border transition-all cursor-pointer ${
+                        paymentMethod === 'payment_plan' 
+                          ? 'border-[#8C6D37] bg-[#8C6D37]/10 ring-2 ring-[#8C6D37]/60' 
+                          : 'border-[#EBE7DE] bg-[#FAF8F5]/60 hover:border-neutral-400'
+                      }`}
+                    >
+                      <div className="flex items-start gap-3">
+                        <input
+                          type="radio"
+                          name="paymentMethod"
+                          checked={paymentMethod === 'payment_plan'}
+                          onChange={() => setPaymentMethod('payment_plan')}
+                          className="mt-1 text-[#8C6D37]"
+                        />
+                        <div className="flex-1 space-y-2">
+                          <div className="flex flex-wrap items-center justify-between gap-2">
+                            <span className="font-semibold text-neutral-900 flex items-center gap-1.5">
+                              <Sparkles className="w-3.5 h-3.5 text-[#8C6D37]" />
+                              Maison 0% Flexible Payment Plan
+                            </span>
+                            <span className="text-[9px] bg-emerald-100 text-emerald-800 border border-emerald-300 px-2 py-0.5 font-bold uppercase tracking-wider">
+                              0% APR • €0 Fees
+                            </span>
+                          </div>
+
+                          <p className="text-[11px] text-neutral-600 font-light leading-relaxed">
+                            Acquire directly from our vault today with a modest deposit. Split the remainder across equal, interest-free monthly installments.
+                          </p>
+
+                          {/* Interactive Horizon Switcher */}
+                          {paymentMethod === 'payment_plan' && (
+                            <div className="pt-2 space-y-2.5">
+                              <label className="block text-[10px] uppercase tracking-wider font-semibold text-neutral-800">
+                                Select Horizon:
+                              </label>
+                              <div className="grid grid-cols-4 gap-1.5">
+                                {PAYMENT_PLAN_TENURES.map((t) => {
+                                  const tPlan = calculatePaymentPlan(totalEUR, currency, t);
+                                  return (
+                                    <button
+                                      key={t}
+                                      type="button"
+                                      onClick={(e) => {
+                                        e.stopPropagation();
+                                        setPlanTenure(t);
+                                      }}
+                                      className={`py-2 px-1 text-center border transition-all ${
+                                        planTenure === t
+                                          ? 'border-[#8C6D37] bg-white text-[#16181A] font-bold shadow-xs'
+                                          : 'border-[#EBE7DE] bg-neutral-100/60 text-neutral-600 hover:bg-white'
+                                      }`}
+                                    >
+                                      <span className="block text-[11px] uppercase">{t} Mo</span>
+                                      <span className="block text-[10px] text-[#8C6D37] font-semibold mt-0.5">
+                                        {tPlan.formattedMonthly}/mo
+                                      </span>
+                                    </button>
+                                  );
+                                })}
+                              </div>
+
+                              {/* Breakdown Box */}
+                              <div className="bg-white p-3 border border-[#8C6D37]/30 text-xs space-y-1.5 mt-2">
+                                <div className="flex justify-between text-neutral-700">
+                                  <span>Initial Down Payment (Due Today):</span>
+                                  <strong className="text-[#16181A]">{plan.formattedDueToday}</strong>
+                                </div>
+                                <div className="flex justify-between text-neutral-700">
+                                  <span>Remaining ({planTenure - 1} monthly installments):</span>
+                                  <strong className="text-[#8C6D37]">{plan.formattedMonthly} / month</strong>
+                                </div>
+                                <div className="flex justify-between text-[11px] text-neutral-500 border-t border-[#EBE7DE] pt-1 mt-1">
+                                  <span>Finance Rate & Surcharges:</span>
+                                  <span className="text-emerald-700 font-semibold">0.00% APR (€0.00)</span>
+                                </div>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+
                     {/* SEPA Wire */}
                     <label 
                       onClick={() => setPaymentMethod('sepa_wire')}
@@ -582,20 +775,28 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                 <button
                   type="submit"
                   disabled={isProcessing}
-                  className="w-full bg-[#16181A] hover:bg-[#8C6D37] disabled:bg-neutral-400 text-[#FAF8F5] py-4 px-6 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center justify-center gap-2"
+                  className="w-full min-h-[48px] bg-[#16181A] hover:bg-[#8C6D37] disabled:bg-neutral-400 text-[#FAF8F5] py-4 px-6 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center justify-center gap-2 shadow-md"
                 >
                   {isProcessing ? (
-                    <span>INITIALIZING VAULT ALLOCATION...</span>
+                    <span className="flex items-center gap-2">
+                      <Lock className="w-3.5 h-3.5 animate-spin" />
+                      <span>INITIALIZING VAULT ALLOCATION...</span>
+                    </span>
+                  ) : paymentMethod === 'payment_plan' ? (
+                    <>
+                      <Sparkles className="w-3.5 h-3.5 text-[#C5A880]" />
+                      <span>CONFIRM & PAY FIRST INSTALLMENT ({plan.formattedDueToday})</span>
+                    </>
                   ) : (
                     <>
-                      <Lock className="w-3.5 h-3.5" />
+                      <Lock className="w-3.5 h-3.5 text-[#C5A880]" />
                       <span>CONFIRM ACQUISITION ({formatPrice(totalEUR, currency)})</span>
                     </>
                   )}
                 </button>
 
                 <div className="text-[10px] text-neutral-500 text-center font-light leading-relaxed">
-                  By clicking Confirm Acquisition, you initiate a binding European commercial order subject to identity verification and authentication dossier review.
+                  By clicking Confirm, you initiate a binding European commercial order subject to identity verification and authentication dossier review.
                 </div>
               </form>
 
@@ -660,10 +861,29 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                   <span>Certificate & Vault Hologram Seal</span>
                   <span className="text-emerald-800 font-medium">Included</span>
                 </div>
-                <div className="pt-2 border-t border-[#EBE7DE] flex justify-between text-base font-semibold text-[#16181A]">
-                  <span>Total Due</span>
-                  <span className="text-[#8C6D37]">{formatPrice(totalEUR, currency)}</span>
-                </div>
+
+                {paymentMethod === 'payment_plan' ? (
+                  <div className="pt-3 border-t border-[#8C6D37]/30 bg-[#8C6D37]/5 p-3 space-y-1.5">
+                    <div className="flex justify-between text-xs font-semibold text-[#16181A]">
+                      <span>Due Today (Deposit):</span>
+                      <span className="text-[#8C6D37] text-sm">{plan.formattedDueToday}</span>
+                    </div>
+                    <div className="flex justify-between text-[11px] text-neutral-600">
+                      <span>Monthly ({planTenure - 1} installments):</span>
+                      <span className="font-medium text-neutral-900">{plan.formattedMonthly}/mo</span>
+                    </div>
+                    <div className="flex justify-between text-[10px] text-emerald-800 font-medium">
+                      <span>Maison 0% APR Guarantee:</span>
+                      <span>Active</span>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="pt-2 border-t border-[#EBE7DE] flex justify-between text-base font-semibold text-[#16181A]">
+                    <span>Total Due</span>
+                    <span className="text-[#8C6D37]">{formatPrice(totalEUR, currency)}</span>
+                  </div>
+                )}
+
                 <p className="text-[10px] text-neutral-500 font-light pt-1">
                   {getCurrencyDisclaimer(currency)}
                 </p>

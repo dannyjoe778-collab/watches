@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Product, CurrencyCode } from '../types';
 import { formatPrice, getCurrencyDisclaimer } from '../utils/currency';
+import { calculatePaymentPlan, PAYMENT_PLAN_TENURES, PaymentPlanTenure } from '../utils/paymentPlan';
+import { PaymentPlanModal } from './PaymentPlanModal';
 import { WatermarkedProductImage } from './WatermarkedProductImage';
 import { 
   ShieldCheck, 
@@ -17,7 +19,8 @@ import {
   FileText,
   Clock,
   Sparkles,
-  Share2
+  Share2,
+  Calendar
 } from 'lucide-react';
 
 interface ProductDetailViewProps {
@@ -47,6 +50,10 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   );
   const [activeTab, setActiveTab] = useState<'specs' | 'provenance' | 'authentication' | 'shipping'>('specs');
   const [copiedLink, setCopiedLink] = useState(false);
+  const [selectedPlanTenure, setSelectedPlanTenure] = useState<PaymentPlanTenure>(12);
+  const [isPlanModalOpen, setIsPlanModalOpen] = useState(false);
+
+  const plan = calculatePaymentPlan(product.priceEUR, currency, selectedPlanTenure);
 
   const images = product.images.length > 0 ? product.images : ['https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=85'];
   const isSoldOrReserved = product.status === 'Sold' || product.status === 'Reserved';
@@ -222,7 +229,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
               )}
 
               {/* Price & Currency */}
-              <div className="bg-white p-5 border border-[#EBE7DE] mb-6">
+              <div className="bg-white p-5 border border-[#EBE7DE] mb-5 space-y-4">
                 <div className="flex items-baseline justify-between">
                   <span className="text-2xl sm:text-3xl font-medium text-[#16181A] tracking-tight">
                     {formatPrice(product.priceEUR, currency)}
@@ -231,9 +238,54 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
                     ● {product.status}
                   </span>
                 </div>
-                <p className="text-[11px] text-neutral-500 mt-1 font-light leading-relaxed">
+                <p className="text-[11px] text-neutral-500 font-light leading-relaxed">
                   {getCurrencyDisclaimer(currency)}
                 </p>
+
+                {/* Maison 0% Payment Plan Widget */}
+                {!isSoldOrReserved && (
+                  <div className="pt-4 border-t border-[#EBE7DE] space-y-2.5">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-1.5 text-xs font-semibold text-[#16181A]">
+                        <Sparkles className="w-3.5 h-3.5 text-[#8C6D37]" />
+                        <span className="uppercase tracking-wider text-[11px]">Maison 0% Payment Plan</span>
+                      </div>
+                      <span className="text-[9px] bg-emerald-100 text-emerald-800 px-2 py-0.5 font-bold uppercase tracking-wider">
+                        0% APR Guaranteed
+                      </span>
+                    </div>
+
+                    <div className="flex items-center gap-1.5">
+                      {PAYMENT_PLAN_TENURES.map((t) => (
+                        <button
+                          key={t}
+                          type="button"
+                          onClick={() => setSelectedPlanTenure(t)}
+                          className={`flex-1 py-1.5 px-2 text-[11px] font-medium border transition-all text-center ${
+                            selectedPlanTenure === t
+                              ? 'border-[#8C6D37] bg-[#8C6D37]/15 text-[#16181A] font-semibold ring-1 ring-[#8C6D37]'
+                              : 'border-[#EBE7DE] bg-neutral-50 text-neutral-600 hover:border-neutral-300'
+                          }`}
+                        >
+                          {t} mo
+                        </button>
+                      ))}
+                    </div>
+
+                    <div className="flex items-center justify-between text-xs pt-1">
+                      <div className="text-neutral-800">
+                        Monthly: <strong className="text-[#8C6D37] text-sm">{plan.formattedMonthly}</strong> / mo
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setIsPlanModalOpen(true)}
+                        className="text-[10px] uppercase tracking-wider text-[#8C6D37] hover:underline font-semibold"
+                      >
+                        View Schedule & Terms →
+                      </button>
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Material Selector for Jewellery with Options (e.g. Cartier Love Bracelet) */}
@@ -549,6 +601,56 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
         </div>
 
       </div>
+
+      {/* Payment Plan Modal */}
+      <PaymentPlanModal
+        isOpen={isPlanModalOpen}
+        onClose={() => setIsPlanModalOpen(false)}
+        product={product}
+        currency={currency}
+        onSelectPlan={(tenure) => {
+          setSelectedPlanTenure(tenure);
+          setIsPlanModalOpen(false);
+          onBuyNow(product, selectedMaterial);
+        }}
+      />
+
+      {/* Mobile Sticky Bottom Action Bar for zero-friction conversion */}
+      {!isSoldOrReserved && !isHighValue && (
+        <div className="md:hidden fixed bottom-0 inset-x-0 bg-[#FAF8F5]/95 backdrop-blur-md border-t border-[#EBE7DE] p-3 z-30 shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
+          <div className="flex items-center justify-between gap-3 max-w-md mx-auto">
+            <div className="min-w-0">
+              <div className="text-base font-semibold text-[#16181A] tracking-tight leading-tight">
+                {formatPrice(product.priceEUR, currency)}
+              </div>
+              <div className="text-[10px] text-[#8C6D37] truncate font-medium">
+                or {plan.formattedMonthly}/mo (0%)
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 flex-shrink-0">
+              <button
+                type="button"
+                onClick={() => onAddToBag(product, selectedMaterial)}
+                className="py-2.5 px-3 min-h-[44px] border border-[#16181A] bg-transparent text-[#16181A] hover:bg-[#16181A] hover:text-white transition-colors text-[11px] uppercase tracking-wider font-semibold flex items-center gap-1.5"
+                aria-label="Add to Bag"
+              >
+                <ShoppingBag className="w-3.5 h-3.5" />
+                <span>Bag</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => onBuyNow(product, selectedMaterial)}
+                className="py-2.5 px-4 min-h-[44px] bg-[#16181A] hover:bg-[#8C6D37] text-white transition-colors text-[11px] uppercase tracking-wider font-semibold flex items-center gap-1.5 shadow-sm"
+              >
+                <span>Buy Now</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

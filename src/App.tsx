@@ -37,10 +37,14 @@ import { TermsAndConditionsPage } from './components/TermsAndConditionsPage';
 import { PrivacyPolicyPage } from './components/PrivacyPolicyPage';
 import { ProductDetailView } from './components/ProductDetailView';
 import { CartPage } from './components/CartPage';
+import { CartDrawer } from './components/CartDrawer';
+import { MobileBottomNav } from './components/MobileBottomNav';
+import { PaymentPlanModal } from './components/PaymentPlanModal';
 import { WishlistDrawer } from './components/WishlistDrawer';
 import { LiveSearchModal } from './components/LiveSearchModal';
 import { CheckoutPage } from './components/CheckoutPage';
 import { ConsultationModal } from './components/ConsultationModal';
+import { submitForm } from './services/formService';
 import { AdminDashboard } from './components/AdminDashboard';
 import { Footer } from './components/Footer';
 import { Check, ShieldCheck, Sparkles } from 'lucide-react';
@@ -180,6 +184,8 @@ export default function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [consultationProduct, setConsultationProduct] = useState<Product | null>(null);
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false);
+  const [isPaymentPlanModalOpen, setIsPaymentPlanModalOpen] = useState(false);
+  const [planModalAmountEUR, setPlanModalAmountEUR] = useState<number>(0);
 
   // Luxury Toast Notification
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -265,6 +271,7 @@ export default function App() {
     });
 
     showToast(`Added "${product.brand} ${product.name}" to your shopping bag.`);
+    setIsCartOpen(true);
   };
 
   // Buy Now (Immediate Checkout)
@@ -325,6 +332,15 @@ export default function App() {
     };
     setConsultations(prev => [newRequest, ...prev]);
     showToast('Consultation request transmitted confidentially to our European desk.');
+
+    // Dispatch via Zoho Mail / Vercel Serverless Form Handler
+    submitForm('consultation', newRequest).then(res => {
+      if (res.success) {
+        console.log('[App] Consultation dossier delivered via Zoho Mail:', res.messageId);
+      } else {
+        console.warn('[App] Zoho Mail delivery notice:', res.error);
+      }
+    });
   };
 
   // Complete Order from Checkout
@@ -332,6 +348,15 @@ export default function App() {
     setOrders(prev => [order, ...prev]);
     setCartItems([]);
     showToast(`Order #${order.id} registered successfully.`);
+
+    // Dispatch Order via Zoho Mail / Vercel Serverless Form Handler
+    submitForm('order', order).then(res => {
+      if (res.success) {
+        console.log('[App] Order confirmation delivered via Zoho Mail:', res.messageId);
+      } else {
+        console.warn('[App] Zoho Mail order notice:', res.error);
+      }
+    });
   };
 
   // Admin Actions
@@ -382,13 +407,13 @@ export default function App() {
         setCurrency={setCurrency}
         cartCount={cartItems.reduce((acc, i) => acc + i.quantity, 0)}
         wishlistCount={wishlistIds.length}
-        onOpenCart={() => handleTabChange('cart')}
+        onOpenCart={() => setIsCartOpen(true)}
         onOpenWishlist={() => setIsWishlistOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}
       />
 
       {/* Main Content Area */}
-      <main className="flex-grow">
+      <main className="flex-grow pb-20 lg:pb-0">
         {selectedProduct ? (
           /* Product Detail View */
           <ProductDetailView
@@ -567,6 +592,38 @@ export default function App() {
         ) : null}
       </main>
 
+      {/* Slide-Over Quick Cart Drawer */}
+      <CartDrawer
+        isOpen={isCartOpen}
+        onClose={() => setIsCartOpen(false)}
+        items={cartItems}
+        currency={currency}
+        onUpdateQuantity={handleUpdateQuantity}
+        onRemoveItem={handleRemoveFromBag}
+        onProceedToCheckout={() => {
+          setIsCartOpen(false);
+          setActiveTab('checkout');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+        onViewFullCart={() => {
+          setIsCartOpen(false);
+          setActiveTab('cart');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+        onOpenPaymentPlanModal={(total) => {
+          setPlanModalAmountEUR(total);
+          setIsPaymentPlanModalOpen(true);
+        }}
+      />
+
+      {/* Global Payment Plan Modal */}
+      <PaymentPlanModal
+        isOpen={isPaymentPlanModalOpen}
+        onClose={() => setIsPaymentPlanModalOpen(false)}
+        totalEUR={planModalAmountEUR || cartItems.reduce((acc, i) => acc + i.product.priceEUR * i.quantity, 0) || 15000}
+        currency={currency}
+      />
+
       {/* Wishlist Drawer */}
       <WishlistDrawer
         isOpen={isWishlistOpen}
@@ -601,6 +658,18 @@ export default function App() {
 
       {/* Footer */}
       <Footer setActiveTab={handleTabChange} />
+
+      {/* Mobile Bottom Bar for High-Performance Navigation */}
+      <MobileBottomNav
+        activeTab={activeTab}
+        setActiveTab={handleTabChange}
+        cartCount={cartItems.reduce((acc, i) => acc + i.quantity, 0)}
+        wishlistCount={wishlistIds.length}
+        onOpenCart={() => setIsCartOpen(true)}
+        onOpenWishlist={() => setIsWishlistOpen(true)}
+        onOpenSearch={() => setIsSearchOpen(true)}
+        onOpenConsultation={() => handleOpenConsultationModal()}
+      />
 
     </div>
   );

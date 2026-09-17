@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CartItem, CurrencyCode, ActiveTab } from '../types';
 import { formatPrice } from '../utils/currency';
-import { Trash2, ShieldCheck, ArrowRight, Truck, Plus, Minus } from 'lucide-react';
+import { calculatePaymentPlan } from '../utils/paymentPlan';
+import { PaymentPlanModal } from './PaymentPlanModal';
+import { Trash2, ShieldCheck, ArrowRight, Truck, Plus, Minus, Sparkles, Lock } from 'lucide-react';
 import { WatermarkedProductImage } from './WatermarkedProductImage';
 
 interface CartPageProps {
@@ -19,7 +21,9 @@ export const CartPage: React.FC<CartPageProps> = ({
   onRemoveItem,
   setActiveTab
 }) => {
+  const [isPlanModalOpen, setIsPlanModalOpen] = useState(false);
   const totalEUR = items.reduce((acc, item) => acc + item.product.priceEUR * item.quantity, 0);
+  const plan12 = calculatePaymentPlan(totalEUR, currency, 12);
 
   if (items.length === 0) {
     return (
@@ -179,6 +183,29 @@ export const CartPage: React.FC<CartPageProps> = ({
                   <span>Total</span>
                   <span className="text-[#8C6D37]">{formatPrice(totalEUR, currency)}</span>
                 </div>
+
+                {/* Maison 0% Payment Plan Box */}
+                <div className="p-3.5 bg-[#8C6D37]/10 border border-[#8C6D37]/35 space-y-1.5 mt-4">
+                  <div className="flex items-center justify-between text-xs font-semibold text-[#16181A]">
+                    <span className="flex items-center gap-1.5 uppercase tracking-wider text-[10px] text-[#8C6D37]">
+                      <Sparkles className="w-3.5 h-3.5" />
+                      Maison 0% Payment Plan
+                    </span>
+                    <span className="text-[9px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 font-bold">
+                      0% APR
+                    </span>
+                  </div>
+                  <div className="text-xs text-neutral-800">
+                    Split this total into 12 monthly payments of <strong className="text-[#8C6D37]">{plan12.formattedMonthly}</strong> with €0 fees.
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setIsPlanModalOpen(true)}
+                    className="text-[10px] text-[#8C6D37] hover:underline uppercase tracking-wider font-semibold block pt-0.5"
+                  >
+                    View 3, 6, 12 & 24 Month Schedules →
+                  </button>
+                </div>
               </div>
               
               <button
@@ -186,8 +213,9 @@ export const CartPage: React.FC<CartPageProps> = ({
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                   setActiveTab('checkout');
                 }}
-                className="w-full bg-[#16181A] hover:bg-[#8C6D37] text-white py-4 px-6 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center justify-center gap-2"
+                className="w-full bg-[#16181A] hover:bg-[#8C6D37] text-white py-4 px-6 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center justify-center gap-2 shadow-sm"
               >
+                <Lock className="w-3.5 h-3.5 text-[#C5A880]" />
                 <span>Proceed to checkout</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
@@ -196,6 +224,19 @@ export const CartPage: React.FC<CartPageProps> = ({
 
         </div>
       </div>
+
+      {/* Payment Plan Modal */}
+      <PaymentPlanModal
+        isOpen={isPlanModalOpen}
+        onClose={() => setIsPlanModalOpen(false)}
+        totalEUR={totalEUR}
+        currency={currency}
+        onSelectPlan={() => {
+          setIsPlanModalOpen(false);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          setActiveTab('checkout');
+        }}
+      />
     </div>
   );
 };

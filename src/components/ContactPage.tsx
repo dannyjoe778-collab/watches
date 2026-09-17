@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Lock, Send, CheckCircle2, Building2, MessageSquare, ShieldCheck, Sparkles } from 'lucide-react';
 import { ConsultationRequest } from '../types';
+import { submitForm } from '../services/formService';
 
 interface ContactPageProps {
   onSubmitConsultation: (request: Omit<ConsultationRequest, 'id' | 'createdAt' | 'status'>) => void;
@@ -22,19 +23,34 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onSubmitConsultation }
     const generatedRef = `AC-${Math.floor(100000 + Math.random() * 900000)}`;
     setReferenceCode(generatedRef);
     
+    const country = salon.includes('Paris') 
+      ? 'France' 
+      : salon.includes('Geneva') 
+      ? 'Switzerland' 
+      : salon.includes('London')
+      ? 'United Kingdom'
+      : salon.includes('Munich')
+      ? 'Germany'
+      : 'Italy';
+
+    // Dispatch via Zoho Mail / Vercel Serverless Form Handler
+    submitForm('contact', {
+      fullName,
+      email,
+      phone,
+      country,
+      salon,
+      inquiryType: inquiryType === 'appointment' ? 'Private Salon Appointment' : inquiryType === 'consignment' ? 'Consignment & Valuation' : 'Collector Inquiry',
+      date,
+      message,
+      referenceCode: generatedRef,
+    });
+
     onSubmitConsultation({
       fullName,
       email,
       phone,
-      country: salon.includes('Paris') 
-        ? 'France' 
-        : salon.includes('Geneva') 
-        ? 'Switzerland' 
-        : salon.includes('London')
-        ? 'United Kingdom'
-        : salon.includes('Munich')
-        ? 'Germany'
-        : 'Italy',
+      country,
       interestedCategory: `${inquiryType === 'appointment' ? 'Private Salon Appointment' : inquiryType === 'consignment' ? 'Consignment & Valuation' : 'Collector Inquiry'} (${salon})`,
       message: `[Ref: ${generatedRef}] Type: ${inquiryType}. Date/Time: ${date || 'Flexible'}. Notes: ${message}`,
     });

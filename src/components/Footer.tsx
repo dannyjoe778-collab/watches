@@ -3,6 +3,7 @@ import { ActiveTab } from '../types';
 import { Shield, ArrowRight, CheckCircle2, Instagram, Facebook, Lock } from 'lucide-react';
 import siteIcon from '../assets/images/site_icon.jpg';
 import { PaymentMethodBadges } from './PaymentMethodBadges';
+import { submitForm } from '../services/formService';
 
 interface FooterProps {
   setActiveTab: (tab: ActiveTab) => void;
@@ -16,8 +17,10 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onSelectCollection
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     if (email.trim()) {
+      const submittedEmail = email.trim();
       setSubscribed(true);
       setEmail('');
+      submitForm('newsletter', { email: submittedEmail, source: 'Footer Quick Dispatch' });
     }
   };
 

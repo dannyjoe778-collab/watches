@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Product, CurrencyCode } from '../types';
 import { formatPrice } from '../utils/currency';
-import { Heart, ShieldCheck, Award, Eye, MessageSquare, ShoppingBag } from 'lucide-react';
+import { calculatePaymentPlan } from '../utils/paymentPlan';
+import { Heart, ShieldCheck, Award, Eye, MessageSquare, ShoppingBag, Sparkles } from 'lucide-react';
 import { WatermarkedProductImage } from './WatermarkedProductImage';
 
 interface ProductCardProps {
@@ -12,6 +13,7 @@ interface ProductCardProps {
   onToggleWishlist: (productId: string) => void;
   onQuickAddToBag?: (product: Product) => void;
   onRequestConsultation?: (product: Product) => void;
+  onOpenPaymentPlan?: (product: Product) => void;
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({
@@ -21,11 +23,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   isWishlisted,
   onToggleWishlist,
   onQuickAddToBag,
-  onRequestConsultation
+  onRequestConsultation,
+  onOpenPaymentPlan,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const primaryImage = product.images[0] || 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80';
   const secondaryImage = product.images[1] || primaryImage;
+
+  const installmentPlan = calculatePaymentPlan(product.priceEUR, currency, 12);
 
   const getBadgeStyle = () => {
     switch (product.badge) {
@@ -193,30 +198,67 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         </div>
 
         {/* Pricing & Status Footer */}
-        <div className="pt-3 border-t border-[#EBE7DE] flex items-center justify-between">
-          <div>
-            <div className="text-base sm:text-lg font-medium text-[#16181A] tracking-tight">
-              {formatPrice(product.priceEUR, currency)}
+        <div className="pt-3 border-t border-[#EBE7DE] space-y-2">
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <div className="text-base sm:text-lg font-medium text-[#16181A] tracking-tight">
+                {formatPrice(product.priceEUR, currency)}
+              </div>
+              <div className="text-[9px] text-neutral-500 uppercase tracking-wider">
+                {product.isHighValuePrivateConsultationOnly ? 'Private Allocation' : 'Tax Inc. / Insured'}
+              </div>
             </div>
-            <div className="text-[9px] text-neutral-500 uppercase tracking-wider">
-              {product.isHighValuePrivateConsultationOnly ? 'Private Allocation' : 'Tax Inc. / Insured'}
+
+            <div className="text-right">
+              {getStatusBadge()}
             </div>
           </div>
 
-          <div className="text-right">
-            {getStatusBadge()}
-          </div>
+          {/* Payment Plan Subline */}
+          {!product.isHighValuePrivateConsultationOnly && !isSoldOrReserved && (
+            <div className="flex items-center justify-between text-[11px] bg-[#8C6D37]/8 px-2 py-1 border border-[#8C6D37]/20">
+              <span className="text-neutral-700 font-medium truncate">
+                or <strong className="text-[#8C6D37]">{installmentPlan.formattedMonthly}</strong>/mo (0% plan)
+              </span>
+              {onOpenPaymentPlan && (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onOpenPaymentPlan(product);
+                  }}
+                  className="text-[9px] uppercase tracking-wider text-[#8C6D37] hover:underline font-semibold flex-shrink-0 ml-1"
+                >
+                  Plan Details
+                </button>
+              )}
+            </div>
+          )}
         </div>
 
-        {/* Explicit View Details Action on Mobile / Default */}
-        <div className="pt-1">
+        {/* Action Row for Mobile and Desktop with high-ergonomic touch targets */}
+        <div className="pt-1 flex items-center gap-2">
           <button
             onClick={() => onSelectProduct(product)}
-            className="w-full py-2 bg-transparent hover:bg-[#FAF8F5] text-[#16181A] border border-[#EBE7DE] hover:border-[#8C6D37] text-[10px] uppercase tracking-[0.2em] font-semibold transition-colors flex items-center justify-center gap-1"
+            className="flex-1 py-2.5 sm:py-2 min-h-[44px] sm:min-h-[36px] bg-transparent hover:bg-[#FAF8F5] text-[#16181A] border border-[#EBE7DE] hover:border-[#8C6D37] text-[10px] uppercase tracking-[0.18em] font-semibold transition-colors flex items-center justify-center gap-1"
           >
             <span>VIEW DETAILS</span>
             <span>→</span>
           </button>
+
+          {!product.isHighValuePrivateConsultationOnly && !isSoldOrReserved && onQuickAddToBag && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onQuickAddToBag(product);
+              }}
+              className="sm:hidden px-3.5 min-h-[44px] bg-[#111315] hover:bg-[#8C6D37] text-[#FAF8F5] transition-colors flex items-center justify-center"
+              title="Add to Bag"
+              aria-label="Add to Bag"
+            >
+              <ShoppingBag className="w-4 h-4" />
+            </button>
+          )}
         </div>
       </div>
     </div>

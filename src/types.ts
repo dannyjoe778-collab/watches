@@ -139,6 +139,12 @@ export interface Order {
   status: 'Pending Verification' | 'Payment Confirmed' | 'Insured In Transit' | 'Delivered' | 'Payment Pending' | 'Under Authenticator Review' | 'In Secure Vault';
   trackingNumber?: string;
   items: CartItem[];
+  paymentPlan?: {
+    tenureMonths: number;
+    monthlyAmountEUR: number;
+    dueTodayEUR: number;
+    interestRate: number;
+  };
   createdAt: string;
   notes?: string;
 }

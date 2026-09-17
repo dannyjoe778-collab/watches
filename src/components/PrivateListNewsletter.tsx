@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { submitForm } from '../services/formService';
 
 export const PrivateListNewsletter: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -8,8 +9,10 @@ export const PrivateListNewsletter: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email.trim()) {
+      const submittedEmail = email.trim();
       setSubscribed(true);
       setEmail('');
+      submitForm('newsletter', { email: submittedEmail, source: 'The Private List Section' });
     }
   };
 
