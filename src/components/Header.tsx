@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { ActiveTab, CurrencyCode } from '../types';
 import { EXCHANGE_RATES } from '../utils/currency';
+import siteIcon from '../assets/images/site_icon.jpg';
 
 interface HeaderProps {
   activeTab: ActiveTab;
@@ -176,16 +177,28 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             </div>
 
-            {/* Center: Brand Name & Tagline */}
-            <div className="flex flex-col items-center justify-center text-center cursor-pointer group lg:w-2/4"
+            {/* Center: Brand Logo Emblem & Typography */}
+            <div 
+              id="brand-header-logo"
+              className="flex items-center justify-center gap-3 sm:gap-4 cursor-pointer group lg:w-2/4 py-1"
               onClick={() => setActiveTab('home')}
             >
-              <span className="text-2xl sm:text-3xl md:text-4xl font-serif tracking-[0.18em] uppercase text-[#16181A] font-light group-hover:text-[#8C6D37] transition-colors">
-                AURELIA & CROWN
-              </span>
-              <span className="text-[10px] sm:text-xs tracking-[0.28em] uppercase text-[#8C6D37] font-medium mt-1">
-                Exceptional Time. Timeless Luxury.
-              </span>
+              <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border border-[#C5A880]/70 shadow-md group-hover:border-[#8C6D37] transition-all bg-[#111315] flex-shrink-0">
+                <img 
+                  src={siteIcon} 
+                  alt="Aurelia & Crown Crest" 
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex flex-col items-start text-left">
+                <span className="text-2xl sm:text-3xl md:text-4xl font-serif tracking-[0.18em] uppercase text-[#16181A] font-light group-hover:text-[#8C6D37] transition-colors leading-none">
+                  AURELIA & CROWN
+                </span>
+                <span className="text-[9px] sm:text-[10px] tracking-[0.28em] uppercase text-[#8C6D37] font-medium mt-1">
+                  Exceptional Time. Timeless Luxury.
+                </span>
+              </div>
             </div>
 
             {/* Right: Currency Selector, Wishlist, Shopping Bag */}
@@ -388,12 +401,17 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="fixed inset-y-0 left-0 max-w-xs w-full bg-[#FAF8F5] shadow-2xl p-6 flex flex-col justify-between overflow-y-auto">
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-[#EBE7DE]">
-                <div>
-                  <div className="text-lg font-serif tracking-widest text-[#16181A] uppercase">
-                    AURELIA & CROWN
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full overflow-hidden border border-[#C5A880]/70 bg-[#111315] flex-shrink-0">
+                    <img src={siteIcon} alt="Aurelia & Crown Crest" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
-                  <div className="text-[9px] tracking-wider text-[#8C6D37] uppercase">
-                    European Luxury Specialist
+                  <div>
+                    <div className="text-base font-serif tracking-widest text-[#16181A] uppercase leading-tight">
+                      AURELIA & CROWN
+                    </div>
+                    <div className="text-[9px] tracking-wider text-[#8C6D37] uppercase font-medium">
+                      aureliaandcrown.com
+                    </div>
                   </div>
                 </div>
                 <button

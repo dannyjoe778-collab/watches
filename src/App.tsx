@@ -54,7 +54,7 @@ export default function App() {
   const [brandFilter, setBrandFilter] = useState<string>('all');
   const [jewelleryCategoryFilter, setJewelleryCategoryFilter] = useState<string>('all');
 
-  const CURRENT_CATALOG_VERSION = 'ac_v9_rebrand_catalog';
+  const CURRENT_CATALOG_VERSION = 'ac_v10_clear_hero_crest';
 
   // Products state (loads the full authenticated Aurelia & Crown catalog)
   const [products, setProducts] = useState<Product[]>(() => {

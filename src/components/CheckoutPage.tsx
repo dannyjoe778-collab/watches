@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { CartItem, CurrencyCode, Order } from '../types';
 import { formatPrice, getCurrencyDisclaimer } from '../utils/currency';
 import { WatermarkedProductImage } from './WatermarkedProductImage';
+import { PaymentMethodBadges } from './PaymentMethodBadges';
 import { 
   ShieldCheck, 
   Lock, 
@@ -12,7 +13,8 @@ import {
   ArrowLeft, 
   FileText,
   Building2,
-  Sparkles
+  Sparkles,
+  Smartphone
 } from 'lucide-react';
 
 interface CheckoutPageProps {
@@ -36,7 +38,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
   const [postalCode, setPostalCode] = useState('');
   const [country, setCountry] = useState('France');
   const [shippingMethod, setShippingMethod] = useState<'armoured' | 'paris-salon' | 'geneva-salon'>('armoured');
-  const [paymentMethod, setPaymentMethod] = useState<'sepa_wire' | 'credit_card' | 'private_invoice'>('sepa_wire');
+  const [paymentMethod, setPaymentMethod] = useState<'sepa_wire' | 'credit_card' | 'apple_google_pay' | 'private_invoice'>('sepa_wire');
   const [notes, setNotes] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [completedOrder, setCompletedOrder] = useState<Order | null>(null);
@@ -49,6 +51,15 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
 
     setTimeout(() => {
       const orderId = `AC-${Math.floor(100000 + Math.random() * 900000)}`;
+      const getPaymentLabel = () => {
+        switch (paymentMethod) {
+          case 'sepa_wire': return 'SEPA Instant Escrow Wire Transfer';
+          case 'credit_card': return '3D-Secure Card (Visa / Mastercard / Amex / UnionPay)';
+          case 'apple_google_pay': return 'Apple Pay / Google Pay Instant Settlement';
+          case 'private_invoice': return 'Private Client Invoiced Protocol';
+        }
+      };
+
       const newOrder: Order = {
         id: orderId,
         items: [...items],
@@ -65,11 +76,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
           country,
           postalCode: shippingMethod === 'armoured' ? postalCode : '00000',
         },
-        paymentMethod: paymentMethod === 'sepa_wire' 
-          ? 'SEPA Escrow Wire Transfer' 
-          : paymentMethod === 'credit_card' 
-          ? 'Encrypted Luxury Card Processing' 
-          : 'Private Client Invoiced Protocol',
+        paymentMethod: getPaymentLabel(),
         notes
       };
 
@@ -436,12 +443,13 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                   </h4>
 
                   <div className="space-y-3">
+                    {/* SEPA Wire */}
                     <label 
                       onClick={() => setPaymentMethod('sepa_wire')}
                       className={`p-3.5 border flex items-start gap-3 cursor-pointer transition-all ${
                         paymentMethod === 'sepa_wire' 
                           ? 'border-[#8C6D37] bg-[#8C6D37]/5 ring-1 ring-[#8C6D37]' 
-                          : 'border-[#EBE7DE]'
+                          : 'border-[#EBE7DE] hover:border-neutral-400'
                       }`}
                     >
                       <input
@@ -451,27 +459,30 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                         onChange={() => setPaymentMethod('sepa_wire')}
                         className="mt-0.5 text-[#8C6D37]"
                       />
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <span className="font-semibold text-neutral-900">
-                            SEPA Bank Wire / European Escrow Settlement
-                          </span>
-                          <span className="text-[9px] bg-[#8C6D37]/15 text-[#8C6D37] px-2 py-0.5 font-bold uppercase">
-                            Recommended
-                          </span>
+                      <div className="space-y-1.5 flex-1">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <span className="font-semibold text-neutral-900">
+                              SEPA Bank Wire / European Escrow Settlement
+                            </span>
+                            <span className="text-[9px] bg-[#8C6D37]/15 text-[#8C6D37] px-2 py-0.5 font-bold uppercase">
+                              Recommended
+                            </span>
+                          </div>
                         </div>
-                        <span className="text-[11px] text-neutral-500 font-light block mt-0.5">
+                        <span className="text-[11px] text-neutral-500 font-light block">
                           Direct European interbank settlement to BNP Paribas Escrow account. Zero card processing surcharges.
                         </span>
                       </div>
                     </label>
 
+                    {/* Credit & Debit Cards with Badges */}
                     <label 
                       onClick={() => setPaymentMethod('credit_card')}
                       className={`p-3.5 border flex items-start gap-3 cursor-pointer transition-all ${
                         paymentMethod === 'credit_card' 
                           ? 'border-[#8C6D37] bg-[#8C6D37]/5 ring-1 ring-[#8C6D37]' 
-                          : 'border-[#EBE7DE]'
+                          : 'border-[#EBE7DE] hover:border-neutral-400'
                       }`}
                     >
                       <input
@@ -481,22 +492,59 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                         onChange={() => setPaymentMethod('credit_card')}
                         className="mt-0.5 text-[#8C6D37]"
                       />
-                      <div>
-                        <span className="font-semibold text-neutral-900 block">
-                          3D-Secure Encrypted Card (Visa / Mastercard / Amex)
-                        </span>
-                        <span className="text-[11px] text-neutral-500 font-light block mt-0.5">
+                      <div className="space-y-2 flex-1">
+                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                          <span className="font-semibold text-neutral-900 block">
+                            3D-Secure Encrypted Card (Visa / Mastercard / Amex / UnionPay)
+                          </span>
+                        </div>
+                        <span className="text-[11px] text-neutral-500 font-light block">
                           256-bit encrypted European luxury merchant gateway with fraud protection.
+                        </span>
+                        <div className="pt-1">
+                          <PaymentMethodBadges variant="light" size="sm" />
+                        </div>
+                      </div>
+                    </label>
+
+                    {/* Digital Wallets: Apple Pay / Google Pay */}
+                    <label 
+                      onClick={() => setPaymentMethod('apple_google_pay')}
+                      className={`p-3.5 border flex items-start gap-3 cursor-pointer transition-all ${
+                        paymentMethod === 'apple_google_pay' 
+                          ? 'border-[#8C6D37] bg-[#8C6D37]/5 ring-1 ring-[#8C6D37]' 
+                          : 'border-[#EBE7DE] hover:border-neutral-400'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="paymentMethod"
+                        checked={paymentMethod === 'apple_google_pay'}
+                        onChange={() => setPaymentMethod('apple_google_pay')}
+                        className="mt-0.5 text-[#8C6D37]"
+                      />
+                      <div className="space-y-1.5 flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="font-semibold text-neutral-900">
+                            Apple Pay / Google Pay (Digital Wallet 1-Click Settlement)
+                          </span>
+                          <span className="text-[9px] bg-neutral-200 text-neutral-800 px-2 py-0.5 font-bold uppercase">
+                            Instant
+                          </span>
+                        </div>
+                        <span className="text-[11px] text-neutral-500 font-light block">
+                          Biometric authentication with client tokenization. No card details shared with merchant.
                         </span>
                       </div>
                     </label>
 
+                    {/* Private Client Invoice */}
                     <label 
                       onClick={() => setPaymentMethod('private_invoice')}
                       className={`p-3.5 border flex items-start gap-3 cursor-pointer transition-all ${
                         paymentMethod === 'private_invoice' 
                           ? 'border-[#8C6D37] bg-[#8C6D37]/5 ring-1 ring-[#8C6D37]' 
-                          : 'border-[#EBE7DE]'
+                          : 'border-[#EBE7DE] hover:border-neutral-400'
                       }`}
                     >
                       <input
@@ -506,11 +554,11 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                         onChange={() => setPaymentMethod('private_invoice')}
                         className="mt-0.5 text-[#8C6D37]"
                       />
-                      <div>
+                      <div className="space-y-1 flex-1">
                         <span className="font-semibold text-neutral-900 block">
                           Private Client Invoiced Protocol (Family Office / Corporate)
                         </span>
-                        <span className="text-[11px] text-neutral-500 font-light block mt-0.5">
+                        <span className="text-[11px] text-neutral-500 font-light block">
                           Proforma invoice issued with European VAT breakdown and VAT exemption validation where applicable.
                         </span>
                       </div>
@@ -633,6 +681,13 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                 <li>14-day European return period for pre-owned authenticated items</li>
                 <li>Comprehensive insurance active until signed in person</li>
               </ul>
+
+              <div className="pt-3 border-t border-[#EBE7DE]">
+                <span className="text-[10px] uppercase tracking-wider text-neutral-500 block mb-2 font-medium">
+                  Accepted Settlement Protocols
+                </span>
+                <PaymentMethodBadges variant="light" size="sm" />
+              </div>
             </div>
           </div>
 
