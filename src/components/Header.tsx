@@ -152,24 +152,24 @@ export const Header: React.FC<HeaderProps> = ({
             : 'bg-[#FAF8F5] border-b border-[#EBE7DE]'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           {/* Main Brand & Action Row */}
-          <div className="flex items-center justify-between h-20 sm:h-24">
+          <div className="flex items-center justify-between h-16 sm:h-20 lg:h-24">
             {/* Left: Mobile Menu Toggle & Quick Links */}
-            <div className="flex items-center gap-4 lg:w-1/4">
+            <div className="flex items-center gap-1.5 sm:gap-3 flex-1 lg:flex-none lg:w-1/4 justify-start">
               <button
                 id="mobile-menu-button"
                 onClick={() => setMobileMenuOpen(true)}
-                className="lg:hidden p-2 text-[#16181A] hover:text-[#C5A880] transition-colors"
+                className="lg:hidden p-1.5 sm:p-2 text-[#16181A] hover:text-[#C5A880] transition-colors rounded hover:bg-[#EBE7DE]/40"
                 aria-label="Open Navigation Menu"
               >
-                <Menu className="w-6 h-6" />
+                <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
               </button>
 
               <button
                 id="search-trigger-button"
                 onClick={onOpenSearch}
-                className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#16181A]/80 hover:text-[#16181A] transition-colors py-1.5 px-2 rounded hover:bg-[#EBE7DE]/50"
+                className="flex items-center gap-1.5 sm:gap-2 text-xs uppercase tracking-widest text-[#16181A]/80 hover:text-[#16181A] transition-colors p-1.5 sm:py-1.5 sm:px-2 rounded hover:bg-[#EBE7DE]/50"
                 aria-label="Search Catalogue"
               >
                 <Search className="w-4 h-4 text-[#C5A880]" />
@@ -180,10 +180,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Center: Brand Logo Emblem & Typography */}
             <div 
               id="brand-header-logo"
-              className="flex items-center justify-center gap-3 sm:gap-4 cursor-pointer group lg:w-2/4 py-1"
+              className="flex items-center justify-center gap-2 sm:gap-3.5 cursor-pointer group py-1 select-none flex-shrink-0"
               onClick={() => setActiveTab('home')}
             >
-              <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border border-[#C5A880]/70 shadow-md group-hover:border-[#8C6D37] transition-all bg-[#111315] flex-shrink-0">
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-11 md:h-11 lg:w-12 lg:h-12 rounded-full overflow-hidden border border-[#C5A880]/70 shadow-xs group-hover:border-[#8C6D37] transition-all bg-[#111315] flex-shrink-0">
                 <img 
                   src={siteIcon} 
                   alt="Aurelia & Crown Crest" 
@@ -191,28 +191,31 @@ export const Header: React.FC<HeaderProps> = ({
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="flex flex-col items-start text-left">
-                <span className="text-2xl sm:text-3xl md:text-4xl font-serif tracking-[0.18em] uppercase text-[#16181A] font-light group-hover:text-[#8C6D37] transition-colors leading-none">
+              <div className="flex flex-col items-start justify-center text-left min-w-0">
+                <span className="text-sm min-[390px]:text-base sm:text-2xl md:text-3xl lg:text-4xl font-serif tracking-[0.14em] sm:tracking-[0.18em] uppercase text-[#16181A] font-light group-hover:text-[#8C6D37] transition-colors leading-none whitespace-nowrap">
                   AURELIA & CROWN
                 </span>
-                <span className="text-[9px] sm:text-[10px] tracking-[0.28em] uppercase text-[#8C6D37] font-medium mt-1">
+                <span className="hidden sm:inline-block text-[9px] md:text-[10px] tracking-[0.24em] sm:tracking-[0.28em] uppercase text-[#8C6D37] font-medium mt-1 whitespace-nowrap">
                   Exceptional Time. Timeless Luxury.
+                </span>
+                <span className="inline-block sm:hidden text-[7.5px] min-[390px]:text-[8px] tracking-[0.2em] uppercase text-[#8C6D37] font-medium mt-0.5 whitespace-nowrap">
+                  HAUTE HORLOGERIE
                 </span>
               </div>
             </div>
 
             {/* Right: Currency Selector, Wishlist, Shopping Bag */}
-            <div className="flex items-center justify-end gap-3 sm:gap-5 lg:w-1/4">
+            <div className="flex items-center justify-end gap-1.5 sm:gap-4 flex-1 lg:flex-none lg:w-1/4">
               {/* Currency Selector */}
               <div className="relative">
                 <button
                   id="currency-selector-button"
                   onClick={() => setCurrencyDropdownOpen(!currencyDropdownOpen)}
-                  className="flex items-center gap-1.5 text-xs font-semibold tracking-wider text-[#16181A] hover:text-[#8C6D37] py-1.5 px-2.5 rounded border border-[#EBE7DE] hover:border-[#C5A880] transition-colors bg-[#FAF8F5]"
+                  className="flex items-center gap-1 text-[11px] sm:text-xs font-semibold tracking-wider text-[#16181A] hover:text-[#8C6D37] py-1 px-1.5 sm:py-1.5 sm:px-2.5 rounded border border-[#EBE7DE] hover:border-[#C5A880] transition-colors bg-[#FAF8F5]"
                   aria-label="Select Currency"
                 >
                   <span>{currency}</span>
-                  <ChevronDown className="w-3.5 h-3.5 text-[#8C6D37]" />
+                  <ChevronDown className="w-3 h-3 text-[#8C6D37]" />
                 </button>
 
                 {currencyDropdownOpen && (
@@ -248,12 +251,12 @@ export const Header: React.FC<HeaderProps> = ({
               <button
                 id="wishlist-trigger-button"
                 onClick={onOpenWishlist}
-                className="relative p-2 text-[#16181A] hover:text-[#8C6D37] transition-colors"
+                className="relative p-1.5 sm:p-2 text-[#16181A] hover:text-[#8C6D37] transition-colors"
                 aria-label="Wishlist"
               >
-                <Heart className="w-5 h-5 stroke-[1.5]" />
+                <Heart className="w-4 h-4 sm:w-5 sm:h-5 stroke-[1.5]" />
                 {wishlistCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-[#8C6D37] text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">
+                  <span className="absolute -top-0.5 -right-0.5 sm:-top-1 sm:-right-1 bg-[#8C6D37] text-white text-[9px] sm:text-[10px] w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center font-bold">
                     {wishlistCount}
                   </span>
                 )}
@@ -263,12 +266,12 @@ export const Header: React.FC<HeaderProps> = ({
               <button
                 id="shopping-bag-button"
                 onClick={onOpenCart}
-                className="relative p-2 text-[#16181A] hover:text-[#8C6D37] transition-colors flex items-center gap-2"
+                className="relative p-1.5 sm:p-2 text-[#16181A] hover:text-[#8C6D37] transition-colors flex items-center"
                 aria-label="Shopping Bag"
               >
-                <ShoppingBag className="w-5 h-5 stroke-[1.5]" />
+                <ShoppingBag className="w-4 h-4 sm:w-5 sm:h-5 stroke-[1.5]" />
                 {cartCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-[#16181A] text-[#FAF8F5] text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">
+                  <span className="absolute -top-0.5 -right-0.5 sm:-top-1 sm:-right-1 bg-[#16181A] text-[#FAF8F5] text-[9px] sm:text-[10px] w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center font-bold">
                     {cartCount}
                   </span>
                 )}
@@ -402,15 +405,15 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-[#EBE7DE]">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full overflow-hidden border border-[#C5A880]/70 bg-[#111315] flex-shrink-0">
-                    <img src={siteIcon} alt="Aurelia & Crown Crest" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                  <div className="w-10 h-10 rounded-full overflow-hidden border border-[#C5A880]/70 bg-[#111315] flex-shrink-0 shadow-xs">
+                    <img src={siteIcon} alt="Aurelia & Crown Crest" className="w-full h-full object-cover object-center" referrerPolicy="no-referrer" />
                   </div>
                   <div>
-                    <div className="text-base font-serif tracking-widest text-[#16181A] uppercase leading-tight">
+                    <div className="text-base font-serif tracking-[0.14em] text-[#16181A] uppercase leading-tight whitespace-nowrap">
                       AURELIA & CROWN
                     </div>
-                    <div className="text-[9px] tracking-wider text-[#8C6D37] uppercase font-medium">
-                      aureliaandcrown.com
+                    <div className="text-[9px] tracking-[0.2em] text-[#8C6D37] uppercase font-medium mt-0.5">
+                      Exceptional Time. Timeless Luxury.
                     </div>
                   </div>
                 </div>
