@@ -129,17 +129,17 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onSelectCollection
             </ul>
           </div>
 
-          {/* Column 4: European Salons */}
+          {/* Column 4: European Maison & Salons */}
           <div>
             <h3 className="text-[11px] uppercase tracking-[0.2em] text-[#8C6D37] font-semibold mb-2.5">
-              European Salons
+              Maison & Salons
             </h3>
             <div className="space-y-1 text-neutral-400 text-[11px] leading-relaxed">
-              <p><strong className="text-neutral-200">Paris:</strong> Place Vendôme</p>
-              <p><strong className="text-neutral-200">Geneva:</strong> Rue du Rhône</p>
+              <p><strong className="text-neutral-200">Headquarters:</strong> Marktstraat 53, 5401 GG Uden, North Brabant, Netherlands</p>
+              <p><strong className="text-neutral-200">Paris Salon:</strong> Place Vendôme</p>
+              <p><strong className="text-neutral-200">Geneva Atelier:</strong> Rue du Rhône</p>
               <p><strong className="text-neutral-200">London:</strong> Mayfair</p>
-              <p><strong className="text-neutral-200">Munich:</strong> Maximilianstraße</p>
-              <p className="text-[#C5A880] pt-1 text-[10px]">concierge@aureliaandcrown.com</p>
+              <p className="text-[#C5A880] pt-1 text-[10px] font-medium">sales@aureliaandcrown.com</p>
             </div>
           </div>
         </div>

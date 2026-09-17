@@ -1,0 +1,13 @@
+# Robots.txt for Aurelia & Crown (Haute Horlogerie & Fine Jewellery)
+# https://aureliaandcrown.com
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://aureliaandcrown.com/sitemap.xml
+Sitemap: https://aureliaandcrown.com/sitemap-pages.xml
+Sitemap: https://aureliaandcrown.com/sitemap-categories.xml
+Sitemap: https://aureliaandcrown.com/sitemap-products.xml

@@ -23,7 +23,9 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onSubmitConsultation }
     const generatedRef = `AC-${Math.floor(100000 + Math.random() * 900000)}`;
     setReferenceCode(generatedRef);
     
-    const country = salon.includes('Paris') 
+    const country = salon.includes('Netherlands')
+      ? 'Netherlands'
+      : salon.includes('Paris') 
       ? 'France' 
       : salon.includes('Geneva') 
       ? 'Switzerland' 
@@ -59,6 +61,14 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onSubmitConsultation }
 
   const salons = [
     {
+      city: 'Uden (Headquarters)',
+      country: 'Netherlands',
+      address: 'Marktstraat 53, 5401 GG Uden, North Brabant',
+      note: 'Maison Headquarters & Client Advisory',
+      phone: '+31 (0)413 260 000',
+      hours: 'Mon – Fri, 09:00 – 18:00 CET',
+    },
+    {
       city: 'Paris',
       country: 'France',
       address: 'Place Vendôme, 75001 Paris',
@@ -89,14 +99,6 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onSubmitConsultation }
       note: 'Central European Desk',
       phone: '+49 (0)89 2102 990',
       hours: 'Mon – Fri, 10:00 – 19:00 CET',
-    },
-    {
-      city: 'Milan',
-      country: 'Italy',
-      address: 'Via Montenapoleone, 20121 Milano',
-      note: 'High Jewellery Salon',
-      phone: '+39 02 7600 3410',
-      hours: 'Mon – Sat, 10:00 – 19:30 CET',
     },
   ];
 
@@ -178,7 +180,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onSubmitConsultation }
                   <Mail className="w-4 h-4 text-[#8C6D37] mt-0.5 flex-shrink-0" />
                   <div>
                     <strong className="block text-[#16181A]">Client Concierge Email</strong>
-                    <span className="text-neutral-500 font-light">concierge@aureliacrown.com</span>
+                    <span className="text-neutral-500 font-light">sales@aureliaandcrown.com</span>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -330,11 +332,11 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onSubmitConsultation }
                           onChange={(e) => setSalon(e.target.value)}
                           className="w-full bg-[#FAF8F5] border border-[#EBE7DE] p-3 text-xs text-[#16181A] focus:outline-none focus:border-[#8C6D37]"
                         >
+                          <option value="Netherlands (Uden Headquarters - Marktstraat 53)">Netherlands (Uden Headquarters - Marktstraat 53)</option>
                           <option value="Paris (Place Vendôme)">Paris (Place Vendôme)</option>
                           <option value="Geneva (Rue du Rhône)">Geneva (Rue du Rhône)</option>
                           <option value="London (Mayfair Old Bond St)">London (Mayfair Old Bond St)</option>
                           <option value="Munich (Maximilianstraße)">Munich (Maximilianstraße)</option>
-                          <option value="Milan (Via Montenapoleone)">Milan (Via Montenapoleone)</option>
                           <option value="Virtual Video Consultation">Virtual Video Consultation</option>
                         </select>
                       </div>

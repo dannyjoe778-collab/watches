@@ -161,8 +161,8 @@ ${data.message || 'No additional notes provided.'}
           <!-- Footer -->
           <tr>
             <td style="padding: 20px 32px; background-color: #f7f6f2; border-top: 1px solid #e2ddd3; text-align: center; font-size: 11px; color: #888;">
-              Aurelia & Crown Private Client Desk • Place Vendôme, Paris & Rue du Rhône, Genève<br>
-              Direct sales line: +33 (0)1 42 68 00 24 • +41 (0)22 819 40 10
+              Aurelia & Crown Maison Desk • Marktstraat 53, 5401 GG Uden, North Brabant, Netherlands<br>
+              Direct contact: sales@aureliaandcrown.com • +31 (0)413 260 000
             </td>
           </tr>
         </table>
@@ -280,7 +280,8 @@ ${data.message || 'No additional details provided.'}
           </tr>
           <tr>
             <td style="padding: 20px 32px; background-color: #f7f6f2; border-top: 1px solid #e2ddd3; text-align: center; font-size: 11px; color: #888;">
-              Aurelia & Crown • Salons in Paris, Genève, and London
+              Aurelia & Crown Maison Desk • Marktstraat 53, 5401 GG Uden, North Brabant, Netherlands<br>
+              sales@aureliaandcrown.com • +31 (0)413 260 000
             </td>
           </tr>
         </table>
@@ -573,8 +574,8 @@ Source: ${data.source || 'Website Footer / Modal'}
           </tr>
           <tr>
             <td style="padding: 18px 30px; background-color: #f7f6f2; border-top: 1px solid #e2ddd3; text-align: center; font-size: 11px; color: #888;">
-              Place Vendôme, 75001 Paris • Rue du Rhône, 1204 Genève<br>
-              sales@aureliaandcrown.com • +33 (0)1 42 68 00 24
+              Marktstraat 53, 5401 GG Uden, North Brabant, Netherlands<br>
+              sales@aureliaandcrown.com • +31 (0)413 260 000
             </td>
           </tr>
         </table>

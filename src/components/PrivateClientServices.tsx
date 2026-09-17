@@ -51,7 +51,7 @@ export const PrivateClientServices: React.FC<PrivateClientServicesProps> = ({ on
     {
       title: 'Private Salon Consultations',
       icon: Building2,
-      desc: 'Dedicated private viewing appointments at our discreet partner salons in Paris (Place Vendôme) and Geneva (Rue du Rhône).'
+      desc: 'Dedicated private viewing appointments at our Maison Headquarters in the Netherlands (Marktstraat 53, Uden) and partner salons in Paris and Geneva.'
     },
     {
       title: 'International Customs & Armoured Transit',

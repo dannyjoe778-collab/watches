@@ -106,7 +106,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ setActiveT
               </h2>
               <div className="text-sm text-neutral-600 font-light space-y-3">
                 <p>
-                  <strong>AURELIA & CROWN European Advisory S.A.S.</strong>, with offices at Place Vendôme, Paris, France and Rue du Rhône, Geneva, Switzerland, operates as the Data Controller under Regulation (EU) 2016/679 (GDPR) and the Swiss Federal Act on Data Protection (FADP).
+                  <strong>AURELIA & CROWN B.V.</strong> (European Horology & Joaillerie Specialist), with registered headquarters at Marktstraat 53, 5401 GG Uden, North Brabant, Netherlands (Contact: <a href="mailto:sales@aureliaandcrown.com" className="text-[#8C6D37] hover:underline">sales@aureliaandcrown.com</a>), alongside partner private viewing salons in Paris, Geneva, and London, operates as the Data Controller under Regulation (EU) 2016/679 (GDPR).
                 </p>
                 <p>
                   We are committed to maintaining the highest level of confidentiality and discretion expected by high-net-worth collectors, private family offices, and connoisseurs.

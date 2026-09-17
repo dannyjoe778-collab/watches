@@ -41,7 +41,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
   const [city, setCity] = useState('');
   const [postalCode, setPostalCode] = useState('');
   const [country, setCountry] = useState('France');
-  const [shippingMethod, setShippingMethod] = useState<'armoured' | 'paris-salon' | 'geneva-salon'>('armoured');
+  const [shippingMethod, setShippingMethod] = useState<'armoured' | 'netherlands-salon' | 'paris-salon' | 'geneva-salon'>('armoured');
   const [paymentMethod, setPaymentMethod] = useState<'sepa_wire' | 'credit_card' | 'apple_google_pay' | 'private_invoice' | 'payment_plan'>('sepa_wire');
   const [planTenure, setPlanTenure] = useState<PaymentPlanTenure>(12);
   const [notes, setNotes] = useState('');
@@ -235,10 +235,10 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                     Please transmit settlement from your EU/Swiss bank account quoting reference <strong>{completedOrder.id}</strong>. Settlement verification triggers immediate workshop dispatch.
                   </p>
                   <div className="pt-2 grid grid-cols-2 gap-2 text-[11px] font-mono text-neutral-300">
-                    <div>Beneficiary: <strong>AURELIA & CROWN LUXURY SAS</strong></div>
-                    <div>IBAN: <strong>FR76 3000 4012 3456 7890 1234 567</strong></div>
-                    <div>BIC / SWIFT: <strong>BNPAFRPPXXX</strong></div>
-                    <div>Bank: <strong>BNP Paribas Paris Vendôme</strong></div>
+                    <div>Beneficiary: <strong>AURELIA & CROWN B.V.</strong></div>
+                    <div>IBAN: <strong>NL82 INGB 0001 2345 67</strong></div>
+                    <div>BIC / SWIFT: <strong>INGBNL2A</strong></div>
+                    <div>Bank: <strong>ING Bank N.V. (Netherlands)</strong></div>
                   </div>
                 </div>
               )}
@@ -417,6 +417,31 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                         </span>
                         <span className="text-[11px] text-neutral-500 font-light block">
                           Complimentary fully-insured European transit with tamper seals & photo ID verification.
+                        </span>
+                      </div>
+                    </label>
+
+                    <label 
+                      onClick={() => setShippingMethod('netherlands-salon')}
+                      className={`p-3.5 border flex items-start gap-3 cursor-pointer transition-all ${
+                        shippingMethod === 'netherlands-salon' 
+                          ? 'border-[#8C6D37] bg-[#8C6D37]/5 ring-1 ring-[#8C6D37]' 
+                          : 'border-[#EBE7DE] hover:border-neutral-400'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="shippingMethod"
+                        checked={shippingMethod === 'netherlands-salon'}
+                        onChange={() => setShippingMethod('netherlands-salon')}
+                        className="mt-0.5 text-[#8C6D37]"
+                      />
+                      <div>
+                        <span className="font-semibold text-neutral-900 block">
+                          Maison Headquarters Collection — Netherlands (Marktstraat 53, Uden)
+                        </span>
+                        <span className="text-[11px] text-neutral-500 font-light block">
+                          VIP appointment & handover at our registered headquarters in North Brabant.
                         </span>
                       </div>
                     </label>

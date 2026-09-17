@@ -18,13 +18,215 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AURELIA & CROWN | Exceptional Time. Timeless Luxury." />
     <meta name="twitter:description" content="European luxury dealer specializing in authenticated pre-owned collectible watches and fine jewellery." />
-    <meta name="twitter:image" content="https://aureliaandcrown.com/aurelia-crown-logo.jpg" />
+    <meta property="og:site_name" content="AURELIA & CROWN" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Schema.org Structured Data: JewelryStore & Luxury Dealer -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JewelryStore",
+      "name": "Aurelia & Crown",
+      "alternateName": "Aurelia and Crown European Luxury Specialist",
+      "url": "https://aureliaandcrown.com",
+      "logo": "https://aureliaandcrown.com/aurelia-crown-logo.jpg",
+      "image": "https://aureliaandcrown.com/aurelia-crown-logo.jpg",
+      "description": "European luxury dealer specializing in authenticated pre-owned collectible watches and fine jewellery. Rare Rolex, Patek Philippe, Audemars Piguet, Cartier, and Van Cleef & Arpels.",
+      "priceRange": "€€€€",
+      "currenciesAccepted": "EUR, GBP, USD, CHF, AUD, CAD, JPY, SGD",
+      "paymentAccepted": "SEPA Escrow Wire Transfer, 0% Maison Installment Plans, Visa, Mastercard, American Express, Apple Pay, Google Pay",
+      "email": "sales@aureliaandcrown.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Marktstraat 53",
+        "addressLocality": "Uden",
+        "addressRegion": "North Brabant",
+        "postalCode": "5401 GG",
+        "addressCountry": "NL"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "sales@aureliaandcrown.com",
+        "telephone": "+31 (0)413 260 000",
+        "contactType": "Concierge & Private Client Advisory",
+        "availableLanguage": ["English", "Dutch", "German", "French"]
+      }
+    }
+    </script>
+
+    <!-- Schema.org: WebSite with SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AURELIA & CROWN",
+      "url": "https://aureliaandcrown.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://aureliaandcrown.com/shop?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Schema.org: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://aureliaandcrown.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Curated Shop",
+          "item": "https://aureliaandcrown.com/shop"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Haute Horlogerie Watches",
+          "item": "https://aureliaandcrown.com/watches"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Fine Jewellery",
+          "item": "https://aureliaandcrown.com/jewellery"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org: FAQPage for Crawlers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Aurelia & Crown authenticate each timepiece and fine jewellery piece?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every timepiece and jewellery creation undergoes an extensive multi-point inspection by certified master horologists and gemmologists. Serial numbers are verified against manufacturer archives and theft loss registries. Movements are examined under magnification and tested for rate deviation, amplitude, and water resistance. Each piece is issued an official Aurelia & Crown Certificate of Authenticity and 12-Month Guarantee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does insured armoured courier delivery work across Europe and worldwide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All orders are transported in discreet, high-security armoured vehicles with 100% full-value transit insurance. Handover requires a valid government photo ID and a physical signature upon arrival across the European Union, United Kingdom, Switzerland, and international hubs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What flexible financing and 0% payment plans are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aurelia & Crown provides interest-free 0% APR installment plans across 3, 6, 12, or 24 months with no hidden finance fees, in addition to SEPA escrow transfers, 3D-Secure cards, and instant digital wallets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the return and inspection policy for collectors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide a 14-day European distance selling inspection guarantee. If the piece does not satisfy your expectations, return it in its original unworn condition with intact security seals for an immediate full refund."
+          }
+        }
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body class="bg-[#FAF8F5] text-[#16181A] antialiased selection:bg-[#C5A880]/30 selection:text-[#111315]">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Semantic Static Markup for Search Engines & Non-JS Crawlers (Hydrated by React on client load) -->
+      <header class="py-6 border-b border-[#EBE7DE] bg-[#FAF8F5]">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <a href="/" class="text-2xl font-serif tracking-[0.18em] uppercase text-[#16181A]">AURELIA &amp; CROWN</a>
+            <span class="text-xs tracking-widest text-[#8C6D37] uppercase font-medium">Haute Horlogerie &amp; Joaillerie</span>
+          </div>
+          <nav aria-label="Primary Site Navigation" class="flex flex-wrap gap-4 text-xs uppercase tracking-widest text-[#16181A]/80 font-medium">
+            <a href="/shop" class="hover:text-[#8C6D37]">Curated Vault</a>
+            <a href="/watches" class="hover:text-[#8C6D37]">Watches</a>
+            <a href="/jewellery" class="hover:text-[#8C6D37]">Fine Jewellery</a>
+            <a href="/new-arrivals" class="hover:text-[#8C6D37]">New Acquisitions</a>
+            <a href="/collections" class="hover:text-[#8C6D37]">Maisons</a>
+            <a href="/private-clients" class="hover:text-[#8C6D37]">Private Advisory</a>
+            <a href="/authentication" class="hover:text-[#8C6D37]">Authentication</a>
+            <a href="/about" class="hover:text-[#8C6D37]">About The Maison</a>
+            <a href="/contact" class="hover:text-[#8C6D37]">Concierge</a>
+          </nav>
+        </div>
+      </header>
+      <main class="max-w-7xl mx-auto px-4 py-12">
+        <article>
+          <header class="mb-10 text-center max-w-3xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-serif text-[#16181A] tracking-wide mb-4">AURELIA &amp; CROWN — Exceptional Time. Timeless Luxury.</h1>
+            <p class="text-lg text-[#16181A]/80 leading-relaxed font-serif italic">European luxury dealer specializing in authenticated pre-owned collectible watches and fine jewellery. Inspected, certified, and guaranteed with 12-month maison warranty.</p>
+          </header>
+          <section class="mb-12">
+            <h2 class="text-2xl font-serif text-[#16181A] border-b border-[#EBE7DE] pb-3 mb-6">Prestigious Horological Maisons</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 text-center">
+              <a href="/collections/rolex" class="p-4 border border-[#EBE7DE] bg-white rounded hover:border-[#C5A880]">
+                <h3 class="font-serif text-lg text-[#16181A]">Rolex</h3>
+                <p class="text-xs text-[#8C6D37] mt-1">Cosmograph Daytona, Submariner, GMT-Master II, Datejust</p>
+              </a>
+              <a href="/collections/patek-philippe" class="p-4 border border-[#EBE7DE] bg-white rounded hover:border-[#C5A880]">
+                <h3 class="font-serif text-lg text-[#16181A]">Patek Philippe</h3>
+                <p class="text-xs text-[#8C6D37] mt-1">Nautilus, Aquanaut, Calatrava, Golden Ellipse</p>
+              </a>
+              <a href="/collections/audemars-piguet" class="p-4 border border-[#EBE7DE] bg-white rounded hover:border-[#C5A880]">
+                <h3 class="font-serif text-lg text-[#16181A]">Audemars Piguet</h3>
+                <p class="text-xs text-[#8C6D37] mt-1">Royal Oak, Royal Oak Offshore, Tapisserie</p>
+              </a>
+              <a href="/collections/cartier" class="p-4 border border-[#EBE7DE] bg-white rounded hover:border-[#C5A880]">
+                <h3 class="font-serif text-lg text-[#16181A]">Cartier</h3>
+                <p class="text-xs text-[#8C6D37] mt-1">Santos de Cartier, Tank Française, Ballon Bleu, Love</p>
+              </a>
+              <a href="/collections/omega" class="p-4 border border-[#EBE7DE] bg-white rounded hover:border-[#C5A880]">
+                <h3 class="font-serif text-lg text-[#16181A]">Omega</h3>
+                <p class="text-xs text-[#8C6D37] mt-1">Speedmaster Moonwatch, Seamaster Diver 300M</p>
+              </a>
+              <a href="/collections/fine-jewellery" class="p-4 border border-[#EBE7DE] bg-white rounded hover:border-[#C5A880]">
+                <h3 class="font-serif text-lg text-[#16181A]">Fine Jewellery</h3>
+                <p class="text-xs text-[#8C6D37] mt-1">Certified Diamonds, Tennis Bracelets, Eternity Bands</p>
+              </a>
+            </div>
+          </section>
+        </article>
+      </main>
+      <footer class="border-t border-[#EBE7DE] py-8 bg-[#FAF8F5] text-xs text-[#16181A]/70">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-between gap-6">
+          <div>
+            <p class="font-medium text-[#16181A]">AURELIA &amp; CROWN — Marktstraat 53, 5401 GG Uden, North Brabant, Netherlands</p>
+            <p class="mt-1">Telephone: +31 (0)413 260 000 &bull; Email: sales@aureliaandcrown.com</p>
+          </div>
+          <nav aria-label="Legal &amp; Policy Navigation" class="flex flex-wrap gap-4">
+            <a href="/shipping" class="hover:underline">Insured Shipping Policy</a>
+            <a href="/authentication" class="hover:underline">Authentication Protocols</a>
+            <a href="/terms" class="hover:underline">Terms of Service</a>
+            <a href="/privacy" class="hover:underline">Privacy Policy</a>
+            <a href="/contact" class="hover:underline">Contact Concierge</a>
+          </nav>
+        </div>
+      </footer>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
